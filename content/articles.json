@@ -198,6 +198,76 @@
       "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid02zsu7uNtCY8tbePHkLumveGnn7bmotHhs5JQkk7t5r4AxL3LLNSjUzYm7v6i8gx5Vl&id=61585655446351",
       "facebookReel": "",
       "images": []
+    },
+    {
+      "slug": "accessible-books-kazakhstan-2026",
+      "status": "published",
+      "category": "wipo-news",
+      "date": "2026-11-20",
+      "originalSourceDate": "2026-11-03",
+      "archiveImport": "verified historical Facebook post; bilingual original archived in WIPO News - Accessible textbooks Kazakhstan.txt",
+      "title": {
+        "vi": "Sách dễ tiếp cận và kỹ năng số mở thêm cơ hội học tập tại Kazakhstan",
+        "en": "Accessible textbooks and digital skills expand learning opportunities in Kazakhstan"
+      },
+      "summary": {
+        "vi": "Một dự án kết hợp giáo trình đại học với công nghệ đọc sách đang hỗ trợ người khiếm thị học tập độc lập hơn tại Kazakhstan. Bản tin WIPO ngày 3/11/2026 cho thấy việc chuyển đổi sách cần đi cùng đào tạo người làm sách, người học và thư viện.",
+        "en": "A project combining university textbooks with reading technology supports more independent study by people with visual impairments in Kazakhstan. WIPO’s November 3, 2026 report highlights the need to train producers, readers and libraries alongside book conversion."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "Một dự án kết hợp giáo trình đại học với công nghệ đọc sách đang hỗ trợ người khiếm thị học tập độc lập hơn tại Kazakhstan. Bản tin WIPO ngày 3/11/2026 cho thấy việc chuyển đổi sách cần đi cùng đào tạo người làm sách, người học và thư viện."
+            ]
+          },
+          {
+            "heading": "Cùng xây dựng sách và khả năng sử dụng",
+            "paragraphs": [
+              "Hội Người mù Kazakhstan triển khai dự án với Liên minh Sách dễ tiếp cận (ABC) của Tổ chức Sở hữu trí tuệ thế giới (WIPO), với tài trợ của Chính phủ Hàn Quốc. Dự án sản xuất giáo trình dễ tiếp cận và hướng dẫn sử dụng thiết bị, ứng dụng đọc sách cho sinh viên, giáo viên và cán bộ thư viện.",
+              "Nhân viên được đào tạo kỹ năng sản xuất sách với hỗ trợ chuyên gia do Liên minh DAISY chỉ định. Hội ước tính hơn 1.000 sinh viên khiếm thị có thể hưởng lợi từ các giáo trình."
+            ]
+          },
+          {
+            "heading": "Từ tiếp cận sách đến phát triển nghề nghiệp",
+            "paragraphs": [
+              "WIPO giới thiệu Anel Akhmetkanova, biên tập viên chữ nổi tại trung tâm phục hồi chức năng ở Almaty, đã tham gia khoảng 50 cuốn sách trong công việc của mình. Qua dự án, cô được học cách dùng giáo trình số và công nghệ đọc, đồng thời chuẩn bị học tiếp ngành xuất bản.",
+              "Trường hợp này cho thấy mối liên hệ giữa học liệu, kỹ năng và khả năng tự chủ."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "A project combining university textbooks with reading technology supports more independent study by people with visual impairments in Kazakhstan. WIPO’s November 3, 2026 report highlights the need to train producers, readers and libraries alongside book conversion."
+            ]
+          },
+          {
+            "heading": "Building both books and the skills to use them",
+            "paragraphs": [
+              "The Kazakh Society of the Blind implements the project with the Accessible Books Consortium (ABC), led by the World Intellectual Property Organization (WIPO), with funding from the Republic of Korea. Accessible textbook production is paired with training for students, teachers and librarians in reading devices and applications.",
+              "Staff received accessible-production training from a specialist appointed by the DAISY Consortium. The Society estimates that over 1,000 students with visual impairments could benefit."
+            ]
+          },
+          {
+            "heading": "Linking access with professional development",
+            "paragraphs": [
+              "WIPO profiles Anel Akhmetkanova, a Braille editor at an Almaty rehabilitation centre who has worked on around 50 books. Through the project, she learned to use accessible digital textbooks and reading technology while preparing to pursue publishing studies.",
+              "Her experience connects learning materials, skills and independence.",
+              "https://www.wipo.int/en/web/abc/w/news/2026/beyond-the-textbook-building-independent-lives-in-kazakhstan\n(Trích nguồn WIPO)"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "World Intellectual Property Organization (WIPO)",
+        "url": "https://www.wipo.int/en/web/abc/w/news/2026/beyond-the-textbook-building-independent-lives-in-kazakhstan"
+      },
+      "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid02C1zFUpSA3e8mKaDLLYE5uLxjEv7dERZA8kL8desWkGnmDNeiB197pvUQrK7dQCRul&id=61585655446351",
+      "facebookReel": "",
+      "images": []
     }
   ]
 }
