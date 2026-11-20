@@ -1,0 +1,30 @@
+name: Validate VERTI site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build bilingual website
+        run: npm run build
+      - name: Check both languages and published-only archive
+        run: |
+          test -f dist/index.html
+          test -f dist/en/index.html
+          test -f dist/archive/index.html
+          test -f dist/en/archive/index.html
+          test -f dist/style.css
+          test -f dist/sitemap.xml
+          test -f dist/rss.xml
+          test -f dist/robots.txt
+          grep -q 'lang="vi"' dist/index.html
+          grep -q 'lang="en"' dist/en/index.html
+          grep -q 'steep-meadow-46e1' wrangler.jsonc
