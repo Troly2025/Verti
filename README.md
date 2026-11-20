@@ -10,7 +10,7 @@ This is an independent Vietnamese/English news publication about science, intell
 
 - Site source and site generator: in this GitHub repository.
 - GitHub → Cloudflare automatic deploy: **not connected or verified yet**. Nothing in this commit changes the live site automatically.
-- Archive: no historical Facebook posts are imported yet. The `articles` array is intentionally empty. No articles are fabricated.
+- Archive: **4 historical Facebook posts** were recovered from the user's archived WIPO Work records, independently source-checked against original WTO/WIPO news pages, and saved as bilingual article data in `content/articles.json`. No fictitious articles were created. They are **not yet confirmed live on verti.ch**.
 - Once linked to the **existing** Worker, changes merged to `main` can trigger Cloudflare deployment.
 
 ## One-time Cloudflare setup (keeps verti.ch)
@@ -25,6 +25,15 @@ This is an independent Vietnamese/English news publication about science, intell
 Official reference: https://developers.cloudflare.com/workers/ci-cd/builds/ 
 
 **Important:** Connecting an existing Worker does not automatically copy its currently deployed source into GitHub. This repository contains a newly authored compatible VERTI site. Preview before activating.
+
+## Historical articles already prepared
+
+- Panama's ITA II request (WTO; 19 November 2026)
+- WTO 101 student event (WTO; 19 November 2026)
+- WIPO–WTO senior-officials programme (WTO; 19 November 2026)
+- Accessible textbooks in Kazakhstan (WIPO; 3 November 2026 source; Facebook 20 November 2026)
+
+Each archived item carries its original source URL and Facebook permalink. Current archive graphics are editorial placeholders, not copied from third-party sources; original images and videos need separate rights and asset verification before reuse. Cloudflare publication is **pending the one-time Git integration**.
 
 ## Publishing verified articles
 
