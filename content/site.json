@@ -1,0 +1,90 @@
+{
+  "origin": "https://verti.ch",
+  "facebook": "https://www.facebook.com/profile.php?id=61585655446351",
+  "categories": [
+    {
+      "id": "wipo-webcast",
+      "label": "WIPO WEBCAST",
+      "name": {
+        "vi": "Hội nghị WIPO",
+        "en": "WIPO meetings"
+      },
+      "description": {
+        "vi": "Tin tức và kết quả từ các cuộc họp và phiên làm việc của WIPO.",
+        "en": "Developments and outcomes from WIPO meetings, sessions and discussions."
+      }
+    },
+    {
+      "id": "wto-news",
+      "label": "WTO NEWS",
+      "name": {
+        "vi": "Thương mại thế giới",
+        "en": "World trade"
+      },
+      "description": {
+        "vi": "Diễn biến thương mại, quy tắc WTO và tiêu chuẩn kỹ thuật.",
+        "en": "International trade developments, WTO rules and technical standards."
+      }
+    },
+    {
+      "id": "frontier-tech",
+      "label": "FRONTIER TECH",
+      "name": {
+        "vi": "Công nghệ tiên phong",
+        "en": "Frontier technology"
+      },
+      "description": {
+        "vi": "AI, lượng tử, vật liệu, pin, công nghệ sinh học và phát hiện mới.",
+        "en": "AI, quantum science, materials, batteries, biotechnology and discoveries."
+      }
+    },
+    {
+      "id": "wipo-news",
+      "label": "WIPO NEWS",
+      "name": {
+        "vi": "Sở hữu trí tuệ",
+        "en": "Intellectual property"
+      },
+      "description": {
+        "vi": "Sáng chế, nhãn hiệu, quyền tác giả và hoạt động của WIPO.",
+        "en": "Patents, trademarks, copyright and developments at WIPO."
+      }
+    },
+    {
+      "id": "publications",
+      "label": "PUBLICATIONS",
+      "name": {
+        "vi": "Ấn phẩm và dữ liệu",
+        "en": "Reports and data"
+      },
+      "description": {
+        "vi": "Ấn phẩm, báo cáo, tài liệu và dữ liệu công khai.",
+        "en": "Publications, reports, documentation and public datasets."
+      }
+    },
+    {
+      "id": "future-research",
+      "label": "FUTURE RESEARCH",
+      "name": {
+        "vi": "Nghiên cứu tương lai",
+        "en": "Future research"
+      },
+      "description": {
+        "vi": "Các hướng nghiên cứu mới, công nghệ nổi lên và ứng dụng.",
+        "en": "Emerging areas of research, technologies and potential applications."
+      }
+    },
+    {
+      "id": "cooperation",
+      "label": "COOPERATION",
+      "name": {
+        "vi": "Hợp tác quốc tế",
+        "en": "International cooperation"
+      },
+      "description": {
+        "vi": "Hợp tác nghiên cứu, chuyển giao công nghệ và thương mại hóa.",
+        "en": "Research partnerships, technology transfer and commercialization."
+      }
+    }
+  ]
+}
