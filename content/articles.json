@@ -532,6 +532,77 @@
           "credit": "VERTI – sơ đồ từ nguồn được dẫn; không phải ảnh sự kiện / sourced factual diagram, not an event photograph"
         }
       ]
+    },
+    {
+      "slug": "wipo-women-innovators-ip-scale-up-2026",
+      "status": "draft",
+      "category": "wipo-news",
+      "date": "2026-11-20",
+      "originalSourceDate": "2026-11-20",
+      "title": {
+        "vi": "WIPO hướng dẫn nữ sáng lập công nghệ bảo vệ thương hiệu, quản lý AI và định giá sở hữu trí tuệ",
+        "en": "WIPO trains women innovators on branding, AI-related IP and valuation"
+      },
+      "summary": {
+        "vi": "Trong chương trình Scale Up Your IP, WIPO hướng dẫn các nữ sáng lập và nhà đổi mới sáng tạo cách xây dựng thương hiệu, xử lý quyền đối với phần mềm và dữ liệu, đồng thời định giá tài sản vô hình để chuẩn bị thương mại hóa và thu hút đầu tư.",
+        "en": "WIPO's Scale Up Your IP program is helping women innovators develop branding strategies, manage software and data rights, and value intangible assets as they prepare to commercialize research and attract investment."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Bảo vệ thương hiệu ngay từ khi đưa công nghệ ra thị trường",
+            "paragraphs": [
+              "Theo WIPO, học phần về chiến lược thương hiệu đề cập cách xác định vị thế của sản phẩm, phân biệt tên gọi và hình ảnh thương hiệu, cũng như phối hợp nhãn hiệu, kiểu dáng công nghiệp và quyền tác giả khi phù hợp. Với doanh nghiệp chuẩn bị mở rộng thị trường, tra cứu dấu hiệu tương tự trên cơ sở dữ liệu nhãn hiệu và kiểm tra tên miền từ sớm có thể giảm nguy cơ tranh chấp.",
+              "WIPO cũng nhấn mạnh giá trị kinh tế của thương hiệu trong hợp tác thương mại. Duy trì chất lượng nhất quán, hướng dẫn sử dụng thương hiệu và các thỏa thuận với đối tác phân phối là một phần quan trọng của chiến lược này."
+            ]
+          },
+          {
+            "heading": "Quyền sở hữu phần mềm và dữ liệu phải được làm rõ",
+            "paragraphs": [
+              "Học phần về AI và phần mềm phân biệt phần mềm do doanh nghiệp tự phát triển, thuê đơn vị bên ngoài xây dựng hoặc sử dụng từ nguồn mở. Doanh nghiệp cần kiểm tra quyền đối với mã nguồn, thỏa thuận chuyển giao quyền khi thuê nhà phát triển và các điều kiện cấp phép đi kèm phần mềm nguồn mở.",
+              "WIPO lưu ý rằng quyền truy cập dữ liệu không tự động cho phép sử dụng dữ liệu vào mục đích khác, chẳng hạn huấn luyện hoặc phát triển sản phẩm AI. Việc chia sẻ thông tin mật với công cụ AI cũng đặt ra rủi ro về bảo vệ tài sản trí tuệ và bí mật kinh doanh."
+            ]
+          },
+          {
+            "heading": "Từ tài sản trí tuệ đến định giá và thương mại hóa",
+            "paragraphs": [
+              "Học phần thương mại hóa giới thiệu ba cách tiếp cận cơ bản khi định giá tài sản trí tuệ: chi phí thay thế, giao dịch thị trường có thể so sánh và thu nhập tương lai dự kiến. Giá trị không chỉ nằm ở bằng sáng chế hoặc nhãn hiệu mà còn ở bí quyết, năng lực nhân sự, dữ liệu và các mối quan hệ hợp tác.",
+              "Tùy mục tiêu kiểm soát và mở rộng thị trường, doanh nghiệp có thể lựa chọn cấp phép, liên doanh hoặc chuyển nhượng quyền. Trước khi gọi vốn, WIPO khuyến nghị làm rõ tài sản sở hữu, hợp đồng, giấy phép và các hạn chế sử dụng; đó là cơ sở để đối tác và nhà đầu tư thẩm định rủi ro."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Protecting the brand from the start",
+            "paragraphs": [
+              "WIPO's brand strategy module explained how ventures can position their technology, distinguish their names and visual identities, and combine trademarks, industrial designs and copyright where appropriate. Searching for similar names in trademark databases and checking domain names early may help prevent disputes as a business enters new markets.",
+              "The program also underlined the business value of a recognizable brand in partnerships. Consistent quality standards, clear branding guidelines and distribution agreements all contribute to protecting that value."
+            ]
+          },
+          {
+            "heading": "Clarifying rights in software, data and AI",
+            "paragraphs": [
+              "The software and AI module distinguished code developed in-house, commissioned from contractors, licensed from third parties or incorporated from open-source projects. Innovators were encouraged to confirm ownership and source-code access, secure necessary assignments from external developers and review open-source license compatibility.",
+              "WIPO also stressed that obtaining access to data does not automatically authorize its reuse for another purpose, such as AI product development. Sharing confidential information with AI services can create additional intellectual property and trade-secret risks."
+            ]
+          },
+          {
+            "heading": "Turning intangible assets into commercial value",
+            "paragraphs": [
+              "The commercialization module introduced cost, market and income approaches to IP valuation. A venture's value may also depend on know-how, personnel, databases, business processes and partnerships, not just registered rights.",
+              "Depending on the desired balance between control and market access, innovators can consider licensing, joint ventures or assignment. For investors and buyers, clear evidence of IP ownership, contractual permissions and use restrictions is central to due diligence and commercial negotiations."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "World Intellectual Property Organization (WIPO), 20 November 2026",
+        "url": "https://www.wipo.int/en/web/ip-commercialization/w/news/2026/women-innovators-strengthen-their-ip-strategies-for-commercialization-and-growth"
+      },
+      "facebookPost": "",
+      "facebookReel": "",
+      "images": [],
+      "editorialStatus": "Source read and bilingual copy drafted; Facebook post/Reel/Story not published; accompanying images and editorial QA pending."
     }
   ]
 }
