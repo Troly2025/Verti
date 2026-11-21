@@ -268,6 +268,270 @@
       "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid02C1zFUpSA3e8mKaDLLYE5uLxjEv7dERZA8kL8desWkGnmDNeiB197pvUQrK7dQCRul&id=61585655446351",
       "facebookReel": "",
       "images": []
+    },
+    {
+      "slug": "hamamatsu-swiss-cleanrooms-2026",
+      "status": "published",
+      "category": "frontier-tech",
+      "date": "2026-11-20T20:46:47.789083+00:00",
+      "originalSourceDate": "2026-11-05",
+      "topic_id": "085bc132-fa1c-8331-b727-5c1bbd5f31ed:14",
+      "title": {
+        "vi": "Hamamatsu mở 1.350 m² phòng sạch cho laser xung cực ngắn tại Thụy Sĩ",
+        "en": "Hamamatsu opens 1,350 square metres of cleanrooms for ultrashort-pulse lasers in Switzerland"
+      },
+      "summary": {
+        "vi": "Ngày 5/11, Hamamatsu Photonics khánh thành cơ sở sản xuất tại Regensdorf, bang Zürich. Trong hơn 3.000 m² diện tích của cơ sở, hãng dành 1.350 m² phòng sạch để sản xuất laser phát xung chỉ dài vài trăm femto giây. Một femto giây bằng một phần triệu tỷ giây.",
+        "en": "Hamamatsu Photonics inaugurated its Regensdorf production facility in the canton of Zurich on 5 November. Of more than 3,000 square metres of space, 1,350 are cleanrooms for producing lasers that emit pulses lasting only a few hundred femtoseconds. A femtosecond is one quadrillionth of a second."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "1. Từ phòng sạch đến hệ thống hoàn chỉnh",
+            "paragraphs": [
+              "Theo doanh nghiệp, cơ sở có phòng sạch cấp 7 và các trạm làm việc cấp 5, cho phép sản xuất hệ thống laser hoàn chỉnh tại chỗ."
+            ]
+          },
+          {
+            "heading": "2. Ứng dụng trong nhãn khoa",
+            "paragraphs": [
+              "Một ứng dụng chính của dòng laser này là nhãn khoa. Hamamatsu công bố vốn đầu tư trên 10 triệu franc Thụy Sĩ; thông báo khánh thành chưa nêu sản lượng hằng năm."
+            ]
+          },
+          {
+            "heading": "",
+            "paragraphs": [
+              "Hình minh họa dữ kiện, không phải ảnh sự kiện."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "1. From cleanroom to complete laser system",
+            "paragraphs": [
+              "The company says Class 7 cleanrooms and Class 5 workstations allow it to manufacture complete laser systems on site."
+            ]
+          },
+          {
+            "heading": "2. Applications in ophthalmology",
+            "paragraphs": [
+              "Ophthalmology is a major application for these lasers. Hamamatsu reported investment exceeding CHF 10 million. Its inauguration announcement did not give an annual production figure."
+            ]
+          },
+          {
+            "heading": "",
+            "paragraphs": [
+              "Factual illustration, not an event photograph."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "Hamamatsu Photonics",
+        "url": "https://lf.hamamatsu.com/news/hamamatsu-photonics-strengthens-swiss-presence-with-new-facility/"
+      },
+      "sources": [
+        {
+          "name": "Hamamatsu Photonics – 1",
+          "url": "https://lf.hamamatsu.com/news/hamamatsu-photonics-strengthens-swiss-presence-with-new-facility/"
+        }
+      ],
+      "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Pz22eLGmsnpHDhuMDeggZXkSLYXaW9MTstChqkcpv5j4ru7Am2bodMAbfzf8qJsxl&id=61585655446351",
+      "facebookReel": "https://www.facebook.com/reel/991065220255955",
+      "images": [
+        {
+          "src": "https://verti.ch/images/hamamatsu-swiss-cleanrooms-2026.svg",
+          "alt": {
+            "vi": "Hamamatsu mở 1.350 m² phòng sạch cho laser xung cực ngắn tại Thụy Sĩ – sơ đồ dữ kiện",
+            "en": "Hamamatsu opens 1,350 square metres of cleanrooms for ultrashort-pulse lasers in Switzerland – factual diagram"
+          },
+          "credit": "VERTI – sơ đồ từ nguồn được dẫn; không phải ảnh sự kiện / sourced factual diagram, not an event photograph"
+        }
+      ]
+    },
+    {
+      "slug": "dune-two-detectors-1300-km",
+      "status": "published",
+      "category": "future-research",
+      "date": "2026-11-20T21:07:33.234849+00:00",
+      "originalSourceDate": "2026-11-10",
+      "topic_id": "future_tech:dune-1300-km",
+      "title": {
+        "vi": "Vì sao DUNE cần hai máy dò neutrino cách nhau 1.300 km?",
+        "en": "Why does DUNE need neutrino detectors 1,300 kilometres apart?"
+      },
+      "summary": {
+        "vi": "Các đội kỹ thuật của Phòng thí nghiệm Fermilab, Tổ chức Nghiên cứu Hạt nhân châu Âu (CERN) và Cơ sở nghiên cứu ngầm Sanford đã bắt đầu lắp khung thép cho hệ thống bồn cách nhiệt ở South Dakota, Hoa Kỳ. Công trình nằm sâu gần 1,5 km. Trên tuyến nối hai cơ sở, chùm neutrino sẽ đi khoảng 1.300 km từ Illinois xuyên qua Trái Đất đến máy dò ở South Dakota.",
+        "en": "Teams from Fermilab, the European Laboratory for Particle Physics (CERN) and the Sanford Underground Research Facility have begun assembling steel frames for insulated vessels in South Dakota, nearly 1.5 kilometres underground. Between the two sites, a neutrino beam will travel roughly 1,300 kilometres through the Earth from Illinois to the far detector."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "1. Đo ở đầu và cuối hành trình",
+            "paragraphs": [
+              "Neutrino là hạt có thể thay đổi trạng thái khi di chuyển. Trong Thí nghiệm neutrino sâu dưới lòng đất (DUNE), máy dò gần nguồn ở Fermilab sẽ đo chùm hạt lúc xuất phát. Máy dò ở xa sẽ ghi các tương tác sau hành trình. Đối chiếu hai phép đo giúp các nhà vật lý nghiên cứu sự biến đổi của neutrino và tìm hiểu liệu chúng có góp phần giải thích vì sao vũ trụ có nhiều vật chất hơn phản vật chất."
+            ]
+          },
+          {
+            "heading": "2. Một mốc xây dựng trước khi có dữ liệu",
+            "paragraphs": [
+              "Mỗi bồn được thiết kế chứa khoảng 17.000 tấn argon lỏng ở khoảng −185 °C. Theo kế hoạch CERN công bố ngày 10/11, chùm hạt từ Fermilab dự kiến tới máy dò xa từ năm 2031. Các khung thép đang lắp là hạ tầng để thực hiện phép đo ấy."
+            ]
+          },
+          {
+            "heading": "",
+            "paragraphs": [
+              "Hình minh họa dữ kiện, không phải ảnh sự kiện."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "1. Measuring at both ends",
+            "paragraphs": [
+              "Neutrinos can change flavour as they travel. In the Deep Underground Neutrino Experiment (DUNE), a detector near the beam source at Fermilab will measure the particles as they start their journey. The far detector will record interactions after that journey. Comparing the measurements will help physicists study the changes and investigate whether neutrinos help explain why matter outweighs antimatter in the universe."
+            ]
+          },
+          {
+            "heading": "2. A construction milestone before the measurements",
+            "paragraphs": [
+              "Each vessel is designed to hold about 17,000 tonnes of liquid argon at about −185 °C. Under the schedule CERN published on 10 November, the beam from Fermilab is expected to reach the far detector by 2031. The steelwork under way now is infrastructure for that future measurement."
+            ]
+          },
+          {
+            "heading": "",
+            "paragraphs": [
+              "Factual illustration, not an event photograph."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "CERN và Fermilab",
+        "url": "https://home.cern/construction-begins-on-massive-underground-neutrino-experiment-designed-to-unlock-the-secrets-of-the-universe"
+      },
+      "sources": [
+        {
+          "name": "CERN và Fermilab – 1",
+          "url": "https://home.cern/construction-begins-on-massive-underground-neutrino-experiment-designed-to-unlock-the-secrets-of-the-universe"
+        },
+        {
+          "name": "CERN và Fermilab – 2",
+          "url": "https://lbnf-dune.fnal.gov/"
+        }
+      ],
+      "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid0XqXxMKg3VhUX2imM1qTcCvxbb6KiganhM9xJaBVMUiaVpLTuB5va7T3qE7ikrs7bl&id=61585655446351",
+      "facebookReel": "https://www.facebook.com/reel/1180447954305456",
+      "images": [
+        {
+          "src": "https://verti.ch/images/dune-two-detectors-1300-km.svg",
+          "alt": {
+            "vi": "Vì sao DUNE cần hai máy dò neutrino cách nhau 1.300 km? – sơ đồ dữ kiện",
+            "en": "Why does DUNE need neutrino detectors 1,300 kilometres apart? – factual diagram"
+          },
+          "credit": "VERTI – sơ đồ từ nguồn được dẫn; không phải ảnh sự kiện / sourced factual diagram, not an event photograph"
+        }
+      ]
+    },
+    {
+      "slug": "cern-art-science-residency-models",
+      "status": "published",
+      "category": "cooperation",
+      "date": "2026-11-20T21:20:24.436648+00:00",
+      "originalSourceDate": "2026-11-11",
+      "topic_id": "future_cooperation_models:cern-nghe-thuat",
+      "title": {
+        "vi": "Từ Genève đến sa mạc Atacama, nghệ sĩ làm việc với phòng thí nghiệm như thế nào?",
+        "en": "From Geneva to the Atacama: how artists work inside research facilities"
+      },
+      "summary": {
+        "vi": "Một nghệ sĩ có thể đến phòng thí nghiệm để phát triển tác phẩm trong nhiều tuần, với thời gian và người hướng dẫn được bố trí sẵn. Hai chương trình của Arts at CERN cho thấy những cách tổ chức khác nhau. Kết quả của cả hai xuất hiện trong chương trình liên hoan nghệ thuật và khoa học The Hybrid Nexus ngày 20/11 tại Genève.",
+        "en": "An artist can spend weeks developing a work inside a laboratory, with time and specialist support built into the programme. Two Arts at CERN residencies show how different partnerships make this possible. Work from both appears on the 20 November programme of The Hybrid Nexus art and science summit in Geneva."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "1. Hai nơi làm việc, một đề xuất nghệ thuật",
+            "paragraphs": [
+              "Trong đợt tuyển chọn Connect Chile do CERN và Hội đồng Nghệ thuật Thụy Sĩ Pro Helvetia công bố năm 2023, Dominique Koch và Marcela Moraga được chọn cho chương trình lưu trú kép. Mỗi chặng kéo dài ba tuần: một tại CERN và một tại các cơ sở thiên văn ESO và ALMA ở Chile. Đối tác MIM điều phối chặng Chile. Các nhà khoa học, kỹ sư và nhóm giám tuyển ở hai nơi hỗ trợ nghệ sĩ tiếp cận công việc nghiên cứu và phát triển ý tưởng."
+            ]
+          },
+          {
+            "heading": "2. Một cánh cửa dành cho nghệ sĩ ở Genève",
+            "paragraphs": [
+              "Resonance do CERN hợp tác với thành phố và bang Genève tổ chức. Chương trình tuyển qua đợt mời nộp hồ sơ, hội đồng chuyên gia xét chọn và tài trợ trọn gói cho hai tháng lưu trú. Điều kiện đặt ra là nghệ sĩ hoặc tập thể có cơ sở hoạt động tại Genève. Chương trình ngày 20/11 xếp lịch chiếu The Sound Horizon của Dominique Koch và Dreams Chamber của Marion Tampon-Lajarriette, người được chọn cho đợt Resonance đầu tiên."
+            ]
+          },
+          {
+            "heading": "3. Mỗi đối tác mang tới điều gì?",
+            "paragraphs": [
+              "Trong hai mô hình này, phòng thí nghiệm mở cửa cơ sở nghiên cứu và bố trí người trao đổi chuyên môn. Đối tác văn hóa và nhóm giám tuyển tổ chức tuyển chọn, điều phối và tạo nơi trình bày tác phẩm. Hợp tác xuyên biên giới mở rộng số môi trường nghệ sĩ có thể tiếp cận, nhưng mỗi đợt vẫn phụ thuộc vào kinh phí, số chỗ và quyền tiếp cận cơ sở cụ thể."
+            ]
+          },
+          {
+            "heading": "",
+            "paragraphs": [
+              "Hình minh họa dữ kiện, không phải ảnh sự kiện."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "1. Two sites for one artistic proposal",
+            "paragraphs": [
+              "In the selection announced in 2023, CERN and the Swiss Arts Council Pro Helvetia selected Dominique Koch and Marcela Moraga for the Connect Chile dual residency. Its two legs were three weeks each: one at CERN and one at the ESO and ALMA astronomy facilities in Chile. MIM coordinated the Chilean leg. Scientists, engineers and curatorial teams at both locations helped the artists explore the research and develop their ideas."
+            ]
+          },
+          {
+            "heading": "2. A route for artists based in Geneva",
+            "paragraphs": [
+              "CERN, the City of Geneva and the Republic and Canton of Geneva run Resonance. An open call and expert selection panel give Geneva-based artists or collectives access to a fully funded two-month residency. The 20 November programme lists screenings of Koch’s The Sound Horizon and Dreams Chamber by Marion Tampon-Lajarriette, the first artist selected for Resonance."
+            ]
+          },
+          {
+            "heading": "3. What each partner contributes",
+            "paragraphs": [
+              "In these two models, laboratories provide access to facilities and researchers. Cultural partners and curators help select participants, coordinate the work and bring it to audiences. Cross-border cooperation gives artists access to a wider range of research environments. Each placement still depends on funding, available places and permission to work at the individual facilities."
+            ]
+          },
+          {
+            "heading": "",
+            "paragraphs": [
+              "Factual illustration, not an event photograph."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "Arts at CERN và CERN",
+        "url": "https://arts.cern/event/the-hybrid-nexus-cern-art-and-science-summit-2026-19-and-20-november/"
+      },
+      "sources": [
+        {
+          "name": "Arts at CERN và CERN – 1",
+          "url": "https://arts.cern/cern-and-pro-helvetia-announce-selected-artists-for-the-connect-chile-residency/"
+        },
+        {
+          "name": "Arts at CERN và CERN – 2",
+          "url": "https://arts.cern/resonance/"
+        },
+        {
+          "name": "Arts at CERN và CERN – 3",
+          "url": "https://arts.cern/event/the-hybrid-nexus-cern-art-and-science-summit-2026-19-and-20-november/"
+        }
+      ],
+      "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Ao7PUr7HaPsVEGWVMnrzG6WgTXQjj66AhRgNMx1dptE4Kb2iznkDyjAMhEnkETPql&id=61585655446351",
+      "facebookReel": "https://www.facebook.com/reel/1745425266521013",
+      "images": [
+        {
+          "src": "https://verti.ch/images/cern-art-science-residency-models.svg",
+          "alt": {
+            "vi": "Từ Genève đến sa mạc Atacama, nghệ sĩ làm việc với phòng thí nghiệm như thế nào? – sơ đồ dữ kiện",
+            "en": "From Geneva to the Atacama: how artists work inside research facilities – factual diagram"
+          },
+          "credit": "VERTI – sơ đồ từ nguồn được dẫn; không phải ảnh sự kiện / sourced factual diagram, not an event photograph"
+        }
+      ]
     }
   ]
 }
