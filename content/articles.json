@@ -619,8 +619,33 @@
       },
       "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid0khLAQ8twDMEYnHevbm1CqjLwb8gyC9B2bMAu4CLSwDzFqowhWV3wQuQQFeHhjtdTl&id=61585655446351",
       "facebookReel": "",
-      "images": [],
-      "editorialStatus": "Full verified bilingual article and Facebook permalink retained. Awaiting installation of reviewed illustration assets and staging QA; not released to website. New Reel awaiting licensed free Vietnamese narration.",
+      "images": [
+        {
+          "src": "https://verti.ch/images/wipo-nu-doi-moi-sang-tao-thuong-hieu-phan-mem-dinh-gia-2026-1.png",
+          "alt": {
+            "vi": "Chương trình WIPO kết nối thương hiệu, phần mềm và định giá cho nữ đổi mới sáng tạo — Ảnh bìa",
+            "en": "WIPO programme connects branding, software and valuation for women innovators — Cover"
+          },
+          "credit": "VERTI — đồ họa từ dữ kiện WIPO đã kiểm chứng; không phải ảnh sự kiện / original factual illustration based on verified WIPO reporting, not an event photograph"
+        },
+        {
+          "src": "https://verti.ch/images/wipo-nu-doi-moi-sang-tao-thuong-hieu-phan-mem-dinh-gia-2026-2.png",
+          "alt": {
+            "vi": "Chương trình WIPO kết nối thương hiệu, phần mềm và định giá cho nữ đổi mới sáng tạo — Minh họa 2",
+            "en": "WIPO programme connects branding, software and valuation for women innovators — Illustration 2"
+          },
+          "credit": "VERTI — đồ họa từ dữ kiện WIPO đã kiểm chứng; không phải ảnh sự kiện / original factual illustration based on verified WIPO reporting, not an event photograph"
+        },
+        {
+          "src": "https://verti.ch/images/wipo-nu-doi-moi-sang-tao-thuong-hieu-phan-mem-dinh-gia-2026-3.png",
+          "alt": {
+            "vi": "Chương trình WIPO kết nối thương hiệu, phần mềm và định giá cho nữ đổi mới sáng tạo — Minh họa 3",
+            "en": "WIPO programme connects branding, software and valuation for women innovators — Illustration 3"
+          },
+          "credit": "VERTI — đồ họa từ dữ kiện WIPO đã kiểm chứng; không phải ảnh sự kiện / original factual illustration based on verified WIPO reporting, not an event photograph"
+        }
+      ],
+      "editorialStatus": "Full verified bilingual text, reviewed images and existing Facebook permalink retained. Draft awaiting staging and production integration verification. No new Facebook publication required.",
       "topic_id": "wipo_news:women-innovators-strengthen-their-ip-strategies-for-commercialization-and-growth",
       "sources": [
         {
@@ -701,8 +726,25 @@
       },
       "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid033gQTpyhug2Xz21ZXDWgq7yk1jjfVAkfFSwkabdagzHpzwFscCEbJF8m11k56K7aNl&id=61585655446351",
       "facebookReel": "",
-      "images": [],
-      "editorialStatus": "Full verified bilingual article and Facebook permalink retained. Awaiting installation of reviewed illustration assets and staging QA; not released to website. New Reel awaiting licensed free Vietnamese narration.",
+      "images": [
+        {
+          "src": "https://verti.ch/images/wipo-ai-cap-ban-quyen-tu-phap-thuong-mai-hoa-2026-1.png",
+          "alt": {
+            "vi": "WIPO thúc đẩy hợp tác bản quyền, tư pháp và thương mại hóa nghiên cứu tại Ai Cập — Ảnh bìa",
+            "en": "WIPO’s Egypt visit links copyright, judicial cooperation and research commercialization — Cover"
+          },
+          "credit": "VERTI — đồ họa từ dữ kiện WIPO đã kiểm chứng; không phải ảnh sự kiện / original factual illustration based on verified WIPO reporting, not an event photograph"
+        },
+        {
+          "src": "https://verti.ch/images/wipo-ai-cap-ban-quyen-tu-phap-thuong-mai-hoa-2026-2.png",
+          "alt": {
+            "vi": "WIPO thúc đẩy hợp tác bản quyền, tư pháp và thương mại hóa nghiên cứu tại Ai Cập — Minh họa 2",
+            "en": "WIPO’s Egypt visit links copyright, judicial cooperation and research commercialization — Illustration 2"
+          },
+          "credit": "VERTI — đồ họa từ dữ kiện WIPO đã kiểm chứng; không phải ảnh sự kiện / original factual illustration based on verified WIPO reporting, not an event photograph"
+        }
+      ],
+      "editorialStatus": "Full verified bilingual text, reviewed images and existing Facebook permalink retained. Draft awaiting staging and production integration verification. No new Facebook publication required.",
       "topic_id": "wipo_news:wipo-director-general-wraps-up-visit-to-egypt",
       "sources": []
     },
@@ -781,8 +823,33 @@
       ],
       "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid05Tq4HMEohhdQGSugNPPsqRXEDFAnTgVssrSmBwKAPvvEbn99cHZje1zNn3fXq5Sgl&id=61585655446351",
       "facebookReel": "",
-      "images": [],
-      "editorialStatus": "Full verified bilingual article and Facebook permalink retained. Awaiting installation of reviewed illustration assets and staging QA; not released to website. New Reel awaiting licensed free Vietnamese narration."
+      "images": [
+        {
+          "src": "https://verti.ch/images/wipo-new-york-cong-nghe-xanh-hop-tac-2026-1.png",
+          "alt": {
+            "vi": "WIPO kết nối công nghệ xanh với đầu tư và hợp tác tại New York — Ảnh bìa",
+            "en": "WIPO connects green technology with investment and partnerships in New York — Cover"
+          },
+          "credit": "VERTI — đồ họa từ dữ kiện WIPO đã kiểm chứng; không phải ảnh sự kiện / original factual illustration based on verified WIPO reporting, not an event photograph"
+        },
+        {
+          "src": "https://verti.ch/images/wipo-new-york-cong-nghe-xanh-hop-tac-2026-2.jpg",
+          "alt": {
+            "vi": "WIPO kết nối công nghệ xanh với đầu tư và hợp tác tại New York — Minh họa 2",
+            "en": "WIPO connects green technology with investment and partnerships in New York — Illustration 2"
+          },
+          "credit": "WIPO, CC BY 4.0; converted from WebP to JPEG without cropping / Chuyển định dạng WebP sang JPEG, không cắt ảnh."
+        },
+        {
+          "src": "https://verti.ch/images/wipo-new-york-cong-nghe-xanh-hop-tac-2026-3.jpg",
+          "alt": {
+            "vi": "WIPO kết nối công nghệ xanh với đầu tư và hợp tác tại New York — Minh họa 3",
+            "en": "WIPO connects green technology with investment and partnerships in New York — Illustration 3"
+          },
+          "credit": "WIPO, CC BY 4.0; converted from WebP to JPEG without cropping / Chuyển định dạng WebP sang JPEG, không cắt ảnh."
+        }
+      ],
+      "editorialStatus": "Full verified bilingual text, reviewed images and existing Facebook permalink retained. Draft awaiting staging and production integration verification. No new Facebook publication required."
     },
     {
       "slug": "wipo-ai-ha-tang-so-huu-tri-tue-new-york-2026",
@@ -859,8 +926,33 @@
       ],
       "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Qf1RD9FaaEkJ7m7zZFrrrJwEWK8vnviVKwDDJGNExGnb6cDDvWd27psYhaBfAUKbl&id=61585655446351",
       "facebookReel": "",
-      "images": [],
-      "editorialStatus": "Full verified bilingual article and Facebook permalink retained. Awaiting installation of reviewed illustration assets and staging QA; not released to website. New Reel awaiting licensed free Vietnamese narration."
+      "images": [
+        {
+          "src": "https://verti.ch/images/wipo-ai-ha-tang-so-huu-tri-tue-new-york-2026-1.png",
+          "alt": {
+            "vi": "Đối thoại WIPO tại New York tập trung vào dữ liệu quyền và lòng tin trong AI — Ảnh bìa",
+            "en": "WIPO’s New York dialogue focuses on rights information and trust in AI — Cover"
+          },
+          "credit": "VERTI — đồ họa từ dữ kiện WIPO đã kiểm chứng; không phải ảnh sự kiện / original factual illustration based on verified WIPO reporting, not an event photograph"
+        },
+        {
+          "src": "https://verti.ch/images/wipo-ai-ha-tang-so-huu-tri-tue-new-york-2026-2.jpg",
+          "alt": {
+            "vi": "Đối thoại WIPO tại New York tập trung vào dữ liệu quyền và lòng tin trong AI — Minh họa 2",
+            "en": "WIPO’s New York dialogue focuses on rights information and trust in AI — Illustration 2"
+          },
+          "credit": "WIPO, CC BY 4.0; converted from WebP to JPEG without cropping / Chuyển định dạng WebP sang JPEG, không cắt ảnh."
+        },
+        {
+          "src": "https://verti.ch/images/wipo-ai-ha-tang-so-huu-tri-tue-new-york-2026-3.jpg",
+          "alt": {
+            "vi": "Đối thoại WIPO tại New York tập trung vào dữ liệu quyền và lòng tin trong AI — Minh họa 3",
+            "en": "WIPO’s New York dialogue focuses on rights information and trust in AI — Illustration 3"
+          },
+          "credit": "WIPO, CC BY 4.0; converted from WebP to JPEG without cropping / Chuyển định dạng WebP sang JPEG, không cắt ảnh."
+        }
+      ],
+      "editorialStatus": "Full verified bilingual text, reviewed images and existing Facebook permalink retained. Draft awaiting staging and production integration verification. No new Facebook publication required."
     },
     {
       "slug": "cdip37-ket-qua-toan-khoa-2026",
@@ -1578,8 +1670,41 @@
       ],
       "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid02X8ixab4fKPxtQu1o5ZcfY7LPBBcwMRXmnWEhsV17JGP3EG5wtYk4mkt6ChS3571l&id=61585655446351",
       "facebookReel": "",
-      "images": [],
-      "editorialStatus": "Full bilingual report including annexes retained; DOCX delivered and both Facebook parts verified. Website draft awaiting image assets and staging QA. New Reel narration pending."
+      "images": [
+        {
+          "src": "https://verti.ch/images/cdip37-0.png",
+          "alt": {
+            "vi": "CDIP/37: Hai dự án thông qua, chưa thống nhất gia hạn",
+            "en": "CDIP/37: Two projects approved, no agreement on extensions"
+          },
+          "credit": "VERTI — đồ họa minh họa dữ kiện từ tài liệu WIPO; không phải ảnh sự kiện / original factual illustration from WIPO documents, not an event photograph"
+        },
+        {
+          "src": "https://verti.ch/images/cdip37-1.png",
+          "alt": {
+            "vi": "Dự án Chile: 24 tháng, 439.200 CHF",
+            "en": "Chile project: 24 months, CHF 439,200"
+          },
+          "credit": "VERTI — đồ họa minh họa dữ kiện từ tài liệu WIPO; không phải ảnh sự kiện / original factual illustration from WIPO documents, not an event photograph"
+        },
+        {
+          "src": "https://verti.ch/images/cdip37-2.png",
+          "alt": {
+            "vi": "Dự án Indonesia: 30 tháng, 392.750 CHF",
+            "en": "Indonesia project: 30 months, CHF 392,750"
+          },
+          "credit": "VERTI — đồ họa minh họa dữ kiện từ tài liệu WIPO; không phải ảnh sự kiện / original factual illustration from WIPO documents, not an event photograph"
+        },
+        {
+          "src": "https://verti.ch/images/cdip37-3.png",
+          "alt": {
+            "vi": "16 dự án đang triển khai, chưa thống nhất gia hạn",
+            "en": "16 ongoing projects; no agreement on extensions"
+          },
+          "credit": "VERTI — đồ họa minh họa dữ kiện từ tài liệu WIPO; không phải ảnh sự kiện / original factual illustration from WIPO documents, not an event photograph"
+        }
+      ],
+      "editorialStatus": "Full verified bilingual report, annexes, reviewed illustrations and Facebook links retained. Draft awaiting staging and production integration verification."
     }
   ]
 }
