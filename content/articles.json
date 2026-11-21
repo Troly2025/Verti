@@ -603,6 +603,77 @@
       "facebookReel": "",
       "images": [],
       "editorialStatus": "Source read and bilingual copy drafted; Facebook post/Reel/Story not published; accompanying images and editorial QA pending."
+    },
+    {
+      "slug": "wipo-dg-egypt-innovation-cooperation-2026",
+      "status": "draft",
+      "category": "wipo-news",
+      "date": "2026-11-20",
+      "originalSourceDate": "2026-11-20",
+      "title": {
+        "vi": "Tổng Giám đốc WIPO thăm Ai Cập, thúc đẩy hợp tác về quyền tác giả, sáng tạo và chuyển giao công nghệ",
+        "en": "WIPO Director General visits Egypt to advance copyright, innovation and technology-transfer cooperation"
+      },
+      "summary": {
+        "vi": "Từ ngày 15 đến 17/11/2026, Tổng Giám đốc WIPO Daren Tang thăm Ai Cập, gặp Thủ tướng Mostafa Madbouly và lãnh đạo các bộ. Các cuộc trao đổi tập trung vào quyền tác giả, giải quyết tranh chấp sở hữu trí tuệ, đổi mới sáng tạo và thương mại hóa kết quả nghiên cứu.",
+        "en": "During a November 15–17, 2026 visit to Egypt, WIPO Director General Daren Tang met Prime Minister Mostafa Madbouly and senior officials to discuss copyright, judicial cooperation, research innovation and technology commercialization."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Làm việc với Chính phủ Ai Cập",
+            "paragraphs": [
+              "Theo thông tin WIPO công bố ngày 20/11, ông Daren Tang thăm Ai Cập từ ngày 15 đến 17/11/2026 và hội đàm với Thủ tướng Mostafa Madbouly tại Thủ đô Hành chính mới. Ông cũng làm việc với Bộ trưởng Ngoại giao Badr Abdelatty, Bộ trưởng Giáo dục đại học và Nghiên cứu khoa học kiêm quyền Bộ trưởng Văn hóa Abdelaziz Konsowa và Bộ trưởng Tư pháp Mahmoud Helmy El-Sherif.",
+              "Chuyến thăm kết hợp hoạt động cấp cao với các chương trình về quyền tác giả, hợp tác tư pháp, nghiên cứu và các ngành công nghiệp sáng tạo."
+            ]
+          },
+          {
+            "heading": "Quyền tác giả và năng lực giải quyết tranh chấp",
+            "paragraphs": [
+              "Tổng Giám đốc WIPO phát biểu tại lễ khai mạc Hội nghị quốc tế về những vấn đề quyền tác giả mới nổi do WIPO phối hợp với Cơ quan Sở hữu trí tuệ Ai Cập (EGIPA) tổ chức, dưới sự bảo trợ và với sự hiện diện của Thủ tướng Ai Cập.",
+              "Tại Bộ Tư pháp, hai bên trao đổi về đào tạo thẩm phán và cán bộ tư pháp, chuyên môn hóa việc xử lý tranh chấp sở hữu trí tuệ, phương thức giải quyết tranh chấp và thực thi quyền."
+            ]
+          },
+          {
+            "heading": "Liên kết nghiên cứu với thị trường",
+            "paragraphs": [
+              "Tại Cairo, ông Daren Tang cùng Chủ tịch EGIPA Hesham Azmi tham dự đối thoại cấp cao về sở hữu trí tuệ với các trường đại học, viện nghiên cứu, giới sáng tạo và cơ quan công quyền.",
+              "Thảo luận đề cập hợp tác đại học–doanh nghiệp, chuyển giao công nghệ, thương mại hóa kết quả nghiên cứu, công nghiệp sáng tạo và phát triển bền vững. Bản tin WIPO ghi nhận các cơ hội hợp tác tiếp theo, nhưng không công bố một hiệp định mới hay các khoản tài trợ cụ thể từ những cuộc trao đổi này."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Meetings with Egyptian government leaders",
+            "paragraphs": [
+              "According to WIPO's November 20 account, Director General Daren Tang visited Egypt from November 15 to 17, 2026, meeting Prime Minister Mostafa Madbouly in the New Administrative Capital. Other meetings included Foreign Minister Badr Abdelatty, Higher Education and Scientific Research Minister and Acting Culture Minister Abdelaziz Konsowa, and Justice Minister Mahmoud Helmy El-Sherif.",
+              "The visit combined high-level engagements with initiatives on copyright, judicial cooperation, research and the creative industries."
+            ]
+          },
+          {
+            "heading": "Copyright and judicial cooperation",
+            "paragraphs": [
+              "Mr. Tang addressed the opening of the WIPO International Conference on Emerging Copyright Issues, organized with the Egyptian Intellectual Property Authority (EGIPA) under the patronage and in the presence of the Prime Minister.",
+              "At the Ministry of Justice, discussions covered specialized judicial training on IP disputes, dispute resolution and enforcement cooperation."
+            ]
+          },
+          {
+            "heading": "Connecting research to markets",
+            "paragraphs": [
+              "In Cairo, Mr. Tang joined EGIPA Chairman Hesham Azmi for a high-level dialogue with universities, research institutions, creative-sector representatives and public agencies.",
+              "Participants examined university–industry collaboration, technology transfer, research commercialization, creative industries and sustainable development. WIPO identified areas for future engagement but did not announce a specific new treaty or funding commitment in this report."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "WIPO official DG news, 20 November 2026",
+        "url": "https://www.wipo.int/en/web/director-general/w/daren-tang/news/2026/wipo-director-general-wraps-up-visit-to-egypt"
+      },
+      "facebookPost": "",
+      "facebookReel": "",
+      "images": [],
+      "editorialStatus": "Draft: primary source independently read, bilingual copy prepared; requires editorial review and authorized Facebook publishing. No website deployment confirmed."
     }
   ]
 }
