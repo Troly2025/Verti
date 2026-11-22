@@ -2353,6 +2353,172 @@
         }
       ],
       "facebookEvent": "https://www.facebook.com/events/1683166053600897/"
+    },
+    {
+      "slug": "amd-world-labs-taalas-ai-codesign-2026",
+      "category": "future-research",
+      "date": "2026-11-22",
+      "title": {
+        "vi": "AMD mua World Labs và Taalas: Gắn nghiên cứu mô hình với chip AI",
+        "en": "AMD acquires World Labs and Taalas, linking models with AI silicon"
+      },
+      "summary": {
+        "vi": "AMD công bố hoàn tất hai thương vụ ngày 16 và 17/11/2026. Các thông báo cho thấy định hướng phát triển mô hình trí tuệ nhân tạo (AI) và phần cứng cùng nhau; hiệu quả thực tế vẫn cần được đo.",
+        "en": "AMD announced the completion of two acquisitions on November 16 and 17, 2026. The announcements point toward developing artificial intelligence (AI) models and hardware together; practical benefits still require measurement."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "1. Nghiên cứu mô hình tham gia thiết kế hạ tầng",
+            "paragraphs": [
+              "World Labs phát triển mô hình tạo, mô phỏng môi trường ba chiều (3D) tương tác và công nghệ học robot. Tiến sĩ Fei-Fei Li trở thành Phó chủ tịch điều hành kiêm trưởng khoa học, báo cáo trực tiếp cho Lisa Su. Nhóm sẽ phối hợp với kỹ sư AMD để định hướng hạ tầng AI tương lai.",
+              "Thỏa thuận mua World Labs đã được thông báo từ ngày 28/9; thông báo tháng 11 xác nhận bước hoàn tất thương vụ."
+            ]
+          },
+          {
+            "heading": "2. Chip chuyên dụng cho giai đoạn suy luận",
+            "paragraphs": [
+              "Taalas mang tới công nghệ chip chuyên dụng cho suy luận — giai đoạn mô hình đã huấn luyện xử lý yêu cầu mới. AMD dự kiến tích hợp công nghệ này vào lộ trình bộ tăng tốc, cùng phát triển giải pháp hệ thống bên cạnh bộ xử lý đồ họa (GPU) Instinct và phần mềm ROCm. Đây là kế hoạch tích hợp, chưa phải kết quả thử nghiệm chung đã công bố."
+            ]
+          },
+          {
+            "heading": "3. Điều cần theo dõi",
+            "paragraphs": [
+              "Góc phân tích của Trang: cần so sánh tốc độ, điện năng và chất lượng đầu ra trên cùng tác vụ trước khi kết luận lợi ích của sự kết hợp."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "1. Model research helps shape infrastructure",
+            "paragraphs": [
+              "World Labs develops models for interactive three-dimensional (3D) environments and technology for robotic learning. Dr. Fei-Fei Li becomes executive vice president and chief scientist, reporting to Lisa Su. The team will work with AMD engineers on future AI infrastructure.",
+              "The World Labs agreement was announced on September 28; the November announcement confirms completion."
+            ]
+          },
+          {
+            "heading": "2. Specialized silicon for inference",
+            "paragraphs": [
+              "Taalas brings specialized inference silicon: hardware for running trained models on new requests. AMD plans to integrate it into its accelerator roadmap and develop system solutions alongside Instinct graphics processing units (GPUs) and ROCm software. This is an integration plan, not a published joint benchmark."
+            ]
+          },
+          {
+            "heading": "3. What to watch",
+            "paragraphs": [
+              "The Page’s analysis: compare speed, energy use and output quality on the same workloads before concluding how much the combination delivers."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "AMD Newsroom, November 16 and 17, 2026",
+        "url": "https://newsroom.amd.com/news/amd-completes-acquisition-world-labs/"
+      },
+      "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid02NWqQvirmRbw8WkX3NfzQqy7dRhZ7sCLEmzZT8Tg6h7eHfgHASa1QhQu9SGscspSNl&id=61585655446351",
+      "facebookReel": "",
+      "status": "draft",
+      "sources": [
+        {
+          "name": "AMD, Taalas acquisition completion",
+          "url": "https://newsroom.amd.com/news/amd-completes-acquisition-taalas-advance-ai-inference-innovation/"
+        },
+        {
+          "name": "AMD, original World Labs agreement announcement, September 28, 2026",
+          "url": "https://newsroom.amd.com/news/amd-acquire-world-labs/"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://verti.ch/images/amd-ai-codesign-2026-models.webp",
+          "alt": {
+            "vi": "Sơ đồ minh họa mô hình và chip, thể hiện định hướng phối hợp đã được AMD công bố.",
+            "en": "Illustration of model and chip development, reflecting AMD’s announced direction."
+          },
+          "credit": "VERTI; original illustration based on the cited primary sources"
+        },
+        {
+          "src": "https://verti.ch/images/amd-ai-codesign-2026-timeline.webp",
+          "alt": {
+            "vi": "Các mốc thông báo thỏa thuận và hoàn tất giao dịch World Labs, Taalas.",
+            "en": "World Labs and Taalas agreement and completion milestones."
+          },
+          "credit": "VERTI; original illustration based on the cited primary sources"
+        }
+      ]
+    },
+    {
+      "slug": "riber-mbe6000-order-asia-2026",
+      "category": "frontier-tech",
+      "date": "2026-11-22",
+      "title": {
+        "vi": "RIBER nhận đơn hàng thiết bị MBE 6000 tại châu Á",
+        "en": "RIBER receives an Asian order for an MBE 6000 system"
+      },
+      "summary": {
+        "vi": "RIBER công bố đơn hàng ngày 19/11/2026 từ một khách hàng công nghiệp hiện hữu chưa được nêu tên. Thiết bị dự kiến giao trước cuối năm 2026.",
+        "en": "RIBER announced the order on November 19, 2026, from an unnamed existing industrial customer. Delivery is planned before year-end."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "1. Phục vụ linh kiện bán dẫn hợp chất",
+            "paragraphs": [
+              "Hệ thống epitaxy chùm phân tử, tức nuôi lớp tinh thể bằng chùm phân tử, dự kiến hỗ trợ linh kiện gallium arsenide (GaAs), gồm bộ chuyển mạch vô tuyến cho điện thoại, bóng bán dẫn tần số cao và điốt quang nhiễu thấp."
+            ]
+          },
+          {
+            "heading": "2. Đơn hàng chưa đồng nghĩa đã vận hành",
+            "paragraphs": [
+              "Thông báo xác nhận đơn hàng, chưa xác nhận lắp đặt hay sản lượng thực tế. Những tuyên bố về hiệu năng thiết bị là thông tin của doanh nghiệp."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "1. Compound semiconductor components",
+            "paragraphs": [
+              "The molecular beam epitaxy system, which grows crystalline layers using molecular beams, is intended for gallium arsenide (GaAs) components including mobile radio-frequency switches, high-frequency transistors and low-noise photodiodes."
+            ]
+          },
+          {
+            "heading": "2. An order is not an operating line",
+            "paragraphs": [
+              "The announcement confirms an order, not installation or actual output. Equipment performance claims are the company’s statements."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "RIBER, November 19, 2026",
+        "url": "https://www.riber.com/financial_documents/riber-secures-an-order-in-asia-for-an-mbe-6000-production-system/"
+      },
+      "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid0LckcXez74czpZ3TqfYrV9HSKD3PgR4ASodw7QSd5eCtymZYfLiKdb3FWobU6hvyxl&id=61585655446351",
+      "facebookReel": "",
+      "status": "draft",
+      "sources": [
+        {
+          "name": "RIBER, explanation of molecular beam epitaxy",
+          "url": "https://www.riber.com/"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://verti.ch/images/riber-mbe6000-2026-epitaxy.webp",
+          "alt": {
+            "vi": "Minh họa nguyên lý nuôi lớp tinh thể; không phải ảnh thiết bị MBE 6000 thật.",
+            "en": "Illustrative crystalline layer growth; not a photograph of the actual MBE 6000."
+          },
+          "credit": "VERTI; original illustration based on the cited primary sources"
+        },
+        {
+          "src": "https://verti.ch/images/riber-mbe6000-2026-order.webp",
+          "alt": {
+            "vi": "Phân biệt công bố đơn hàng, dự kiến giao và vận hành chưa xác nhận.",
+            "en": "Order announcement, planned delivery and unconfirmed operation are distinct stages."
+          },
+          "credit": "VERTI; original illustration based on the cited primary sources"
+        }
+      ]
     }
   ]
 }
