@@ -2268,6 +2268,91 @@
           "credit": "VERTI; original illustration based on NSF 27-502"
         }
       ]
+    },
+    {
+      "slug": "wipo-spark-deep-science-report-launch-november-2026",
+      "category": "wipo-news",
+      "date": "2026-11-22",
+      "title": {
+        "vi": "WIPO sẽ giới thiệu báo cáo sáng chế của startup khoa học ngày 26/11",
+        "en": "WIPO to launch its report on deep science startup patenting on November 26"
+      },
+      "summary": {
+        "vi": "Tổ chức Sở hữu trí tuệ thế giới (WIPO) tổ chức buổi giới thiệu trực tuyến báo cáo Technology SPARK về hoạt động sáng chế của startup và doanh nghiệp tách ra từ nghiên cứu khoa học. Sự kiện diễn ra ngày 26/11/2026, lúc 14:00–14:45 giờ Genève, tương đương 20:00–20:45 giờ Việt Nam.",
+        "en": "The World Intellectual Property Organization (WIPO) will hold an online launch of its Technology SPARK report on patenting in deep science startups and spinouts. The event takes place on November 26, 2026, from 14:00 to 14:45 Geneva time, equivalent to 20:00–20:45 in Viet Nam."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "1. Thời gian và đăng ký tham dự",
+            "paragraphs": [
+              "Buổi giới thiệu bằng tiếng Anh, theo giờ Genève CET, tức UTC+1. Người quan tâm đăng ký trực tiếp qua đường dẫn chính thức của WIPO; việc tham dự do đơn vị tổ chức xử lý.",
+              "Trang “Tin tức công nghệ - sở hữu trí tuệ - thương mại thế giới” chia sẻ thông tin về sự kiện, không phải đơn vị tổ chức hoặc đồng tổ chức và không đại diện WIPO."
+            ]
+          },
+          {
+            "heading": "2. Những câu hỏi báo cáo sẽ trình bày",
+            "paragraphs": [
+              "Theo thông báo WIPO ngày 12/11, báo cáo phân tích việc doanh nghiệp dựa trên nghiên cứu khoa học sử dụng sáng chế để bảo vệ đổi mới, tiếp cận đầu tư và mở rộng thị trường quốc tế. Dữ liệu ghép nối các startup khoa học có vốn đầu tư mạo hiểm trong bộ theo dõi Dealroom–WIPO với hồ sơ sáng chế toàn cầu.",
+              "Đây là báo cáo đồng hành với chuyên đề của Chỉ số đổi mới sáng tạo toàn cầu (GII) 2026. Nội dung được giới thiệu gồm khác biệt theo quốc gia, nhóm thu nhập, ngành và giai đoạn phát triển, cùng chiến lược sáng chế, chuyển giao công nghệ và sử dụng hệ thống Hiệp ước Hợp tác về sáng chế (PCT). Buổi trực tuyến có phần trình bày các phát hiện và hỏi đáp.",
+              "Bài này giới thiệu nội dung đã được WIPO công bố về sự kiện. Các kết quả cụ thể của báo cáo cần được đọc và đối chiếu khi tài liệu đầy đủ được công bố; không từ một thông báo ra mắt suy ra rằng sáng chế tự bảo đảm gọi vốn hoặc thương mại hóa thành công."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "1. Timing and registration",
+            "paragraphs": [
+              "The webinar is in English. Geneva uses CET, or UTC+1. Interested readers should register through WIPO’s official link; the organizer handles participation.",
+              "The “Technology, Intellectual Property and World Trade News” Page shares information about the event. It is neither the organizer nor a co-organizer and does not represent WIPO."
+            ]
+          },
+          {
+            "heading": "2. Questions the report will address",
+            "paragraphs": [
+              "WIPO’s November 12 announcement describes an analysis of how science-based ventures use patents to protect innovation, attract investment and expand internationally. The study matches venture-capital-backed firms in the Dealroom–WIPO Deep Science Startup Tracker with global patent data.",
+              "The publication accompanies the special theme of the Global Innovation Index (GII) 2026. Announced topics include differences between countries, income groups, industries and development stages, along with patenting strategies, technology transfer and use of the Patent Cooperation Treaty (PCT) System. The webinar includes a presentation of findings and questions and answers.",
+              "This article covers WIPO’s published event information. Specific findings require examination of the full report when available. A launch announcement alone does not establish that patents guarantee investment or successful commercialization."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "WIPO, November 12, 2026",
+        "url": "https://www.wipo.int/en/web/patent-analytics/w/news/2026/launch-of-the-wipo-technology-spark-report-on-patenting-in-deep-science-startups-and-spinouts"
+      },
+      "status": "draft",
+      "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid02t5m97DTjcaTb6FvpYUvgksJinxfK6uKBTUsagPDXN9LU61c8aqQELggs974jMbzHl&id=61585655446351",
+      "facebookReel": "",
+      "images": [
+        {
+          "src": "https://verti.ch/images/wipo-spark-2026-launch.webp",
+          "alt": {
+            "vi": "Thông tin webinar WIPO ngày 26/11/2026 với giờ Genève và Việt Nam.",
+            "en": "WIPO webinar on November 26, 2026, with Geneva and Viet Nam times."
+          },
+          "credit": "VERTI; original illustration based on the cited primary sources"
+        },
+        {
+          "src": "https://verti.ch/images/wipo-spark-2026-research-questions.webp",
+          "alt": {
+            "vi": "Phạm vi ghép dữ liệu startup khoa học và hồ sơ sáng chế được WIPO công bố.",
+            "en": "WIPO’s announced scope: linking science startup records with patent data."
+          },
+          "credit": "VERTI; original illustration based on the cited primary sources"
+        }
+      ],
+      "sources": [
+        {
+          "name": "WIPO official meeting information",
+          "url": "https://www.wipo.int/meetings/en/details.jsp?meeting_id=94828"
+        },
+        {
+          "name": "Official Zoom registration",
+          "url": "https://wipo-int.zoom.us/webinar/register/WN_i4sbvxwsR3qDwY3YVffVBg#/registration"
+        }
+      ],
+      "facebookEvent": "https://www.facebook.com/events/1683166053600897/"
     }
   ]
 }
