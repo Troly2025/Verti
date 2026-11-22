@@ -1705,6 +1705,238 @@
         }
       ],
       "editorialStatus": "Full verified bilingual report, annexes, reviewed illustrations and Facebook links retained. Draft awaiting staging and production integration verification."
+    },
+    {
+      "slug": "awake-plasma-electron-acceleration-2026",
+      "status": "draft",
+      "category": "future-research",
+      "date": "2026-11-21T21:54:19.987573+00:00",
+      "topic_id": "future_tech:awake-plasma-electron-acceleration-2026",
+      "title": {
+        "vi": "AWAKE: CERN đang giải bài toán gia tốc electron bằng sóng plasma như thế nào?",
+        "en": "AWAKE: How CERN is tackling electron acceleration with plasma waves"
+      },
+      "summary": {
+        "vi": "Thay vì chỉ tăng chiều dài máy gia tốc, thí nghiệm AWAKE tại CERN nghiên cứu cách cho electron nhận năng lượng từ sóng trong plasma. Lộ trình nghiên cứu công bố tại hội nghị ICHEP 2026 đặt trọng tâm vào chất lượng chùm hạt và khả năng mở rộng; đó vẫn là mục tiêu cần chứng minh.",
+        "en": "Rather than simply making accelerators longer, CERN's AWAKE experiment investigates transferring energy to electrons through waves in plasma. Its research roadmap presented at ICHEP 2026 focuses on beam quality and scalability. These remain experimental objectives to demonstrate."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "1. Chùm proton tạo sóng, electron nhận năng lượng",
+            "paragraphs": [
+              "Plasma là trạng thái vật chất có các electron tự do. Trong AWAKE, chùm proton đi qua plasma tạo ra điện trường biến thiên; electron được đưa vào đúng vùng của sóng để tăng năng lượng. Hai chùm hạt có vai trò khác nhau: proton là chùm dẫn động, electron là chùm được gia tốc.",
+              "Điểm hấp dẫn là điện trường mạnh có thể giúp đạt năng lượng cao trong khoảng cách ngắn. Tuy nhiên, chiều dài vùng plasma không phải chiều dài toàn bộ cơ sở: hệ thống vẫn cần nguồn proton, nguồn electron, nam châm, thiết bị chẩn đoán và hạ tầng phụ trợ."
+            ]
+          },
+          {
+            "heading": "2. Kết quả đã đo được từ năm 2018",
+            "paragraphs": [
+              "Công trình đăng trên Nature năm 2018 ghi nhận electron đạt 2,0 ± 0,1 GeV trong vùng plasma dài 10 mét. GeV là một tỷ electronvôn, đơn vị năng lượng của hạt; đây không phải công suất máy. Chùm proton dẫn động có năng lượng 400 GeV cho mỗi proton.",
+              "Kết quả cao nhất phụ thuộc mật độ plasma và độ biến thiên mật độ dọc nguồn. Bài báo cũng nêu sự đánh đổi: ở mật độ cao hơn, điện tích electron được bắt giữ giảm. Vì vậy, không thể lấy riêng mức năng lượng để kết luận hệ thống đã đáp ứng yêu cầu của một máy va chạm hạt."
+            ]
+          },
+          {
+            "heading": "3. Nâng cấp để kiểm soát chất lượng và mở rộng",
+            "paragraphs": [
+              "Thông báo CERN ngày 12/8/2025 mô tả phương án hai nguồn plasma: nguồn đầu điều biến chùm proton; nguồn sau gia tốc electron được tiêm từ bên ngoài. Mức 4–10 GeV trên 10 mét được trình bày là đích của cấu hình nâng cấp.",
+              "Tóm tắt khoa học ICHEP 2026 tiếp tục nêu chương trình dự kiến bắt đầu năm 2029, hướng tới 10 GeV trong nguồn 10 mét, sau đó kiểm tra nguồn dài 20 mét. Cần đọc các con số này như lộ trình thí nghiệm, không phải kết quả vận hành đã hoàn thành."
+            ]
+          },
+          {
+            "heading": "4. Cần theo dõi điều gì ngoài năng lượng?",
+            "paragraphs": [
+              "Phân tích của Trang: tiến bộ có ý nghĩa phải đồng thời thể hiện ở độ phân tán năng lượng, điện tích và chất lượng chùm electron, độ ổn định qua nhiều lần bắn, cùng khả năng kéo dài vùng gia tốc. Gradient cao là một lợi thế kỹ thuật; khả năng tạo ra chùm hạt sử dụng được mới quyết định ứng dụng.",
+              "Ảnh: CERN, ảnh tư liệu AWAKE; sơ đồ do Trang biên soạn từ nguồn công khai, không theo tỷ lệ."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "1. Protons drive the wave; electrons gain energy",
+            "paragraphs": [
+              "Plasma contains free electrons. In AWAKE, a proton bunch travelling through plasma generates varying electric fields. Electrons injected into a suitable part of the wave gain energy. The proton bunch drives the process; the electron bunch is accelerated.",
+              "Strong fields could deliver high particle energies over short distances. However, the plasma section's length is not the length of the entire facility: proton and electron sources, magnets, diagnostics and supporting infrastructure are still required."
+            ]
+          },
+          {
+            "heading": "2. What was measured in 2018",
+            "paragraphs": [
+              "The 2018 Nature paper reported electrons reaching 2.0 ± 0.1 GeV in a ten-metre plasma. A GeV is one billion electronvolts, a unit of particle energy, rather than machine power. Each drive proton had an energy of 400 GeV.",
+              "The highest measured energy depended on the plasma density and its longitudinal gradient. The paper also identified a trade-off: captured electron charge fell at higher densities. Energy alone therefore does not establish that the system meets a particle collider's requirements."
+            ]
+          },
+          {
+            "heading": "3. Upgrading for beam quality and scale",
+            "paragraphs": [
+              "CERN's 12 August 2025 announcement described a two-plasma-source upgrade: the first modulates the proton bunch, while the second accelerates externally injected electrons. Its 4–10 GeV over ten metres was an upgrade target.",
+              "The ICHEP 2026 abstract describes a programme planned to start in 2029, targeting up to 10 GeV in a ten-metre source, followed by a twenty-metre source to investigate scalability. These are research milestones, rather than completed operating results."
+            ]
+          },
+          {
+            "heading": "4. What matters beyond energy?",
+            "paragraphs": [
+              "The Page's analysis: useful progress must also address energy spread, captured charge, electron-beam quality, shot-to-shot stability and the ability to extend acceleration distances. A high gradient is an engineering advantage; producing a usable beam determines its applications.",
+              "Images: CERN, historical AWAKE photographs; original explanatory schematic based on public sources, not to scale."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "CERN / AWAKE",
+        "url": "https://indico.cern.ch/event/1522800/contributions/6986588/"
+      },
+      "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid02UohuSbnhGfx3wUZei4jKs2K8CuUiCymopJUDPxWJUAkwR6KsySUozUNSbSfqPYbql&id=61585655446351",
+      "facebookReel": "",
+      "images": [
+        {
+          "src": "https://verti.ch/images/awake-plasma-electron-acceleration-2026-0.webp",
+          "alt": {
+            "vi": "Nguồn plasma AWAKE, ảnh tư liệu CERN",
+            "en": "AWAKE plasma source, historical CERN photograph"
+          },
+          "credit": "CERN; informational use per CERN Audiovisual Media Terms"
+        },
+        {
+          "src": "https://verti.ch/images/awake-plasma-electron-acceleration-2026-1.webp",
+          "alt": {
+            "vi": "Đường chùm hạt AWAKE, ảnh tư liệu CERN",
+            "en": "AWAKE beamline, historical CERN photograph"
+          },
+          "credit": "CERN; informational use per CERN Audiovisual Media Terms"
+        },
+        {
+          "src": "https://verti.ch/images/awake-plasma-electron-acceleration-2026-2.webp",
+          "alt": {
+            "vi": "Sơ đồ nguyên lý proton tạo sóng plasma để gia tốc electron, không theo tỷ lệ",
+            "en": "Schematic of proton-driven plasma electron acceleration, not to scale"
+          },
+          "credit": "Original explanatory graphic based on cited public sources; not a photograph"
+        }
+      ],
+      "editorialStatus": "Verified bilingual Facebook article retained as draft pending authenticated Cloudflare integration and staging verification. Reel narration pending."
+    },
+    {
+      "slug": "ai-gigafactories-europe-public-private-model-2026",
+      "status": "draft",
+      "category": "cooperation",
+      "date": "2026-11-21T22:02:10.196933+00:00",
+      "topic_id": "future_cooperation_models:ai-gigafactories-europe-public-private-model-2026",
+      "title": {
+        "vi": "AI Gigafactories châu Âu: Khi Nhà nước mua năng lực tính toán để thu hút đầu tư tư nhân",
+        "en": "Europe's AI Gigafactories: Public purchases of computing services as an anchor for private investment"
+      },
+      "summary": {
+        "vi": "Liên doanh Điện toán hiệu năng cao châu Âu (EuroHPC JU) đang lựa chọn các liên danh xây dựng và vận hành cơ sở tính toán AI quy mô lớn. Điểm đáng chú ý của mô hình là Nhà nước mua trước quyền sử dụng dịch vụ tính toán, đồng thời đặt điều kiện về quản trị, vị trí hạ tầng và quyền tiếp cận.",
+        "en": "The European High Performance Computing Joint Undertaking (EuroHPC JU) is selecting consortia to build and operate large AI computing facilities. The model combines public purchases of computing access with conditions on governance, infrastructure location and user access."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "1. Một cơ sở, nhiều nguồn lực bổ sung cho nhau",
+            "paragraphs": [
+              "Theo Quy định EU 2026/150, một AI Gigafactory kết hợp năng lực tính toán tối ưu cho trí tuệ nhân tạo, lưu trữ, mạng tốc độ cao, truy cập đám mây an toàn và dịch vụ hỗ trợ. Liên danh hoặc pháp nhân dự án tổ chức đầu tư và vận hành; EuroHPC cùng các cơ quan quốc gia tham gia mua dịch vụ.",
+              "Tài liệu mời thầu ngày 23/10/2026 cho thấy đối tượng mua không chỉ là số giờ sử dụng chip. Các cơ quan công quyền yêu cầu gói dịch vụ để phát triển, huấn luyện, tinh chỉnh và triển khai mô hình, cùng phần mềm, quản lý và mức chất lượng dịch vụ tương ứng."
+            ]
+          },
+          {
+            "heading": "2. Vốn công gắn với quyền sử dụng, tư nhân chịu phần đầu tư còn lại",
+            "paragraphs": [
+              "Khung pháp lý cho phép đóng góp EU tới 17% chi phí đầu tư hạ tầng tính toán, hoặc mua trước quyền sử dụng có giá trị tương đương. Các nước tham gia phải ít nhất đối ứng phần EU; liên danh chịu phần đầu tư còn lại và chi phí vận hành. Tỷ lệ này không có nghĩa ngân sách công thanh toán toàn bộ trung tâm dữ liệu.",
+              "Quyền sử dụng của EU và các nước gắn với mức đóng góp. Hợp đồng khung đặt điều kiện chung; các hợp đồng cụ thể xác định dịch vụ và ngân sách. Đặt hàng công dài hạn vì thế tạo một phần nhu cầu ban đầu, nhưng chưa chứng minh dự án đã huy động đủ vốn hoặc kinh doanh có lãi."
+            ]
+          },
+          {
+            "heading": "3. Phân tán địa điểm, thống nhất quản trị",
+            "paragraphs": [
+              "Mô hình cho phép đặt nhiều cơ sở tại một hoặc nhiều nước EU, song yêu cầu vận hành như một thực thể kỹ thuật tích hợp với kết nối tốc độ cao và trách nhiệm rõ ràng. Bên điều phối phải đáp ứng điều kiện thành lập và kiểm soát tại EU.",
+              "Ngoài quyền tự chủ vận hành của liên danh, cơ quan quản trị công có quyền phê duyệt trước những thay đổi quan trọng về kiểm soát, sở hữu, mục đích chiến lược và một số thỏa thuận tiếp cận với bên ngoài EU. Quyền tham gia, quyền vận hành và quyền dùng máy là các vấn đề khác nhau, không thể suy từ một quyền ra tất cả các quyền còn lại."
+            ]
+          },
+          {
+            "heading": "4. Ranh giới quốc gia vẫn là điều kiện vận hành",
+            "paragraphs": [
+              "Phân tích của Trang: hợp tác này giúp các nước và doanh nghiệp kết hợp vốn, chip, điện, hạ tầng và đầu ra dịch vụ. Tuy nhiên, kết nối xuyên biên giới không xóa yêu cầu về chủ quyền dữ liệu, pháp luật sở tại, điện năng, nước làm mát và kiểm soát nhà cung cấp. Đây là cơ chế tổ chức dự án và thị trường tính toán; các văn bản đã đọc không cho thấy nó thay thế chức năng của WTO hoặc các diễn đàn đa phương.",
+              "Việc thành công cần được đánh giá bằng hạ tầng thực sự vận hành, chất lượng và mức sử dụng dịch vụ, chi phí, khả năng tiếp cận của doanh nghiệp nhỏ và hiệu quả năng lượng. Thông báo lựa chọn nhà đầu tư hoặc mục tiêu công suất chưa phải bằng chứng các kết quả ấy đã đạt."
+            ]
+          },
+          {
+            "heading": "5. Cập nhật thủ tục phải theo thông báo hiện hành",
+            "paragraphs": [
+              "Trang mời thầu cập nhật ngày 5/11/2026 ghi hạn của Lot 1 là 17:00 ngày 4/2/2027 và Lot 2 là 17:00 ngày 3/12/2026, múi giờ Europe/Luxembourg. Thông báo đồng thời yêu cầu tạo lại và nộp lại cả hồ sơ nháp lẫn hồ sơ đã nộp qua các liên kết mới vì lý do kỹ thuật. Hạn 12/11 trong thông cáo tháng 7 và bản tài liệu tháng 10 không còn là mốc hiện hành."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "1. Combining complementary resources",
+            "paragraphs": [
+              "Council Regulation (EU) 2026/150 defines an AI Gigafactory as computing infrastructure integrating AI processing, storage, high-speed networking, secure cloud access and specialised support. A consortium or project company develops and operates the facility; EuroHPC and national authorities purchase services.",
+              "The 23 October 2026 tender specifications seek more than unmanaged chip-hours. Public buyers require services supporting model development, training, fine-tuning and deployment, including software, management and service-level commitments."
+            ]
+          },
+          {
+            "heading": "2. Public contributions purchase access; consortia fund the remainder",
+            "paragraphs": [
+              "The regulation permits an EU contribution of up to 17% of computing-infrastructure capital expenditure, or an equivalent guaranteed purchase of access. Participating states must at least match that contribution. The consortium covers the remaining investment and operating expenditure. This does not mean public budgets pay for an entire data centre.",
+              "Public access rights are proportional to contributions. Framework contracts establish general conditions; specific contracts set services and budgets. Long-term public purchasing can anchor initial demand, but does not establish that financing is secured or a project will be profitable."
+            ]
+          },
+          {
+            "heading": "3. Distributed sites with integrated governance",
+            "paragraphs": [
+              "Facilities may span sites in one or several EU countries, while operating as an integrated technical entity with high-speed connections and defined responsibilities. Coordinators must satisfy EU establishment and control requirements.",
+              "Alongside consortia's operational autonomy, a public governance body must approve important changes in control, ownership or strategic purpose, and certain access agreements involving third-country entities. Eligibility to participate, authority to operate and access to computing are distinct questions."
+            ]
+          },
+          {
+            "heading": "4. Borders remain operationally significant",
+            "paragraphs": [
+              "The Page's analysis: this arrangement pools capital, chips, energy, infrastructure and demand. Cross-border connectivity nevertheless retains constraints involving data sovereignty, jurisdiction, power, cooling water and supplier control. The documents describe a project and computing-market mechanism; they do not establish that it replaces WTO or other multilateral functions.",
+              "Success requires operating infrastructure, service quality and utilisation, competitive costs, SME access and energy efficiency. Announced capacity or an investment-selection process is not evidence that these outcomes have been achieved."
+            ]
+          },
+          {
+            "heading": "5. Follow the current procedural notice",
+            "paragraphs": [
+              "The call page updated on 5 November 2026 lists 4 February 2027, 17:00 for Lot 1 and 3 December 2026, 17:00 for Lot 2, in Europe/Luxembourg time. It also requires recreating and resubmitting both draft and submitted tenders through new links for technical reasons. The 12 November deadline in earlier materials is superseded."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "EuroHPC JU / Official Journal of the EU",
+        "url": "https://www.eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en"
+      },
+      "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid02sBLhvhYpAAnufvQTt5qEZQrMqW9PCG2yKojxCBtAPcqZPHaT8vknmNkJB6sRRDp3l&id=61585655446351",
+      "facebookReel": "",
+      "images": [
+        {
+          "src": "https://verti.ch/images/ai-gigafactories-europe-public-private-model-2026-0.webp",
+          "alt": {
+            "vi": "Minh họa cơ sở tính toán AI, không phải ảnh một dự án đã xây dựng",
+            "en": "Illustration of an AI computing facility, not an existing project photograph"
+          },
+          "credit": "Original explanatory graphic based on cited public sources; not a photograph"
+        },
+        {
+          "src": "https://verti.ch/images/ai-gigafactories-europe-public-private-model-2026-1.webp",
+          "alt": {
+            "vi": "Sơ đồ đóng góp công và tư trong AI Gigafactories",
+            "en": "Diagram of public and private contributions to AI Gigafactories"
+          },
+          "credit": "Original explanatory graphic based on cited public sources; not a photograph"
+        },
+        {
+          "src": "https://verti.ch/images/ai-gigafactories-europe-public-private-model-2026-2.webp",
+          "alt": {
+            "vi": "Sơ đồ nhiều địa điểm vận hành như một thực thể tích hợp",
+            "en": "Diagram of multiple sites operating as an integrated entity"
+          },
+          "credit": "Original explanatory graphic based on cited public sources; not a photograph"
+        }
+      ],
+      "editorialStatus": "Verified bilingual Facebook article retained as draft pending authenticated Cloudflare integration and staging verification. Reel narration pending."
     }
   ]
 }
