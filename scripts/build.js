@@ -138,6 +138,7 @@ function build() {
     const figures=(a.images||[]).map(img=>'<figure><img loading="lazy" src="'+escape(safeUrl(img.src))+'" alt="'+escape(img.alt[lang])+'"><figcaption>'+s.imageCredit+': '+escape(img.credit)+'</figcaption></figure>').join("");
     const paragraphs=(a.body[lang]||[]).map(sec=>'<section class="article-section">'+(sec.heading?'<h2>'+escape(sec.heading)+'</h2>':'')+(sec.paragraphs||[]).map(p=>'<p>'+escape(p)+'</p>').join("")+'</section>').join("");
     const links='<aside class="source"><h2>'+s.source+'</h2><a rel="noopener noreferrer" target="_blank" href="'+safeUrl(a.source.url)+'">'+escape(a.source.name)+' ↗</a>'+
+      (a.sources||[]).filter(src=>src.url!==a.source.url).map(src=>'<a rel="noopener noreferrer" target="_blank" href="'+safeUrl(src.url)+'">'+escape(src.name)+' ↗</a>').join("")+
       (a.facebookPost?'<a rel="noopener noreferrer" target="_blank" href="'+safeUrl(a.facebookPost)+'">'+s.fb+' ↗</a>':'')+
       (a.facebookReel?'<a rel="noopener noreferrer" target="_blank" href="'+safeUrl(a.facebookReel)+'">'+s.reel+' ↗</a>':'')+'</aside>';
     const json = JSON.stringify({"@context":"https://schema.org","@type":"NewsArticle",headline:a.title[lang],datePublished:a.date,description:a.summary[lang],mainEntityOfPage:site.origin+uri,isAccessibleForFree:true,author:{"@type":"Organization",name:"VERTI"},publisher:{"@type":"Organization",name:"VERTI"},citation:a.source.url}).replace(/</g,"\\u003c");
@@ -152,6 +153,7 @@ function build() {
   fs.rmSync(out,{recursive:true,force:true}); fs.mkdirSync(out,{recursive:true});
   fs.copyFileSync(path.join(root,"src/style.css"),path.join(out,"style.css"));
   fs.copyFileSync(path.join(root,"src/favicon.svg"),path.join(out,"favicon.svg"));
+  if (fs.existsSync(path.join(root,"src/images"))) fs.cpSync(path.join(root,"src/images"),path.join(out,"images"),{recursive:true});
   for (const lang of langs) {
     const pre=lang==="vi"?"":"en/";
     write(pre+"index.html",home(lang));
@@ -167,3 +169,4 @@ function build() {
   console.log("VERTI: built "+published.length+" verified published stories in VI and EN; total output pages "+urls.length);
 }
 build();
+
