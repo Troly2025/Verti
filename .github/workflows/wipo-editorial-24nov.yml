@@ -1,0 +1,40 @@
+name: Publish approved WIPO editorial run on Facebook
+on:
+  push:
+    branches: [main]
+    paths: ['.github/releases/wipo-editorial-24nov.json']
+permissions:
+  contents: read
+concurrency:
+  group: verti-facebook-manual-publication
+  cancel-in-progress: false
+jobs:
+  facebook:
+    if: >-
+      github.repository == 'Troly2025/Verti' &&
+      github.ref == 'refs/heads/main' &&
+      github.event.before == '517b111afc183aa20e475254a90e1a22ed57bcd0' &&
+      github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    environment: facebook-production
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Verify exact one-shot manifest and assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          base=517b111afc183aa20e475254a90e1a22ed57bcd0
+          test "$(git rev-parse HEAD^)" = "$base"
+          test "$(git rev-list --parents -n 1 HEAD | wc -w)" -eq 2
+          diff -u <(printf '%s\n' '.github/releases/wipo-editorial-24nov.json' '.github/workflows/wipo-editorial-24nov.yml' 'scripts/wipo-editorial-24nov.py' 'wipo-editorial-24nov/batch.json' 'wipo-editorial-24nov/canada-nop-don-pct-qua-epct/canada-nop-don-pct-qua-epct.mp4' 'wipo-editorial-24nov/canada-nop-don-pct-qua-epct/canada-nop-don-pct-qua-epct.png' 'wipo-editorial-24nov/eic-luong-tu-do-dien-toan-he-thong/eic-luong-tu-do-dien-toan-he-thong.mp4' 'wipo-editorial-24nov/eic-luong-tu-do-dien-toan-he-thong/eic-luong-tu-do-dien-toan-he-thong.png' 'wipo-editorial-24nov/esa-bay-ve-tinh-quan-sat-plasma-2026/esa-bay-ve-tinh-quan-sat-plasma-2026.mp4' 'wipo-editorial-24nov/esa-bay-ve-tinh-quan-sat-plasma-2026/esa-bay-ve-tinh-quan-sat-plasma-2026.png' 'wipo-editorial-24nov/nacentech-swiss-ep-chuyen-gia-dong-hanh/nacentech-swiss-ep-chuyen-gia-dong-hanh.mp4' 'wipo-editorial-24nov/nacentech-swiss-ep-chuyen-gia-dong-hanh/nacentech-swiss-ep-chuyen-gia-dong-hanh.png' 'wipo-editorial-24nov/wipo-2026-3-9-trieu-don-sang-che/wipo-2026-3-9-trieu-don-sang-che.mp4' 'wipo-editorial-24nov/wipo-2026-3-9-trieu-don-sang-che/wipo-2026-3-9-trieu-don-sang-che.png' 'wipo-editorial-24nov/wipo-doi-thoai-tai-chinh-tai-san-vo-hinh-2026/wipo-doi-thoai-tai-chinh-tai-san-vo-hinh-2026.mp4' 'wipo-editorial-24nov/wipo-doi-thoai-tai-chinh-tai-san-vo-hinh-2026/wipo-doi-thoai-tai-chinh-tai-san-vo-hinh-2026.png' 'wipo-editorial-24nov/wto-brazil-de-nghi-ban-hoi-tham-ds646/wto-brazil-de-nghi-ban-hoi-tham-ds646.mp4' 'wipo-editorial-24nov/wto-brazil-de-nghi-ban-hoi-tham-ds646/wto-brazil-de-nghi-ban-hoi-tham-ds646.png') <(git diff --no-renames --diff-filter=A --name-only "$base" HEAD)
+          test "$(git diff --name-only "$base" HEAD | wc -l)" -eq 18
+          python3 -I scripts/wipo-editorial-24nov.py --check
+      - name: Publish one exact reviewed bundle per eligible new source
+        env:
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+        run: python3 -I scripts/wipo-editorial-24nov.py
