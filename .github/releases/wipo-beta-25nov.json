@@ -1,0 +1,29 @@
+{
+  "base": "0f6333726641fd48efd4ef4eb39fecee1df2b5fa",
+  "sha256": {
+    ".github/workflows/wipo-beta-25nov.yml": "33f13422c8fc8c05b78c2f0a3ffa67c14d7d8435a18436367320fca718076228",
+    "beta-25nov/anh-thuy-si-dong-tai-tro-rd-2026/anh-thuy-si-dong-tai-tro-rd-2026.mp4": "a829d7a3cda6290e9772600e8dfeea436fa8a433d217d5caba2bc27c6fba4c68",
+    "beta-25nov/anh-thuy-si-dong-tai-tro-rd-2026/anh-thuy-si-dong-tai-tro-rd-2026.png": "1ee1a2a807e9499a68872a33c0390d12af22d49f610ebf895fd7e5b85d97f2a5",
+    "beta-25nov/baseline-articles.json": "ed08aa982012729d0966eb5250c5a66eccfc9449e69979fe0fc064fd4352cb0b",
+    "beta-25nov/batch.json": "4b4f7fbcf839aef3f52ba86b1efe530ee9d1caa12cf8de3c264e600d9252d047",
+    "beta-25nov/esa-rome-huong-nghien-cuu-tham-hiem/esa-rome-huong-nghien-cuu-tham-hiem.mp4": "0747d949a35202b887e3f67cc2112a3c9823f0c31d7f903676dac7728783a8ec",
+    "beta-25nov/esa-rome-huong-nghien-cuu-tham-hiem/esa-rome-huong-nghien-cuu-tham-hiem.png": "94a8585b951d441b59c35f8df2bd6250537db4e898a05fb1137df145a29fec1f",
+    "beta-25nov/google-lean-mach-luong-tu-2026/google-lean-mach-luong-tu-2026.mp4": "6b4087bbe5c56efdfbf7b036013ccd6f6705fc30cba583026d8f3b5eeff2398d",
+    "beta-25nov/google-lean-mach-luong-tu-2026/google-lean-mach-luong-tu-2026.png": "49fa3bffa1d91efd796ae303f852bc28db8a15878d28a30ac4efd7bafc2dc36f",
+    "beta-25nov/wipo-nha-sang-che-nu-chien-luoc-ip/wipo-nha-sang-che-nu-chien-luoc-ip.mp4": "457df47d928f39e5f5386ada967376a21c73553299b7d113be4f7377b5d2855e",
+    "beta-25nov/wipo-nha-sang-che-nu-chien-luoc-ip/wipo-nha-sang-che-nu-chien-luoc-ip.png": "b19a036d12f17efa0b3ae3940adc82ffef9e64a50187c357e5b13b6d00d6df5e",
+    "beta-25nov/wipo-trinidad-tobago-kinh-te-sang-tao/wipo-trinidad-tobago-kinh-te-sang-tao.mp4": "ef4ad2a0787334e4d921eb7e58a0f37ba1de76dae8f4366afd1d200a32a5f18b",
+    "beta-25nov/wipo-trinidad-tobago-kinh-te-sang-tao/wipo-trinidad-tobago-kinh-te-sang-tao.png": "4e2e963898925072a5f8b3da55c6e09a789bb2ff9e416a25a9fcd3d87b98516c",
+    "beta-25nov/wto-amis-gia-gao-ngu-coc-2026/wto-amis-gia-gao-ngu-coc-2026.mp4": "ce78dfbeddb681223245f8fc4045f4c42b0a094b30b9bfb0649559353dc2e936",
+    "beta-25nov/wto-amis-gia-gao-ngu-coc-2026/wto-amis-gia-gao-ngu-coc-2026.png": "ce8c6728190277e3422db6eb641d405247ee5d2ca65d49d0379efdf2fe122c6b",
+    "content/articles.json": "e5dc31b309a0d2f0f173150ce1c0d5816b3d7cfc04e9ec886ee2d228ee707553",
+    "scripts/wipo-beta-25nov.py": "4e6e1dae477524bb313b4bca168fc990183d40cf9be6dc086e1dc2142617fb57",
+    "src/images/anh-thuy-si-dong-tai-tro-rd-2026.png": "1ee1a2a807e9499a68872a33c0390d12af22d49f610ebf895fd7e5b85d97f2a5",
+    "src/images/esa-rome-huong-nghien-cuu-tham-hiem.png": "94a8585b951d441b59c35f8df2bd6250537db4e898a05fb1137df145a29fec1f",
+    "src/images/google-lean-mach-luong-tu-2026.png": "49fa3bffa1d91efd796ae303f852bc28db8a15878d28a30ac4efd7bafc2dc36f",
+    "src/images/wipo-nha-sang-che-nu-chien-luoc-ip.png": "b19a036d12f17efa0b3ae3940adc82ffef9e64a50187c357e5b13b6d00d6df5e",
+    "src/images/wipo-trinidad-tobago-kinh-te-sang-tao.png": "4e2e963898925072a5f8b3da55c6e09a789bb2ff9e416a25a9fcd3d87b98516c",
+    "src/images/wto-amis-gia-gao-ngu-coc-2026.png": "ce8c6728190277e3422db6eb641d405247ee5d2ca65d49d0379efdf2fe122c6b"
+  },
+  "dist_sha256": "c5faaf55c15ded8fe561bbb9777b5cd0e576984179ab913338f6ca6930ff2b62"
+}
