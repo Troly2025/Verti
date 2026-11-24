@@ -42,7 +42,7 @@ Edit `content/articles.json` in GitHub. Add **one article object** according to 
 - Vietnamese: `https://verti.ch/articles/<slug>/`
 - English: `https://verti.ch/en/articles/<slug>/`
 
-Every article must have title, summary and body in both languages, a genuine original source URL, original publication date and an appropriate category. Images must be licensed/approved, with bilingual alt text and credits.
+Every article must have title, summary and body in both languages, a genuine original source URL, original publication date and an appropriate category. Images must be licensed/approved, with bilingual alt text and credits. Put local files under `src/images/` and reference them as `/images/<name>.<extension>`. The build copies only local images used by published articles and stops if one is missing. Use simple ASCII letters, digits, dashes or underscores in each local path segment.
 
 ### Article object example — DRAFT ONLY
 
@@ -81,6 +81,7 @@ Requires Node.js 18+.
 
 ```bash
 npm run build
+npm test
 ```
 
 The build outputs static assets in `dist/`, including `/en/`, `/archive/`, article routes, `robots.txt`, `sitemap.xml` and `rss.xml`.

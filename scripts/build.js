@@ -29,6 +29,18 @@ function build() {
   };
   const published = [];
   const used = new Set();
+  const localImages = new Set();
+  function localImagePath(src) {
+    if (!src.startsWith("/")) return null;
+    const url = new URL(src, "https://verti.ch");
+    const relative = decodeURIComponent(url.pathname).slice(1);
+    if (url.origin !== "https://verti.ch" ||
+        !/^images\/(?:[A-Za-z0-9_-]+\/)*[A-Za-z0-9_-]+\.[A-Za-z0-9]+$/.test(relative) ||
+        !src.startsWith("/images/")) {
+      throw new Error("Invalid local article image path: " + src);
+    }
+    return relative;
+  }
   for (const a of entries) {
     if (a.status !== "published") continue;
     if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(a.slug || "")) throw new Error("Invalid article slug: " + a.slug);
@@ -42,7 +54,18 @@ function build() {
     safeUrl(a.source.url);
     if (a.facebookPost) safeUrl(a.facebookPost);
     if (a.facebookReel) safeUrl(a.facebookReel);
-    for (const img of a.images || []) { safeUrl(img.src); if (!img.alt?.vi || !img.alt?.en || !img.credit) throw new Error("Image alt/credit missing: "+a.slug); }
+    for (const img of a.images || []) {
+      const src = safeUrl(img.src);
+      if (!img.alt?.vi || !img.alt?.en || !img.credit) throw new Error("Image alt/credit missing: " + a.slug);
+      const relative = localImagePath(src);
+      if (relative) {
+        const file = path.join(root, "src", relative);
+        if (!fs.existsSync(file) || !fs.statSync(file).isFile()) {
+          throw new Error("Missing local article image for " + a.slug + ": " + relative);
+        }
+        localImages.add(relative);
+      }
+    }
     published.push(a);
   }
   published.sort((a,b) => new Date(b.date) - new Date(a.date));
@@ -141,7 +164,8 @@ function build() {
       (a.facebookPost?'<a rel="noopener noreferrer" target="_blank" href="'+safeUrl(a.facebookPost)+'">'+s.fb+' ↗</a>':'')+
       (a.facebookReel?'<a rel="noopener noreferrer" target="_blank" href="'+safeUrl(a.facebookReel)+'">'+s.reel+' ↗</a>':'')+'</aside>';
     const json = JSON.stringify({"@context":"https://schema.org","@type":"NewsArticle",headline:a.title[lang],datePublished:a.date,description:a.summary[lang],mainEntityOfPage:site.origin+uri,isAccessibleForFree:true,author:{"@type":"Organization",name:"VERTI"},publisher:{"@type":"Organization",name:"VERTI"},citation:a.source.url}).replace(/</g,"\\u003c");
-    return h(a.title[lang],a.summary[lang],lang,uri,"article",a.images?.[0]?.src)+
+    const image = a.images?.[0]?.src;
+    return h(a.title[lang], a.summary[lang], lang, uri, "article", image ? new URL(image, site.origin).href : "")+
       header(lang,articlePath(a,"vi"),articlePath(a,"en"))+
       '<main id="main" class="shell article-shell"><nav class="breadcrumbs" aria-label="Breadcrumbs"><a href="'+prefix(lang)+'">'+s.home+'</a> / '+escape(cat.name[lang])+'</nav>'+
       '<p class="eyebrow">'+escape(cat.label)+' / '+s.published+' '+dateOnly(a.date,lang)+'</p><h1 class="page-title">'+escape(a.title[lang])+'</h1><p class="page-lead">'+escape(a.summary[lang])+'</p>'+
@@ -152,6 +176,10 @@ function build() {
   fs.rmSync(out,{recursive:true,force:true}); fs.mkdirSync(out,{recursive:true});
   fs.copyFileSync(path.join(root,"src/style.css"),path.join(out,"style.css"));
   fs.copyFileSync(path.join(root,"src/favicon.svg"),path.join(out,"favicon.svg"));
+  for (const relative of localImages) {
+    fs.mkdirSync(path.dirname(path.join(out, relative)), {recursive:true});
+    fs.copyFileSync(path.join(root, "src", relative), path.join(out, relative));
+  }
   for (const lang of langs) {
     const pre=lang==="vi"?"":"en/";
     write(pre+"index.html",home(lang));

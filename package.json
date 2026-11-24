@@ -5,6 +5,7 @@
   "description": "Bilingual VI/EN news website for verti.ch",
   "scripts": {
     "build": "node scripts/build.js",
+    "test": "node scripts/test-build.js",
     "deploy": "npm run build && wrangler deploy"
   },
   "devDependencies": {
