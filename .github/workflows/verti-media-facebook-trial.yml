@@ -1,0 +1,44 @@
+name: Publish one VERTI Facebook media trial
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/releases/verti-media-facebook-trial.json']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verti-facebook-manual-publication
+  cancel-in-progress: false
+
+jobs:
+  facebook:
+    if: >-
+      github.repository == 'Troly2025/Verti' &&
+      github.ref == 'refs/heads/main' &&
+      github.event.before == 'ecd09d0db8d80642370aa1e8cc465193bea08605' &&
+      github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    environment: facebook-production
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Verify one-shot release assets without accessing credentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          base=ecd09d0db8d80642370aa1e8cc465193bea08605
+          test "$(git rev-parse HEAD^)" = "$base"
+          test "$(git rev-list --parents -n 1 HEAD | wc -w)" -eq 2
+          diff -u <(printf '%s\n' '.github/releases/verti-media-facebook-trial.json' '.github/workflows/verti-media-facebook-trial.yml' 'media-trial/wipo-luat-sang-che-1.png' 'media-trial/wipo-luat-sang-che-2.png' 'media-trial/wipo-patent-law-reel.mp4' 'scripts/publish-facebook-media-trial.py') <(git diff --no-renames --diff-filter=A --name-only "$base" HEAD)
+          test "$(git diff --name-only "$base" HEAD | wc -l)" -eq 6
+          python3 -I scripts/publish-facebook-media-trial.py --check
+      - name: Publish the Reel, Story and then photo article once in order
+        env:
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+        run: python3 -I scripts/publish-facebook-media-trial.py
