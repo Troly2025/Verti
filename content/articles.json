@@ -309,6 +309,76 @@
       "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155354467188514",
       "facebookReel": "",
       "images": []
+    },
+    {
+      "slug": "wipo-co-so-du-lieu-luat-sang-che-2026",
+      "status": "published",
+      "category": "wipo-news",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "WIPO mở cơ sở dữ liệu đối chiếu luật sáng chế giữa các nước",
+        "en": "WIPO launches a database to compare patent laws across jurisdictions"
+      },
+      "summary": {
+        "vi": "Cùng một lần công bố, tác động tới tính mới của sáng chế có thể khác nhau tùy nơi. Công cụ tra cứu mới của WIPO giúp tìm điểm khác biệt trước khi đọc quy định chi tiết.",
+        "en": "The same public disclosure may affect a patent application differently across jurisdictions. WIPO’s new lookup tool helps users spot those differences before reading the rules in detail."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Bốn nhóm quy định có thể đối chiếu",
+            "paragraphs": [
+              "Cơ sở dữ liệu tập hợp thông tin do các thành viên của Ủy ban Thường trực về Luật Sáng chế cung cấp. Người dùng có thể tìm và lọc theo bốn nhóm: kỹ thuật đã biết, tính mới, trình độ sáng tạo và những trường hợp công bố trước không làm mất khả năng bảo hộ, thường được gọi là thời gian ân hạn."
+            ]
+          },
+          {
+            "heading": "Tra cứu để biết cần kiểm tra gì",
+            "paragraphs": [
+              "Ở những nơi có dữ liệu, WIPO dẫn tới hướng dẫn thẩm định, sổ tay của cơ quan sáng chế hoặc phán quyết của tòa án. Khi cần ra quyết định nộp đơn, hãy kiểm tra luật và thực tiễn tại nơi dự định nộp.",
+              "WIPO dự kiến bắt đầu bổ sung ba nhóm nội dung trong năm 2027: mức độ bộc lộ đầy đủ, đối tượng không được bảo hộ và ngoại lệ hoặc giới hạn đối với quyền sáng chế. Đó là kế hoạch, chưa phải nội dung đã có trong cơ sở dữ liệu."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Four topics available now",
+            "paragraphs": [
+              "The database brings together information submitted by members of WIPO’s Standing Committee on the Law of Patents. Users can search and filter four areas: prior art, novelty, inventive step and non-prejudicial disclosure mechanisms such as grace periods."
+            ]
+          },
+          {
+            "heading": "Use it to find the rules you need to check",
+            "paragraphs": [
+              "Where available, WIPO links to examination guidelines, patent office manuals and court decisions. For a filing decision, check the law and practice that apply in the relevant jurisdiction.",
+              "In 2027, WIPO plans to begin adding material on sufficiency of disclosure, exclusions from patentable subject matter, and exceptions and limitations to patent rights. These are planned additions, not current database sections."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "World Intellectual Property Organization (WIPO)",
+        "url": "https://www.wipo.int/en/web/scp/w/news/2026/patent-law-at-your-fingertips-wipo-launches-a-new-comparative-database"
+      },
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155357647188514",
+      "facebookReel": "https://www.facebook.com/reel/29665142836403793/",
+      "images": [
+        {
+          "src": "/images/wipo-luat-sang-che-1.png",
+          "alt": {
+            "vi": "Đồ họa về cơ sở dữ liệu đối chiếu luật sáng chế mới của WIPO",
+            "en": "Illustration introducing WIPO’s comparative patent law database"
+          },
+          "credit": "VERTI · WIPO"
+        },
+        {
+          "src": "/images/wipo-luat-sang-che-2.png",
+          "alt": {
+            "vi": "Bốn mục tra cứu: kỹ thuật đã biết, tính mới, trình độ sáng tạo và ngoại lệ công bố trước",
+            "en": "Four topics: prior art, novelty, inventive step and non-prejudicial disclosure"
+          },
+          "credit": "VERTI · WIPO"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,188 @@
+name: Publish one reviewed VERTI illustrated article
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/releases/verti-illustrated-article-2026-11-24.json']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verti-cloudflare-production-worker
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: >-
+      github.repository == 'Troly2025/Verti' &&
+      github.ref == 'refs/heads/main' &&
+      github.event.before == 'd80427c44d0eb2927b7d03274e52c5af44e49303' &&
+      github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 2
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Verify exact content-only release and build both languages
+        shell: bash
+        run: |
+          set -euo pipefail
+          base=d80427c44d0eb2927b7d03274e52c5af44e49303
+          test "$(git rev-parse HEAD^)" = "$base"
+          test "$(git rev-list --parents -n 1 HEAD | wc -w)" -eq 2
+          diff -u <(printf '%s\n' $'A\t.github/releases/verti-illustrated-article-2026-11-24.json' $'A\t.github/workflows/verti-illustrated-article-once.yml' $'M\tcontent/articles.json' ) <(git diff --no-renames --name-status "$base" HEAD)
+          npm test
+          bash scripts/test-worker-release.sh
+          npm run build
+          test "$(python scripts/verti-dist-digest.py)" = "2fce2ef4ac224ff3eea75b4d0ec5e944ee4c2466a2c89466df9c05624a5ed734"
+          npm ci --ignore-scripts --no-fund --no-audit
+      - name: Stage exact static version on the existing Worker
+        id: stage
+        shell: bash
+        env:
+          CLOUDFLARE_ACCOUNT_ID: d29afda5c9fd5a4bb66ffdab0e1d5ab1
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          VERTI_OPERATION: stage
+          WRANGLER_SEND_METRICS: 'false'
+        run: bash scripts/worker-release.sh
+      - name: Promote only the staged version without changing routes or DNS
+        shell: bash
+        env:
+          CLOUDFLARE_ACCOUNT_ID: d29afda5c9fd5a4bb66ffdab0e1d5ab1
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          VERTI_OPERATION: promote
+          VERTI_VERSION_ID: ${{ steps.stage.outputs.version_id }}
+          VERTI_EXPECTED_ACTIVE_VERSION: ${{ steps.stage.outputs.previous_version }}
+          WRANGLER_SEND_METRICS: 'false'
+        run: bash scripts/worker-release.sh
+      - name: Read back both live language versions and their archive entries
+        shell: bash
+        run: |
+          set -euo pipefail
+          slug=wipo-co-so-du-lieu-luat-sang-che-2026
+          file=$(mktemp)
+          trap 'rm -f "$file"' EXIT
+          for lang in vi en; do
+            prefix=
+            if [[ "$lang" == en ]]; then prefix=/en; fi
+            for path in / /archive/ "/articles/$slug/"; do
+              ok=false
+              for i in {1..6}; do
+                if curl --fail --silent --show-error --max-time 10 "https://verti.ch$prefix$path?release=$GITHUB_SHA" -o "$file" && grep -Fq "<html lang=\"$lang\">" "$file" && grep -Fq "$slug" "$file"; then
+                  ok=true; break
+                fi
+                sleep 3
+              done
+              [[ "$ok" == true ]] || { echo "::error::Live readback failed for $prefix$path; inspect before any rerun."; exit 1; }
+              if [[ "$path" == "/articles/$slug/" ]]; then grep -Fq '122155357647188514' "$file"; fi
+            done
+          done
+          for n in 1 2; do
+            curl -fsS --max-time 15 "https://verti.ch/images/wipo-luat-sang-che-$n.png?release=$GITHUB_SHA" -o "$file"
+            test "$(sha256sum "$file" | cut -d' ' -f1)" = "$(sha256sum "src/images/wipo-luat-sang-che-$n.png" | cut -d' ' -f1)"
+          done
+          echo "Verified two production images. Verified the illustrated article, homepage and archive in both languages." >> "$GITHUB_STEP_SUMMARY"
+A\tsrc/images/wipo-luat-sang-che-1.png' ) <(git diff --no-renames --name-status "$base" HEAD)
+          npm test
+          bash scripts/test-worker-release.sh
+          npm run build
+          test "$(python scripts/verti-dist-digest.py)" = "2fce2ef4ac224ff3eea75b4d0ec5e944ee4c2466a2c89466df9c05624a5ed734"
+          npm ci --ignore-scripts --no-fund --no-audit
+      - name: Stage exact static version on the existing Worker
+        id: stage
+        shell: bash
+        env:
+          CLOUDFLARE_ACCOUNT_ID: d29afda5c9fd5a4bb66ffdab0e1d5ab1
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          VERTI_OPERATION: stage
+          WRANGLER_SEND_METRICS: 'false'
+        run: bash scripts/worker-release.sh
+      - name: Promote only the staged version without changing routes or DNS
+        shell: bash
+        env:
+          CLOUDFLARE_ACCOUNT_ID: d29afda5c9fd5a4bb66ffdab0e1d5ab1
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          VERTI_OPERATION: promote
+          VERTI_VERSION_ID: ${{ steps.stage.outputs.version_id }}
+          VERTI_EXPECTED_ACTIVE_VERSION: ${{ steps.stage.outputs.previous_version }}
+          WRANGLER_SEND_METRICS: 'false'
+        run: bash scripts/worker-release.sh
+      - name: Read back both live language versions and their archive entries
+        shell: bash
+        run: |
+          set -euo pipefail
+          slug=wipo-co-so-du-lieu-luat-sang-che-2026
+          file=$(mktemp)
+          trap 'rm -f "$file"' EXIT
+          for lang in vi en; do
+            prefix=
+            if [[ "$lang" == en ]]; then prefix=/en; fi
+            for path in / /archive/ "/articles/$slug/"; do
+              ok=false
+              for i in {1..6}; do
+                if curl --fail --silent --show-error --max-time 10 "https://verti.ch$prefix$path?release=$GITHUB_SHA" -o "$file" && grep -Fq "<html lang=\"$lang\">" "$file" && grep -Fq "$slug" "$file"; then
+                  ok=true; break
+                fi
+                sleep 3
+              done
+              [[ "$ok" == true ]] || { echo "::error::Live readback failed for $prefix$path; inspect before any rerun."; exit 1; }
+              if [[ "$path" == "/articles/$slug/" ]]; then grep -Fq '122155357647188514' "$file"; fi
+            done
+          done
+          echo "Verified the illustrated article, homepage and archive in both languages." >> "$GITHUB_STEP_SUMMARY"
+A\tsrc/images/wipo-luat-sang-che-2.png') <(git diff --no-renames --name-status "$base" HEAD)
+          npm test
+          bash scripts/test-worker-release.sh
+          npm run build
+          test "$(python scripts/verti-dist-digest.py)" = "2fce2ef4ac224ff3eea75b4d0ec5e944ee4c2466a2c89466df9c05624a5ed734"
+          npm ci --ignore-scripts --no-fund --no-audit
+      - name: Stage exact static version on the existing Worker
+        id: stage
+        shell: bash
+        env:
+          CLOUDFLARE_ACCOUNT_ID: d29afda5c9fd5a4bb66ffdab0e1d5ab1
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          VERTI_OPERATION: stage
+          WRANGLER_SEND_METRICS: 'false'
+        run: bash scripts/worker-release.sh
+      - name: Promote only the staged version without changing routes or DNS
+        shell: bash
+        env:
+          CLOUDFLARE_ACCOUNT_ID: d29afda5c9fd5a4bb66ffdab0e1d5ab1
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          VERTI_OPERATION: promote
+          VERTI_VERSION_ID: ${{ steps.stage.outputs.version_id }}
+          VERTI_EXPECTED_ACTIVE_VERSION: ${{ steps.stage.outputs.previous_version }}
+          WRANGLER_SEND_METRICS: 'false'
+        run: bash scripts/worker-release.sh
+      - name: Read back both live language versions and their archive entries
+        shell: bash
+        run: |
+          set -euo pipefail
+          slug=wipo-co-so-du-lieu-luat-sang-che-2026
+          file=$(mktemp)
+          trap 'rm -f "$file"' EXIT
+          for lang in vi en; do
+            prefix=
+            if [[ "$lang" == en ]]; then prefix=/en; fi
+            for path in / /archive/ "/articles/$slug/"; do
+              ok=false
+              for i in {1..6}; do
+                if curl --fail --silent --show-error --max-time 10 "https://verti.ch$prefix$path?release=$GITHUB_SHA" -o "$file" && grep -Fq "<html lang=\"$lang\">" "$file" && grep -Fq "$slug" "$file"; then
+                  ok=true; break
+                fi
+                sleep 3
+              done
+              [[ "$ok" == true ]] || { echo "::error::Live readback failed for $prefix$path; inspect before any rerun."; exit 1; }
+              if [[ "$path" == "/articles/$slug/" ]]; then grep -Fq '122155357647188514' "$file"; fi
+            done
+          done
+          echo "Verified the illustrated article, homepage and archive in both languages." >> "$GITHUB_STEP_SUMMARY"

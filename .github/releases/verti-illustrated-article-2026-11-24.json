@@ -1,0 +1,8 @@
+{
+  "base": "d80427c44d0eb2927b7d03274e52c5af44e49303",
+  "dist_sha256": "2fce2ef4ac224ff3eea75b4d0ec5e944ee4c2466a2c89466df9c05624a5ed734",
+  "image_sha256": [
+    "cc50947a6164e3961669cb8bdda60f56dd2cbd6cbdf6e82f5d220c3ef4c7ad9b",
+    "7edb1b50f091451032a180b0488b99c4dff35cd4da36ca72347ba0e636ef70c3"
+  ]
+}
