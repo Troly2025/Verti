@@ -1,0 +1,50 @@
+name: Publish one reviewed Facebook editorial introduction
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/releases/facebook-editorial-intro-2026-11-24.json'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: facebook-editorial-intro-2026-11-24
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: >-
+      github.repository == 'Troly2025/Verti' &&
+      github.ref == 'refs/heads/main' &&
+      github.event.before == '867cc48462d5133378342f154918a64c303c5125' &&
+      github.run_attempt == 1
+    environment: facebook-production
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Verify the release and exact parent without credentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          base=867cc48462d5133378342f154918a64c303c5125
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          test "$(git rev-parse HEAD^)" = "$base"
+          test "$(git rev-list --parents -n 1 HEAD | wc -w)" -eq 2
+          diff -u <(printf '%s\n' \
+            $'A\t.github/releases/facebook-editorial-intro-2026-11-24.json' \
+            $'A\t.github/workflows/post-facebook-intro-once.yml' \
+            $'A\tscripts/facebook-editorial-intro-once.py') \
+            <(git diff --no-renames --name-status "$base" HEAD)
+          python3 -I scripts/facebook-editorial-intro-once.py --check
+      - name: Publish exactly once and verify via Meta Graph
+        shell: bash
+        env:
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+        run: python3 -I scripts/facebook-editorial-intro-once.py
