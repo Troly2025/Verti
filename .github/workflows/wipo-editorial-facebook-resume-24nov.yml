@@ -1,0 +1,38 @@
+name: Resume seven approved WIPO stories on Facebook only
+on:
+  push:
+    branches: [main]
+    paths: ['.github/releases/wipo-editorial-facebook-resume-24nov.json']
+permissions:
+  contents: read
+concurrency:
+  group: verti-facebook-manual-publication
+  cancel-in-progress: false
+jobs:
+  facebook:
+    if: >-
+      github.repository == 'Troly2025/Verti' &&
+      github.ref == 'refs/heads/main' &&
+      github.event.before == '664984b3aafd44b6ef6a4d70d739e4660409d3bf' &&
+      github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    environment: facebook-production
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Check that the reviewed content and website are unchanged
+        shell: bash
+        run: |
+          set -euo pipefail
+          base=664984b3aafd44b6ef6a4d70d739e4660409d3bf
+          test "$(git rev-parse HEAD^)" = "$base"
+          diff -u <(printf '%s\n' $'A\t.github/releases/wipo-editorial-facebook-resume-24nov.json' $'A\t.github/workflows/wipo-editorial-facebook-resume-24nov.yml' $'A\tscripts/wipo-editorial-facebook-resume-24nov.py') <(git diff --no-renames --name-status "$base" HEAD)
+          python3 -I scripts/wipo-editorial-facebook-resume-24nov.py --check
+      - name: Verify Page token and publish independent Facebook bundles
+        env:
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+        run: python3 -I scripts/wipo-editorial-facebook-resume-24nov.py
