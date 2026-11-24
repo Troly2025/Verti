@@ -1,0 +1,75 @@
+name: Publish seven reviewed WIPO articles on VERTI
+on:
+  push:
+    branches: [main]
+    paths: ['.github/releases/wipo-editorial-web-24nov.json']
+permissions:
+  contents: read
+concurrency:
+  group: verti-cloudflare-production-worker
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: >-
+      github.repository == 'Troly2025/Verti' &&
+      github.ref == 'refs/heads/main' &&
+      github.event.before == '77edf1049b55c24c8d8e00f11ddd9928b02db74e' &&
+      github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 2
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Validate only the unique approved articles and images
+        shell: bash
+        run: |
+          set -euo pipefail
+          base=77edf1049b55c24c8d8e00f11ddd9928b02db74e
+          test "$(git rev-parse HEAD^)" = "$base"
+          test "$(git rev-list --parents -n 1 HEAD | wc -w)" -eq 2
+          diff -u <(printf '%s\n' $'A\t.github/releases/wipo-editorial-web-24nov.json' $'A\t.github/workflows/wipo-editorial-web-24nov.yml' $'M\tcontent/articles.json' $'A\tsrc/images/canada-nop-don-pct-qua-epct.png' $'A\tsrc/images/eic-luong-tu-do-dien-toan-he-thong.png' $'A\tsrc/images/esa-bay-ve-tinh-quan-sat-plasma-2026.png' $'A\tsrc/images/nacentech-swiss-ep-chuyen-gia-dong-hanh.png' $'A\tsrc/images/wipo-2026-3-9-trieu-don-sang-che.png' $'A\tsrc/images/wipo-doi-thoai-tai-chinh-tai-san-vo-hinh-2026.png' $'A\tsrc/images/wto-brazil-de-nghi-ban-hoi-tham-ds646.png') <(git diff --no-renames --name-status "$base" HEAD)
+          npm test
+          bash scripts/test-worker-release.sh
+          npm run build
+          test "$(python scripts/verti-dist-digest.py)" = "20720340025ccbb808f09861a31851629792bcf6d2e9890b9dc78bb7929a7cf4"
+          npm ci --ignore-scripts --no-fund --no-audit
+      - name: Stage static version without changing routes
+        id: stage
+        env:
+          CLOUDFLARE_ACCOUNT_ID: d29afda5c9fd5a4bb66ffdab0e1d5ab1
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          VERTI_OPERATION: stage
+          WRANGLER_SEND_METRICS: 'false'
+        run: bash scripts/worker-release.sh
+      - name: Promote exact staged version to existing site
+        env:
+          CLOUDFLARE_ACCOUNT_ID: d29afda5c9fd5a4bb66ffdab0e1d5ab1
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          VERTI_OPERATION: promote
+          VERTI_VERSION_ID: ${{ steps.stage.outputs.version_id }}
+          VERTI_EXPECTED_ACTIVE_VERSION: ${{ steps.stage.outputs.previous_version }}
+          WRANGLER_SEND_METRICS: 'false'
+        run: bash scripts/worker-release.sh
+      - name: Read back each canonical Vietnamese and English page and its image
+        shell: bash
+        run: |
+          set -euo pipefail
+          f=$(mktemp); trap 'rm -f "$f"' EXIT
+          for s in $(jq -er '.[].slug' wipo-editorial-24nov/batch.json); do
+            for prefix in '' '/en'; do
+              curl --fail --silent --show-error --retry 2 --retry-delay 2 --retry-all-errors --max-time 12 "https://verti.ch$prefix/articles/$s/" -o "$f"
+              lang=vi; [[ -z "$prefix" ]] || lang=en
+              grep -Fq "<html lang=\"$lang\">" "$f"
+              grep -Fq "/images/$s.png" "$f"
+            done
+            curl --fail --silent --show-error --retry 2 --retry-delay 2 --retry-all-errors --max-time 12 "https://verti.ch/images/$s.png" -o "$f"
+            cmp "$f" "src/images/$s.png"
+            printf '%s\n' "WEB VERIFIED $s"
+          done
