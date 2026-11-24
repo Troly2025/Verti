@@ -268,6 +268,47 @@
       "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid02C1zFUpSA3e8mKaDLLYE5uLxjEv7dERZA8kL8desWkGnmDNeiB197pvUQrK7dQCRul&id=61585655446351",
       "facebookReel": "",
       "images": []
+    },
+    {
+      "slug": "cach-doc-tin-tren-verti",
+      "status": "published",
+      "category": "editorial",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "Cách đọc tin trên trang này",
+        "en": "How to read updates on this page"
+      },
+      "summary": {
+        "vi": "Trang Tin tức công nghệ - sở hữu trí tuệ - thương mại thế giới giới thiệu các diễn biến trong ba lĩnh vực này bằng tiếng Việt và tiếng Anh. Khi đọc một bản tin, bạn có thể tìm câu trả lời cho ba câu hỏi: điều gì mới, vì sao đáng chú ý và điều gì còn chưa rõ?",
+        "en": "This independent page covers technology, intellectual property and world trade in Vietnamese and English. Our updates focus on three questions: What is new, why does it matter, and what is still unclear?"
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Về VERTI",
+            "paragraphs": [
+              "Trang Tin tức công nghệ - sở hữu trí tuệ - thương mại thế giới giới thiệu các diễn biến trong ba lĩnh vực này bằng tiếng Việt và tiếng Anh. Khi đọc một bản tin, bạn có thể tìm câu trả lời cho ba câu hỏi: điều gì mới, vì sao đáng chú ý và điều gì còn chưa rõ?",
+              "Trang hoạt động độc lập, không đại diện cho Tổ chức Sở hữu trí tuệ thế giới (WIPO), Tổ chức Thương mại thế giới (WTO) hay một cơ quan nhà nước."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "About VERTI",
+            "paragraphs": [
+              "This independent page covers technology, intellectual property and world trade in Vietnamese and English. Our updates focus on three questions: What is new, why does it matter, and what is still unclear?",
+              "The page does not represent the World Intellectual Property Organization (WIPO), the World Trade Organization (WTO), or any government agency."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "VERTI · Facebook",
+        "url": "https://www.facebook.com/122155354473188514/posts/122155354467188514"
+      },
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155354467188514",
+      "facebookReel": "",
+      "images": []
     }
   ]
 }

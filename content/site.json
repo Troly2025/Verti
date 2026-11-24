@@ -85,6 +85,18 @@
         "vi": "Hợp tác nghiên cứu, chuyển giao công nghệ và thương mại hóa.",
         "en": "Research partnerships, technology transfer and commercialization."
       }
+    },
+    {
+      "id": "editorial",
+      "label": "EDITORIAL",
+      "name": {
+        "vi": "Tòa soạn",
+        "en": "Editorial"
+      },
+      "description": {
+        "vi": "Giới thiệu cách VERTI chọn, kiểm chứng và trình bày tin.",
+        "en": "How VERTI selects, verifies and presents the news."
+      }
     }
   ]
 }
