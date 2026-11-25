@@ -2,12 +2,12 @@ name: Publish verified WIPO 03:00 edition
 on:
   push:
     branches: [main]
-    paths: ['.github/releases/wipo-wipo-25nov-0300.json']
+    paths: ['.github/releases/wipo-25nov-0300-go.json']
 permissions:
   contents: read
 jobs:
   facebook:
-    if: github.repository == 'Troly2025/Verti' && github.event.before == '5d764f2dbff41b3e093c349560cf00bd1b22b9b5' && github.run_attempt == 1
+    if: github.repository == 'Troly2025/Verti' && github.event.before == '5b60e85f9c943b8f41054f093ec5ecd387236598' && github.run_attempt == 1
     concurrency:
       group: verti-facebook-manual-publication
       cancel-in-progress: false
@@ -18,19 +18,19 @@ jobs:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
         with:
           ref: ${{ github.sha }}
-          fetch-depth: 2
+          fetch-depth: 3
           persist-credentials: false
       - name: Verify pinned batch
         run: |
-          test "$(git rev-parse HEAD^)" = 5d764f2dbff41b3e093c349560cf00bd1b22b9b5
-          git show HEAD^:content/articles.json | cmp - wipo-25nov-0300/baseline-articles.json
-          python3 -I scripts/wipo-wipo-25nov-0300.py --check
+          test "$(git rev-parse HEAD^)" = 5b60e85f9c943b8f41054f093ec5ecd387236598
+          git show HEAD^^:content/articles.json | cmp - wipo-25nov-0300/baseline-articles.json
+          python3 -I scripts/wipo-25nov-0300-go.py --check
       - name: Publish one bundle per eligible source
         env:
           FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
-        run: python3 -I scripts/wipo-wipo-25nov-0300.py
+        run: python3 -I scripts/wipo-25nov-0300-go.py
   website:
-    if: github.repository == 'Troly2025/Verti' && github.event.before == '5d764f2dbff41b3e093c349560cf00bd1b22b9b5' && github.run_attempt == 1
+    if: github.repository == 'Troly2025/Verti' && github.event.before == '5b60e85f9c943b8f41054f093ec5ecd387236598' && github.run_attempt == 1
     concurrency:
       group: verti-cloudflare-production-worker
       cancel-in-progress: false
@@ -47,11 +47,11 @@ jobs:
           package-manager-cache: false
       - name: Validate site and exact static bundle
         run: |
-          python3 -I scripts/wipo-wipo-25nov-0300.py --check
+          python3 -I scripts/wipo-25nov-0300-go.py --check
           npm test
           bash scripts/test-worker-release.sh
           npm run build
-          test "$(python3 scripts/verti-dist-digest.py)" = "$(jq -er .dist_sha256 .github/releases/wipo-wipo-25nov-0300.json)"
+          test "$(python3 scripts/verti-dist-digest.py)" = "$(jq -er .dist_sha256 .github/releases/wipo-25nov-0300-go.json)"
           npm ci --ignore-scripts --no-fund --no-audit
       - name: Stage verified pages
         id: stage

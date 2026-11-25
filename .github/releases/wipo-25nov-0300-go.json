@@ -1,0 +1,24 @@
+{
+  "base": "5b60e85f9c943b8f41054f093ec5ecd387236598",
+  "sha256": {
+    "wipo-25nov-0300/baseline-articles.json": "c95ef7b697ec2361ac56b6afc99d087d691f1a414b567301d4387c36289adfc7",
+    "wipo-25nov-0300/batch.json": "481c907982eed21420469fbf7fadcdbfee994987a3c7801047aa8aa7272285b5",
+    "content/articles.json": "330493a98468965c159b8106ce9279135a986a0568206b20ed4d5d1ddb9f8acf",
+    "wipo-25nov-0300/drovid-nhan-hieu/drovid-nhan-hieu.mp4": "fdd4bee5195e0a95909efdf4075d6c0cb1b8c19ab993346c2193804c2aa64a82",
+    "wipo-25nov-0300/drovid-nhan-hieu/drovid-nhan-hieu.png": "e4d19cbe4c25894333f14cea988b104f5fb3c2219fd8050e9f1d26e5d34372a8",
+    "src/images/drovid-nhan-hieu.png": "e4d19cbe4c25894333f14cea988b104f5fb3c2219fd8050e9f1d26e5d34372a8",
+    "wipo-25nov-0300/g20-thuong-mai/g20-thuong-mai.mp4": "8cbe595ac2ef5f1c52222673c9f69532580fad87e15c705b3873e6ca61f03151",
+    "wipo-25nov-0300/g20-thuong-mai/g20-thuong-mai.png": "8cd6892cb1ff9ab112badaf37bd01497ad96e2daa852d6e9b07d49aef2459eee",
+    "src/images/g20-thuong-mai.png": "8cd6892cb1ff9ab112badaf37bd01497ad96e2daa852d6e9b07d49aef2459eee",
+    "wipo-25nov-0300/eu-dieu-tra-vat-lieu-composite/eu-dieu-tra-vat-lieu-composite.mp4": "a6a16f5a4b0e1f5ae0e19dfc9e1f149538c9d86aa94c6df36a1265bed75e33eb",
+    "wipo-25nov-0300/eu-dieu-tra-vat-lieu-composite/eu-dieu-tra-vat-lieu-composite.png": "6b0da0614c43322ee090f4f8ab6cdc60d25c083b098fdf22fd3a3c88c965ab67",
+    "src/images/eu-dieu-tra-vat-lieu-composite.png": "6b0da0614c43322ee090f4f8ab6cdc60d25c083b098fdf22fd3a3c88c965ab67",
+    "wipo-25nov-0300/kiem-chung-ban-chung-minh-riemann-lean/kiem-chung-ban-chung-minh-riemann-lean.mp4": "38cda349a1fa555ce9b0cc700f06cf02ea7b48d66094ce7bff4be2a36bb2b253",
+    "wipo-25nov-0300/kiem-chung-ban-chung-minh-riemann-lean/kiem-chung-ban-chung-minh-riemann-lean.png": "0d2929c07eb244e9d19b30d637492bb3e5e3dbe704d12072bf66ea356d396ec0",
+    "src/images/kiem-chung-ban-chung-minh-riemann-lean.png": "0d2929c07eb244e9d19b30d637492bb3e5e3dbe704d12072bf66ea356d396ec0",
+    "scripts/wipo-25nov-0300.py": "7c1a44dd0b393f811ce60a764d336d9a29762e7c67bf117fb7f67855852736f4",
+    ".github/workflows/wipo-25nov-0300.yml": "f450332c2234149fade7ee9c8c7c08e73f84127854bfb5f44b40e3b8cecc7739"
+  },
+  "dist_sha256": "2b8aba5bf8e1294fa3e185be58ea5669dcc94362307e98c15f55a43d8c7a317d",
+  "run": "WIPO-20261125-0300-Zurich"
+}
