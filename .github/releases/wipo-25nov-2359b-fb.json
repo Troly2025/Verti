@@ -1,0 +1,16 @@
+{
+  "base": "8b6bfa663bde3b676925473ee3e1ab8aef24b7bf",
+  "sha256": {
+    "wipo-25nov-2359b-fb/batch.json": "da02a2e3b2bae5e19d3e19d59a37a5d8e3c7bb54b6347144583df8086435d33b",
+    "wipo-25nov-2359b-fb/epo-hoan-phi-tra-cuu-pct/epo-hoan-phi-tra-cuu-pct.png": "1fd35da062c6e30044a5ae3df3c9d1e266efd4b60d4d6877fdb06c233ac89f63",
+    "wipo-25nov-2359b-fb/epo-hoan-phi-tra-cuu-pct/epo-hoan-phi-tra-cuu-pct-diagram.png": "eb0990db51aff542b9a0a9c52afff89fa1ed6fbd7309a087e09c711fbed1149b",
+    "wipo-25nov-2359b-fb/epo-hoan-phi-tra-cuu-pct/epo-hoan-phi-tra-cuu-pct.mp4": "90e6d74d99d3889f6de45a9c6e07fb1912eeeb34799f58b00c390b54be2963a2",
+    "wipo-25nov-2359b-fb/slic-toi-uu-mach-tuong-tu/slic-toi-uu-mach-tuong-tu.png": "36f088b3a123adba060cfbeb39f20f69e6b6a0b3d2dba6134869915d6dda6b57",
+    "wipo-25nov-2359b-fb/slic-toi-uu-mach-tuong-tu/slic-toi-uu-mach-tuong-tu-diagram.png": "93158c5ae077885dd9a48b9cbedc03502dfd3fba01a3a47631af4203fd25b024",
+    "wipo-25nov-2359b-fb/slic-toi-uu-mach-tuong-tu/slic-toi-uu-mach-tuong-tu.mp4": "e39d811232afc2c7730947ce05df135e6b433d9f7d37befae17772143c1a2de8",
+    "wipo-25nov-2359b-fb/cern-iris-thu-ai-ha-tang-nghien-cuu/cern-iris-thu-ai-ha-tang-nghien-cuu.png": "7d2adf7951c80edbc8b2a39376daf699e457c2556d068ba2f1ff299c91964549",
+    "wipo-25nov-2359b-fb/cern-iris-thu-ai-ha-tang-nghien-cuu/cern-iris-thu-ai-ha-tang-nghien-cuu-diagram.png": "5b501066034543eef7ef8bf3557a803cf29d450c2cad53b390a33db45eede991",
+    "wipo-25nov-2359b-fb/cern-iris-thu-ai-ha-tang-nghien-cuu/cern-iris-thu-ai-ha-tang-nghien-cuu.mp4": "a1d831347cc1e6d2e6e7d81ddf0049532cf8f9b0426a083d2797f6b5bab5c134",
+    "scripts/wipo-25nov-2359b-fb.py": "a3224c196cde5d6ce8b470c95ed6e1b0046143299c98ae1516069a6f093693fa"
+  }
+}

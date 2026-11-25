@@ -1,0 +1,265 @@
+[
+  {
+    "slug": "epo-hoan-phi-tra-cuu-pct",
+    "category": "wipo-news",
+    "date": "2026-11-25",
+    "title": {
+      "vi": "EPO mở rộng diện hoàn phí tra cứu quốc tế cho một số đơn PCT",
+      "en": "EPO broadens search fee refunds for some PCT applications"
+    },
+    "summary": {
+      "vi": "Bản tin PCT ngày 25/11 của WIPO nhắc đến thay đổi tại Cơ quan Sáng chế châu Âu (EPO): lần tra cứu trước có thể giúp giảm chi phí thực tế nếu EPO dùng lại báo cáo để lập báo cáo tra cứu quốc tế. Đây là hoàn phí theo điều kiện, không phải giảm giá chung khi nộp đơn.",
+      "en": "WIPO’s 25 November PCT newsletter highlights a change at the European Patent Office (EPO): an earlier search can lower the effective cost if the EPO reuses the report in the international search. This is a conditional refund, not a general discount at filing."
+    },
+    "source": {
+      "name": "WIPO PCT Newsletter 11/2026",
+      "url": "https://www.wipo.int/documents/d/pct-system/newsletters-en-2026-pct-news-2026-11.pdf"
+    },
+    "body": {
+      "vi": [
+        {
+          "heading": "Quyết định áp dụng khi nào",
+          "paragraphs": [
+            "Quyết định ngày 2/11/2026 áp dụng với báo cáo tra cứu quốc tế được lập từ ngày đó, khi EPO là Cơ quan tra cứu quốc tế theo Hiệp ước Hợp tác về sáng chế (PCT). Mấu chốt là EPO đã lập báo cáo tra cứu trước cho một đơn mà đơn quốc tế yêu cầu hưởng quyền ưu tiên, sau đó dùng lại báo cáo để tra cứu đơn quốc tế."
+          ]
+        },
+        {
+          "heading": "Không phải mọi báo cáo đều được hoàn như nhau",
+          "paragraphs": [
+            "Quyết định mở rộng các loại tra cứu trước có thể đủ điều kiện. Bản tin WIPO nêu thêm Ireland, Montenegro và Thụy Sĩ trong danh sách các trường hợp tra cứu do EPO thực hiện thay cơ quan quốc gia có thể đủ điều kiện. Mức hoàn tùy loại báo cáo, việc có ý kiến bằng văn bản và EPO dùng được toàn bộ hay một phần. Không phải khoản hoàn toàn bộ cho mọi trường hợp."
+          ]
+        },
+        {
+          "heading": "Một điểm nên kiểm tra khi lập dự toán",
+          "paragraphs": [
+            "Nếu một nhóm đã có báo cáo tra cứu trước, cần nhìn vào cơ quan thực hiện, đơn được yêu cầu hưởng quyền ưu tiên và khả năng EPO sử dụng kết quả. Chỉ việc đã làm một lần tra cứu không đủ để dự trù sẽ được hoàn. Thông tin này không thay điều kiện chọn cơ quan tra cứu theo từng hồ sơ."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "When the decision applies",
+          "paragraphs": [
+            "The 2 November 2026 decision applies to international search reports drawn up from that date with the EPO acting as an International Searching Authority under the Patent Cooperation Treaty (PCT). The EPO must have produced an earlier search report on an application whose priority is claimed and then used that report in the international search."
+          ]
+        },
+        {
+          "heading": "Not every earlier report earns the same refund",
+          "paragraphs": [
+            "The decision broadens the types of earlier searches that may qualify. WIPO’s newsletter notes that Ireland, Montenegro and Switzerland were added to the list of potentially qualifying national searches carried out by the EPO on behalf of a national office. The amount depends on the type of report, whether it includes a written opinion and whether the EPO can reuse it in full or in part. Not every case earns a full refund."
+          ]
+        },
+        {
+          "heading": "What to check before budgeting",
+          "paragraphs": [
+            "Teams with an earlier search should check who carried it out, which application provides the priority claim and whether the EPO can use the results. Having commissioned a search is not enough to assume a refund. The update does not change which search authorities are competent for a particular application."
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "/images/epo-hoan-phi-tra-cuu-pct.png",
+        "credit": "Verti · Minh họa do AI tạo / AI-generated illustration",
+        "alt": {
+          "vi": "Minh họa chuyên viên đối chiếu hai bản vẽ sáng chế",
+          "en": "Illustration of a patent specialist comparing engineering drawings"
+        }
+      },
+      {
+        "src": "/images/epo-hoan-phi-tra-cuu-pct-diagram.png",
+        "credit": "Sơ đồ Verti theo nguồn gốc / Verti diagram based on primary sources",
+        "alt": {
+          "vi": "Đã tra cứu trước, có được hoàn phí lần sau?",
+          "en": "Can an earlier search earn you a refund?"
+        }
+      }
+    ],
+    "status": "published",
+    "topic_id": "wipo_news:20261125:epo-pct-search-refund",
+    "source_date": "25/11/2026",
+    "sources_extra": [
+      "https://www.epo.org/en/legal/official-journal/decision-12-november-2026-2"
+    ],
+    "graphic": {
+      "vi": "Đã tra cứu trước, có được hoàn phí lần sau?",
+      "en": "Can an earlier search earn you a refund?"
+    }
+  },
+  {
+    "slug": "slic-toi-uu-mach-tuong-tu",
+    "category": "frontier-tech",
+    "date": "2026-11-25",
+    "title": {
+      "vi": "SLIC cho mô hình AI nhỏ thử từng bước thiết kế mạch tương tự",
+      "en": "SLIC lets a small AI model improve analog circuits one simulation at a time"
+    },
+    "summary": {
+      "vi": "Trong công trình công bố dưới dạng bản thảo tháng 11, nhóm MIT và các đối tác huấn luyện mô hình bốn tỷ tham số để chỉnh thông số mạch và đọc kết quả mô phỏng. Bài thử trên cấu trúc chưa gặp cho kết quả thấp hơn bài thử quen thuộc.",
+      "en": "In a November preprint, an MIT-led team and its partners trained a four-billion-parameter model to adjust circuit parameters and read simulation results. Performance on unfamiliar topologies was lower than on familiar ones."
+    },
+    "source": {
+      "name": "Xu và cộng sự · SLIC",
+      "url": "https://arxiv.org/abs/2611.13452"
+    },
+    "body": {
+      "vi": [
+        {
+          "heading": "Mô hình đề xuất, trình mô phỏng kiểm tra",
+          "paragraphs": [
+            "Thiết kế mạch khuếch đại tương tự không chỉ cần đạt một thông số. Thay đổi dòng, kích thước linh kiện hoặc điểm làm việc để tăng độ khuếch đại có thể làm thông số khác xấu đi. SLIC nhận mục tiêu, chỉnh thông số, chạy mô phỏng rồi dùng kết quả để chọn lần chỉnh tiếp theo. Bộ thử công khai gồm 41 cấu trúc mạch khuếch đại."
+          ]
+        },
+        {
+          "heading": "Ba con số thuộc ba điều kiện thử",
+          "paragraphs": [
+            "Trong tối đa tám lượt tương tác, biến thể SLIC–Random đạt 87,1% ở bài thử trong phân phối, với tiêu chí phải đạt cả bốn chỉ tiêu trong lần chạy đầu. Trên cấu trúc giữ lại ngoài tập huấn luyện, biến thể SLIC–Softmax đạt 72,6%. Với bộ thiết kế quy trình thương mại 65 nm của TSMC, SLIC–Random đạt 49,9% ở bài thử cấu trúc giữ lại. Không đọc ba con số như kết quả của cùng một biến thể trên cùng bộ thử."
+          ]
+        },
+        {
+          "heading": "Có thể giữ dữ liệu tại chỗ, chưa thay công đoạn kiểm chứng",
+          "paragraphs": [
+            "Mô hình chạy cục bộ có thể hữu ích khi nhóm không được phép tải bộ thiết kế quy trình của hãng lên dịch vụ AI bên ngoài. Nhưng mức đạt trong mô phỏng không đồng nghĩa tỉ lệ chip sản xuất đạt chuẩn. Công trình này chưa chứng minh kết quả trên chip thực tế hay thay thế bước kiểm tra của kỹ sư."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "The model proposes, the simulator checks",
+          "paragraphs": [
+            "An analog amplifier has to meet several goals at once. Changing current, device sizes or operating points to raise gain can hurt something else. SLIC receives a target, changes parameters, runs a simulation and uses the result to choose its next adjustment. The open benchmark spans 41 amplifier topologies."
+          ]
+        },
+        {
+          "heading": "Three figures, three test conditions",
+          "paragraphs": [
+            "Within eight interactions, SLIC–Random passed all four specifications on its first attempt in 87.1% of in-distribution tests. On held-out topologies, SLIC–Softmax achieved 72.6%. With a commercial TSMC 65 nm process design kit, SLIC–Random reached 49.9% on held-out topologies. These figures do not describe one variant on one test set."
+          ]
+        },
+        {
+          "heading": "Local inference is useful, but it does not replace verification",
+          "paragraphs": [
+            "A locally run model may help teams that cannot send proprietary process design kits to an outside AI service. But simulated pass rates are not yields on manufactured chips. The study does not establish performance on fabricated silicon or eliminate engineering checks."
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "/images/slic-toi-uu-mach-tuong-tu.png",
+        "credit": "Verti · Minh họa do AI tạo / AI-generated illustration",
+        "alt": {
+          "vi": "Minh họa đầu dò và vi mạch tại bàn kỹ thuật, không phải nguyên mẫu SLIC",
+          "en": "Illustration of probes and a die on a test bench, not a SLIC prototype"
+        }
+      },
+      {
+        "src": "/images/slic-toi-uu-mach-tuong-tu-diagram.png",
+        "credit": "Sơ đồ Verti theo nguồn gốc / Verti diagram based on primary sources",
+        "alt": {
+          "vi": "AI chỉnh mạch, ai chấm kết quả?",
+          "en": "An AI adjusts the circuit. What checks its work?"
+        }
+      }
+    ],
+    "status": "published",
+    "topic_id": "frontier_tech:20261125:slic-analog",
+    "source_date": "10/11/2026",
+    "sources_extra": [
+      "https://hangroup.mit.edu/slic/",
+      "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123"
+    ],
+    "graphic": {
+      "vi": "AI chỉnh mạch, ai chấm kết quả?",
+      "en": "An AI adjusts the circuit. What checks its work?"
+    }
+  },
+  {
+    "slug": "cern-iris-thu-ai-ha-tang-nghien-cuu",
+    "category": "future-research",
+    "date": "2026-11-25",
+    "title": {
+      "vi": "CERN đưa điện, nước và vật liệu vào bài toán hạ tầng nghiên cứu",
+      "en": "CERN puts energy, water and materials on the research infrastructure agenda"
+    },
+    "summary": {
+      "vi": "CERN cho biết ngày 25/11 rằng iRIS sẽ thử công cụ AI và cách đo tác động môi trường ở những cơ sở nghiên cứu lớn. EU cấp khoảng 5 triệu euro cho bốn năm; đây là kinh phí làm thử, không phải con số tiết kiệm đã đạt.",
+      "en": "CERN said on 25 November that iRIS will test AI tools and ways to measure environmental impacts at large research facilities. The EU is providing about €5 million over four years; that is the project’s funding, not savings already achieved."
+    },
+    "source": {
+      "name": "CERN · iRIS",
+      "url": "https://home.cern/how-ai-powered-solutions-could-make-research-infrastructures-more-sustainable/"
+    },
+    "body": {
+      "vi": [
+        {
+          "heading": "Dùng cơ sở lớn làm nơi kiểm chứng",
+          "paragraphs": [
+            "Giai đoạn có tài trợ EU bắt đầu tại CERN trước thông báo ngày 25/11. CERN điều phối 24 tổ chức từ châu Âu và Nhật Bản theo thông tin của dự án. Máy gia tốc hạt và đài quan sát sóng hấp dẫn được dùng làm nơi thử vì vòng đời vận hành dài và cần cân bằng đất, điện, nước làm mát cùng yêu cầu khoa học."
+          ]
+        },
+        {
+          "heading": "Không chỉ là giảm hóa đơn tiền điện",
+          "paragraphs": [
+            "Nhóm dự kiến thử theo dõi phụ tải để cải thiện hiệu quả dùng năng lượng. Hai hướng khác là xử lý vật liệu xây dựng và phá dỡ để tái sử dụng, và phục hồi đất. Dự án cũng định xây cách đánh giá chung, có dữ liệu chia sẻ và mô hình tái dùng, để các lựa chọn ở khâu thiết kế và vận hành có thể so sánh được."
+          ]
+        },
+        {
+          "heading": "Phải đo so với cách đang làm",
+          "paragraphs": [
+            "Một cách đọc kết quả sau này là kiểm tra mức tiêu thụ trước và sau trên cùng điều kiện làm việc, thay vì chỉ xem AI dự báo có chính xác hay không. Có thể có bài học cho đường hầm, nhà máy hoặc trung tâm dữ liệu, nhưng chưa có bằng chứng từ thông báo này về lượng điện, nước hay vật liệu đã tiết kiệm."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "Using big facilities as testbeds",
+          "paragraphs": [
+            "The EU-funded phase began at CERN before the 25 November announcement. The project says CERN is coordinating 24 organisations from Europe and Japan. Particle accelerators and gravitational-wave observatories make useful testbeds because they operate for decades and have to balance land, electricity and cooling water with scientific requirements."
+          ]
+        },
+        {
+          "heading": "More than cutting the electricity bill",
+          "paragraphs": [
+            "The team plans to test load monitoring to improve energy efficiency. Other strands look at processing construction and demolition material for reuse and restoring soil. It also intends to develop shared assessments, data and reusable models for comparing choices in design and operation."
+          ]
+        },
+        {
+          "heading": "Measure against the old way of working",
+          "paragraphs": [
+            "One way to assess the results will be to compare consumption before and after under similar operating conditions, rather than only checking how accurate AI predictions are. Tunnels, factories and data centres may learn from the work, but this announcement does not document savings in electricity, water or materials."
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "/images/cern-iris-thu-ai-ha-tang-nghien-cuu.png",
+        "credit": "Verti · Minh họa do AI tạo / AI-generated illustration",
+        "alt": {
+          "vi": "Minh họa kỹ sư đo môi trường ở cửa một đường hầm kỹ thuật",
+          "en": "Illustration of an environmental engineer at a technical tunnel entrance"
+        }
+      },
+      {
+        "src": "/images/cern-iris-thu-ai-ha-tang-nghien-cuu-diagram.png",
+        "credit": "Sơ đồ Verti theo nguồn gốc / Verti diagram based on primary sources",
+        "alt": {
+          "vi": "Máy gia tốc có thể giúp thử cách giảm lãng phí?",
+          "en": "Can an accelerator help test ways to cut waste?"
+        }
+      }
+    ],
+    "status": "published",
+    "topic_id": "future_research:20261125:cern-iris",
+    "source_date": "25/11/2026",
+    "sources_extra": [
+      "https://cordis.europa.eu/project/id/101275935",
+      "https://www.irisproject.eu/"
+    ],
+    "graphic": {
+      "vi": "Máy gia tốc có thể giúp thử cách giảm lãng phí?",
+      "en": "Can an accelerator help test ways to cut waste?"
+    }
+  }
+]

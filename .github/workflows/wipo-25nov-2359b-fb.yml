@@ -1,0 +1,30 @@
+name: WIPO 23:59 supplemental Facebook after public web check
+on:
+  push:
+    branches: [main]
+    paths: ['.github/releases/wipo-25nov-2359b-fb.json']
+permissions:
+  contents: read
+jobs:
+  facebook:
+    if: github.repository == 'Troly2025/Verti' && github.event.before == '8b6bfa663bde3b676925473ee3e1ab8aef24b7bf' && github.run_attempt == 1
+    concurrency:
+      group: verti-facebook-manual-publication
+      cancel-in-progress: false
+    environment: facebook-production
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 3
+          persist-credentials: false
+      - name: Verify pinned batch
+        run: |
+          test "$(git rev-parse HEAD^)" = 8b6bfa663bde3b676925473ee3e1ab8aef24b7bf
+          python3 -I scripts/wipo-25nov-2359b-fb.py --check
+      - name: Publish one bundle per eligible source
+        env:
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+        run: python3 -I scripts/wipo-25nov-2359b-fb.py
