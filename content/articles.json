@@ -1,6 +1,238 @@
 {
   "articles": [
     {
+      "slug": "kiem-chung-ban-chung-minh-riemann-lean",
+      "category": "frontier-tech",
+      "title": {
+        "vi": "Bản chứng minh giả thuyết Riemann qua nhiều phép kiểm tra bằng máy",
+        "en": "Proposed Riemann Hypothesis proof passes multiple machine checks"
+      },
+      "summary": {
+        "vi": "Trong bản rà soát cập nhật ngày 24/11, nhà toán học Andrew Sutherland tại Viện Công nghệ Massachusetts (MIT) công bố các phép kiểm tra độc lập đối với bản chứng minh hình thức về giả thuyết Riemann. Các phép thử là bước kiểm tra quan trọng; chúng không đồng nghĩa với việc đã trao Giải thưởng Thiên niên kỷ.",
+        "en": "In a verification update dated 24 November, MIT mathematician Andrew Sutherland reported independent checks of a formal proof of the Riemann Hypothesis. These checks are an important milestone; they are not an award decision for the Millennium Prize."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Các bộ kiểm tra đã đối chiếu điều gì?",
+            "paragraphs": [
+              "Nhóm kiểm tra biên dịch 175.187 mô-đun Lean và chạy lại cả 175.187 qua bộ kiểm tra lõi. Hai bộ kiểm tra lõi được viết độc lập cũng chấp nhận bản xuất đầy đủ. Trong năm mệnh đề chính, nhóm đối chiếu cả phát biểu giả thuyết Riemann theo định nghĩa của thư viện Mathlib, không chỉ kiểm tra mã có chạy hay không."
+            ]
+          },
+          {
+            "heading": "Kết quả kiểm tra có phạm vi cụ thể",
+            "paragraphs": [
+              "Các mệnh đề mở rộng được kiểm tra liên quan tới hàm L Dirichlet. Chúng không bao quát mọi dạng mở rộng của giả thuyết. Hồ sơ kiểm tra công khai giúp người khác xem dữ liệu và chạy đối chiếu, nhưng số mô-đun không tự cho biết ý tưởng toán học nào là then chốt."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "What did the checkers verify?",
+            "paragraphs": [
+              "The reviewers compiled 175,187 Lean modules and replayed all of them through the proof kernel. Two independently written kernels also accepted the full export. The reviewers checked the intended statements of the five main theorems, including the Riemann Hypothesis as defined in Mathlib, not just whether the code ran."
+            ]
+          },
+          {
+            "heading": "A specific scope",
+            "paragraphs": [
+              "The generalized statements checked here concern Dirichlet L-functions. They do not cover every generalization. The public files let others review the evidence and reproduce checks; a module count cannot tell readers which mathematical idea was decisive."
+            ]
+          }
+        ]
+      },
+      "date": "2026-11-24",
+      "source": {
+        "name": "MIT • Andrew Sutherland",
+        "url": "https://math.mit.edu/~drew/grh/"
+      },
+      "images": [
+        {
+          "src": "/images/kiem-chung-ban-chung-minh-riemann-lean.png",
+          "alt": {
+            "vi": "Tranh minh họa nhà toán học bên bảng và hai máy tính kiểm tra bản chứng minh",
+            "en": "Illustration of a mathematician at a board and two computers checking a proof"
+          },
+          "credit": "Verti • Tranh minh họa tự dựng / Original illustration"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "eu-dieu-tra-vat-lieu-composite",
+      "category": "wto-news",
+      "title": {
+        "vi": "EU mở điều tra tự vệ đối với một số vật liệu đầu vào composite",
+        "en": "EU opens safeguard investigation into certain composite input materials"
+      },
+      "summary": {
+        "vi": "Ngày 23/11, Liên minh châu Âu (EU) thông báo với Tổ chức Thương mại thế giới (WTO) rằng họ đã mở điều tra tự vệ trong ngày đối với một số vật liệu đầu vào composite nhập khẩu. Doanh nghiệp theo dõi vụ việc cần phân biệt hai thời hạn dành cho bên quan tâm, tính từ ngày khởi xướng.",
+        "en": "On 23 November, the European Union (EU) notified the World Trade Organization (WTO) that it had opened a safeguard investigation that day into imports of certain composite input materials. Businesses following the case face two distinct deadlines, both measured from initiation."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Mười lăm ngày để liên hệ",
+            "paragraphs": [
+              "Theo thông báo G/SG/N/6/EU/6, bên muốn được ghi nhận là bên quan tâm có thể liên hệ Ủy ban châu Âu ngay khi có thể, chậm nhất 15 ngày sau ngày khởi xướng. Ủy ban ưu tiên liên lạc qua thư điện tử. Thông báo khởi xướng là căn cứ để đối chiếu phạm vi hàng hóa và cách nộp hồ sơ."
+            ]
+          },
+          {
+            "heading": "Hai mươi mốt ngày để nộp thông tin hoặc đề nghị được trình bày",
+            "paragraphs": [
+              "Bảng trả lời, ý kiến bằng văn bản và bằng chứng có thời hạn 21 ngày kể từ ngày khởi xướng. Bên quan tâm cũng có thể đề nghị được trình bày trực tiếp trong thời hạn này. Cuộc điều tra nhằm xác định liệu nhập khẩu gia tăng có gây ra hoặc đe dọa gây ra thiệt hại nghiêm trọng cho ngành sản xuất trong nước hay không. WTO mới công bố việc mở điều tra; bản tin chưa nêu quyết định áp thuế hay hạn ngạch."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Fifteen days to make contact",
+            "paragraphs": [
+              "Under notification G/SG/N/6/EU/6, interested parties may make themselves known to the European Commission as soon as possible and no later than 15 days after initiation. The Commission prefers email. The notice of initiation sets out the product scope and filing procedure."
+            ]
+          },
+          {
+            "heading": "Twenty-one days to submit information or request a hearing",
+            "paragraphs": [
+              "Questionnaire replies, written representations and supporting evidence are due within 21 days of initiation. Interested parties may also request a hearing within that period. The investigation examines whether an increase in imports causes or threatens serious injury to the domestic industry. The WTO announcement reports the opening of proceedings. It announces no duty or quota."
+            ]
+          }
+        ]
+      },
+      "date": "2026-11-23",
+      "source": {
+        "name": "WTO",
+        "url": "https://www.wto.org/english/news_e/news26_e/safe_eec_23nov26_561_e.htm"
+      },
+      "images": [
+        {
+          "src": "/images/eu-dieu-tra-vat-lieu-composite.png",
+          "alt": {
+            "vi": "Tranh minh họa công nhân kiểm tra một mẫu vật liệu trong nhà xưởng",
+            "en": "Illustration of factory technicians examining a material sample"
+          },
+          "credit": "Verti • Tranh minh họa tự dựng / Original illustration"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "g20-thuong-mai",
+      "category": "wto-news",
+      "title": {
+        "vi": "G20 vừa mở cửa vừa dựng thêm rào cản thương mại",
+        "en": "G20 economies open markets and raise barriers in the same six months"
+      },
+      "summary": {
+        "vi": "Chỉ trong nửa đầu năm 2026, các nền kinh tế G20 đã ban hành 282 biện pháp tạo thuận lợi thương mại, nhiều hơn cả năm 2025. Nhưng cũng trong sáu tháng ấy, các biện pháp hạn chế và các biện pháp khác không tạo thuận lợi có phạm vi tác động lớn hơn về giá trị hàng nhập khẩu, theo báo cáo ngày 23/11 của Tổ chức Thương mại thế giới (WTO).",
+        "en": "G20 economies introduced 282 trade-facilitating measures in the first half of 2026, more than in all of 2025. Yet on the import side, new restrictive and other non-facilitating measures covered considerably more trade by value, according to the World Trade Organization’s (WTO) report of 23 November."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Hai xu hướng cùng tăng",
+            "paragraphs": [
+              "WTO ghi nhận 206 biện pháp hạn chế hoặc không tạo thuận lợi mới, so với 194 trong cả năm 2025. Ở chiều tạo thuận lợi, số tương ứng là 282 và 225. Hai khoảng thời gian dài khác nhau. Mỗi biện pháp cũng có thể bao trùm từ một mặt hàng đến nhiều ngành, nên số biện pháp riêng lẻ chưa cho biết doanh nghiệp xuất khẩu được lợi hay chịu thiệt bao nhiêu."
+            ]
+          },
+          {
+            "heading": "Giá trị hàng hóa cho thấy một bức tranh khác",
+            "paragraphs": [
+              "Trong nửa đầu năm 2026, các biện pháp mới ở chiều không tạo thuận lợi liên quan đến khoảng 2.000 tỷ USD hàng nhập khẩu, tương đương 12,9% kim ngạch nhập khẩu của G20. Các biện pháp tạo thuận lợi cho nhập khẩu bao phủ khoảng 977 tỷ USD, tương đương 6,4%. Cộng dồn từ năm 2009, các biện pháp hạn chế nhập khẩu và biện pháp khác không tạo thuận lợi còn hiệu lực ngày 30/6 bao phủ 29,6% kim ngạch nhập khẩu, tăng từ 27,9% cuối năm 2025. Tỷ lệ này đo phạm vi hàng hóa chịu tác động, không phải số thuế doanh nghiệp đã nộp."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Activity increased in both directions",
+            "paragraphs": [
+              "The WTO recorded 206 new restrictive or other non-facilitating measures, compared with 194 in all of 2025. The corresponding counts for facilitating measures were 282 and 225. The reporting periods differ in length. A measure can cover anything from one product to several industries, so counting measures alone tells an exporter little about the overall effect on its business."
+            ]
+          },
+          {
+            "heading": "The value of imports in scope",
+            "paragraphs": [
+              "New non-facilitating import measures covered about USD 2 trillion, or 12.9% of G20 imports, in the first half of 2026. New import-facilitating measures covered about USD 977 billion, or 6.4%. Looking back to 2009, restrictive and other non-facilitating import measures still in force on 30 June covered 29.6% of G20 imports, up from 27.9% at the end of 2025. This measures the trade covered, rather than the duties companies paid."
+            ]
+          }
+        ]
+      },
+      "date": "2026-11-23",
+      "source": {
+        "name": "WTO",
+        "url": "https://www.wto.org/english/news_e/news26_e/tmg20_23nov26_559_e.htm"
+      },
+      "images": [
+        {
+          "src": "/images/g20-thuong-mai.png",
+          "alt": {
+            "vi": "Tranh minh họa tàu hàng, cần cẩu và công nhân tại cảng container",
+            "en": "Illustration of a cargo ship, cranes and a worker at a container port"
+          },
+          "credit": "Verti • Tranh minh họa tự dựng / Original illustration"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "drovid-nhan-hieu",
+      "category": "wipo-news",
+      "title": {
+        "vi": "Từ rừng Patagonia đến 57 thị trường, Drovid đưa nhãn hiệu Chile ra nước ngoài",
+        "en": "From Patagonia to 57 markets, Drovid takes a Chilean trademark abroad"
+      },
+      "summary": {
+        "vi": "Một chuyến đi bộ năm 2014 đã khiến Cristian León Ibarra đặt câu hỏi liệu có thể nhận biết nguy cơ cháy rừng sớm hơn. Khi công nghệ của Drovid tìm được khách hàng thử nghiệm, doanh nghiệp Chile còn phải giải một bài toán khác là giữ được tên thương hiệu ở những thị trường muốn bước vào.",
+        "en": "A trek in 2014 left Cristian León Ibarra wondering whether forest fire risks could be spotted sooner. As his company Drovid found a customer for its technology, it faced another challenge: securing its brand in the markets it hoped to enter."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Từ tín hiệu trên không đến cam kết mua",
+            "paragraphs": [
+              "Tại Vườn quốc gia Torres del Paine, Ibarra nhìn thấy dấu tích của vụ cháy rừng xảy ra nhiều năm trước. Nhóm của ông sau đó phát triển phần mềm phân tích ngay trên thiết bị bay để nhận biết khói, lửa và các yếu tố nguy cơ. Trong thử nghiệm thương mại tại một khu rừng hỗn giao rộng 2.500 ha ở Chile, một doanh nghiệp lâm nghiệp đã cam kết mua. Kết quả này cho thấy khách hàng quan tâm đến hệ thống, nhưng chưa cho phép ước tính tỷ lệ phát hiện cháy trên những địa hình khác."
+            ]
+          },
+          {
+            "heading": "Một hồ sơ quốc tế, nhiều quyết định bảo hộ",
+            "paragraphs": [
+              "Ibarra đăng ký nhãn hiệu tại Chile năm 2020 và đạt thỏa thuận mua tên miền chính năm 2021. Từ tháng 8/2025, Drovid dựa trên đăng ký tại Chile để yêu cầu bảo hộ qua Hệ thống Madrid do Tổ chức Sở hữu trí tuệ thế giới (WIPO) quản lý. Trong 57 thị trường được yêu cầu, 33 đã bảo hộ tại thời điểm WIPO viết bài. Trung Quốc, New Zealand, Ukraine và Hoa Kỳ từng thông báo từ chối tạm thời. Với doanh nghiệp xuất khẩu, con số thị trường được chỉ định và số thị trường thực sự chấp nhận nhãn hiệu vì thế cần được theo dõi riêng."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "From airborne signals to a purchase commitment",
+            "paragraphs": [
+              "In Torres del Paine National Park, Ibarra saw the aftermath of a wildfire that had occurred years earlier. His team later developed software that processes data aboard drones to identify smoke, fire and risk factors. A commercial pilot in 2,500 hectares of mixed forest in Chile led a forestry company to commit to a purchase. That result demonstrates customer interest. It does not establish a detection rate across different landscapes."
+            ]
+          },
+          {
+            "heading": "One international filing, separate protection decisions",
+            "paragraphs": [
+              "Ibarra registered the mark in Chile in 2020 and reached a deal for its main domain name in 2021. In August 2025, Drovid used the Chilean registration to seek protection through the Madrid System administered by the World Intellectual Property Organization (WIPO). Of the 57 markets designated, 33 had granted protection when WIPO reported the case. China, New Zealand, Ukraine and the United States had issued provisional refusals. For exporters, designations and confirmed protection are consequently two different figures to track."
+            ]
+          }
+        ]
+      },
+      "date": "2026-11-23",
+      "source": {
+        "name": "WIPO",
+        "url": "https://www.wipo.int/en/web/ip-advantage/w/stories/drovid-from-a-patagonian-wildfire-to-a-globally-protected-trademark"
+      },
+      "images": [
+        {
+          "src": "/images/drovid-nhan-hieu.png",
+          "alt": {
+            "vi": "Tranh vẽ thiết bị bay quan sát khói trên một thung lũng có rừng ở Patagonia",
+            "en": "Illustration of a drone monitoring smoke over a forested Patagonian valley"
+          },
+          "credit": "Verti • Tranh minh họa tự dựng / Original illustration"
+        }
+      ],
+      "status": "published"
+    },
+    {
       "slug": "panama-ita-ii-2026",
       "status": "published",
       "category": "wto-news",
