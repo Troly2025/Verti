@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "pin-the-ran-giam-khe-ho-khi-xa",
+    "topic_id": "frontier_tech_radar:oxford-voiding:10.1038/s41560-026-02172-w",
+    "branch": 5,
+    "category": "frontier-tech",
+    "date": "2026-11-25",
+    "source_date": "23/11/2026",
+    "source": {
+      "name": "Nature Energy",
+      "url": "https://www.nature.com/articles/s41560-026-02172-w?error=cookies_not_supported"
+    },
+    "title": {
+      "vi": "Bề mặt gợn sóng giúp pin thể rắn chịu dòng xả cao hơn trong phòng thí nghiệm",
+      "en": "A contoured interface lets a lab solid-state battery sustain higher discharge currents"
+    },
+    "graphic": {
+      "vi": "Vì sao pin thể rắn cần một bề mặt không phẳng?",
+      "en": "Why give a solid-state battery an uneven surface?"
+    },
+    "summary": {
+      "vi": "Trong nghiên cứu đăng ngày 23/11 trên Nature Energy, nhóm do Đại học Oxford dẫn dắt tạo các gợn nhỏ trên mặt tiếp xúc giữa lithium kim loại và chất điện phân gốm. Ở 30 °C và áp suất nén 2 MPa, mật độ dòng xả tại đó khe rỗng bắt đầu xuất hiện tăng từ 0,2 lên 2 mA/cm². Đây là ngưỡng trong phép đo phòng thí nghiệm, không phải công suất pin xe tăng gấp mười.",
+      "en": "In a Nature Energy paper published on 23 November, an Oxford-led team gave the interface between lithium metal and a ceramic electrolyte a microscopic contour. At 30 °C and 2 MPa of stack pressure, the discharge current density at the onset of voiding rose from 0.2 to 2 mA/cm². That is a laboratory threshold, not a tenfold increase in vehicle battery power."
+    },
+    "sources_extra": [
+      "https://doi.org/10.1038/s41560-026-02172-w",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "images": [
+      {
+        "src": "/images/pin-the-ran-giam-khe-ho-khi-xa.png",
+        "credit": "Verti · Minh họa do AI tạo / AI-generated illustration",
+        "alt": {
+          "vi": "Minh họa cận cảnh lớp lithium kim loại tiếp xúc với bề mặt gốm có gợn cong",
+          "en": "Illustrated cutaway of lithium metal in contact with a contoured ceramic surface"
+        }
+      },
+      {
+        "src": "/images/pin-the-ran-giam-khe-ho-khi-xa-xray.png",
+        "credit": "Zhang et al., Nature Energy (2026), Fig. 1a, DOI 10.1038/s41560-026-02172-w, CC BY 4.0; trích khung hình / cropped from Figure 1",
+        "alt": {
+          "vi": "Ba mặt cắt chụp cắt lớp tia X so sánh hình dạng bề mặt, với dạng gợn tròn ở giữa; không phải ảnh của phép đo ngưỡng ở 2 MPa",
+          "en": "Three X-ray tomography cross sections comparing surface geometries, with the rounded contour in the middle; not an image of the 2 MPa threshold test"
+        }
+      }
+    ],
+    "lines": [
+      "Trong pin thể rắn, khi lithium bị rút ra lúc xả, những khe nhỏ có thể mở giữa kim loại và lớp gốm.",
+      "During discharge, tiny gaps can open where lithium metal meets the ceramic in a solid-state battery.",
+      "Nhóm Đại học Oxford công bố trên Nature Energy ngày hai mươi ba tháng mười một: tạo gợn tròn trên mặt gốm giúp trì hoãn khe rỗng.",
+      "On 23 November, an Oxford-led team reported that rounded contours delayed the onset of voids.",
+      "Ở áp suất hai mê ga pas can và ba mươi độ C, ngưỡng tăng từ không phẩy hai lên hai mili ampe trên mỗi xen ti mét vuông.",
+      "At 2 MPa and 30 °C, voids started at 2 rather than 0.2 mA/cm².",
+      "Các khe chưa biến mất. Nhóm thử trên tế bào pin, không thử trên xe. Đọc điều kiện và xem ảnh cắt lớp trên Verti.",
+      "Voids did not disappear. This was a lab-cell test, not a test on a vehicle. See the science and X-rays on Verti."
+    ],
+    "body": {
+      "vi": [
+        {
+          "heading": "Vì sao chỗ tiếp xúc lại quan trọng?",
+          "paragraphs": [
+            "Khi pin xả, lithium rời điện cực âm. Nếu lithium không dịch chuyển đủ để bù phần đã mất ở mặt tiếp xúc, khe rỗng có thể hình thành. Diện tích còn tiếp xúc nhỏ đi, khiến dòng tập trung hơn ở những chỗ vẫn dẫn được và điện áp dễ sụt hơn. Nhóm nghiên cứu dùng khuôn in 3D để tạo địa hình dạng khay trứng trên chất điện phân gốm Li₆PS₅Cl, với các gợn tròn thay cho góc nhọn."
+          ]
+        },
+        {
+          "heading": "Hai loại hình ảnh, hai phép đo khác nhau",
+          "paragraphs": [
+            "Ảnh cắt lớp tia X trong Hình 1a so sánh ba hình dạng bề mặt. Không nên lấy ảnh đó làm bằng chứng trực tiếp cho con số tăng gấp 10 lần: phép đo ngưỡng ở 2 MPa và 30 °C được trình bày riêng ở Hình 3. Nhóm dùng độ phân cực tăng thêm 2 mV khi rút lithium làm dấu mốc xác định khe rỗng bắt đầu hình thành."
+          ]
+        },
+        {
+          "heading": "Thử tải mô phỏng nhưng chưa thử xe",
+          "paragraphs": [
+            "Một thử nghiệm khác dùng chuỗi dòng điện suy ra từ quy trình kiểm tra xe hạng nhẹ WLTP, với đỉnh khoảng 9 mA/cm². Mẫu ba điện cực có bề mặt gợn chịu được chuỗi xả ở 2 MPa và 60 °C; mẫu đối chứng phẳng bị phân cực mạnh. Đây là cấu hình và nhiệt độ khác phép đo ngưỡng ở 30 °C, và chuỗi tải được áp vào tế bào pin trong phòng thí nghiệm."
+          ]
+        },
+        {
+          "heading": "Hướng kiểm tra tiếp theo",
+          "paragraphs": [
+            "Tạo gợn giúp trì hoãn khe rỗng và hạn chế chúng phát triển trong các phép thử, chứ không xóa hết khe. Một bước tiếp theo có ích là kiểm tra độ đồng đều và chi phí tạo bề mặt trên diện tích lớn, khả năng làm việc ở áp suất thấp hơn, và độ bền của tế bào đầy đủ qua nhiều chu kỳ. Kết quả hiện tại chưa trả lời các câu hỏi đó ở quy mô pin thương mại."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "Why the contact matters",
+          "paragraphs": [
+            "During discharge, lithium leaves the negative electrode. If lithium does not move quickly enough to fill the space left at the interface, voids can form. The remaining contact area carries more of the current and the voltage can drop more sharply. The researchers used 3D-printed templates to give the Li₆PS₅Cl ceramic electrolyte a rounded egg-carton-like topography."
+          ]
+        },
+        {
+          "heading": "The images and the threshold come from different tests",
+          "paragraphs": [
+            "The X-ray cross sections in Figure 1a compare three surface shapes. They are not direct evidence for the tenfold figure: the 2 MPa and 30 °C threshold is reported separately in Figure 3. The team marked the onset of voiding when voltage polarization during lithium stripping had risen by 2 mV."
+          ]
+        },
+        {
+          "heading": "A simulated driving load, not a road test",
+          "paragraphs": [
+            "A separate test used a current profile derived from the WLTP light-vehicle procedure, with peaks of about 9 mA/cm². At 2 MPa and 60 °C, a contoured three-electrode cell sustained the sequence, while the flat control showed strong polarization. That used a different protocol and temperature from the 30 °C threshold comparison and applied the load to a laboratory cell."
+          ]
+        },
+        {
+          "heading": "What scaling would still need to show",
+          "paragraphs": [
+            "Contouring delayed voiding and suppressed void growth in the tests; it did not eliminate gaps. Useful next checks include the uniformity and cost of patterning larger areas, performance at lower stack pressures and durability of full cells over many cycles. The present results do not answer those questions at commercial scale."
+          ]
+        }
+      ]
+    }
+  }
+]

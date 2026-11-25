@@ -1,0 +1,11 @@
+{
+  "base": "24a3133c4894e58e6572442e72476655fc0de25a",
+  "sha256": {
+    "wipo-25nov-1500-fb/batch.json": "794e38f5f30b52b0cfbefcd50613ba54fb17f23955ab1fbacf0fc1cdaab396b3",
+    "wipo-25nov-1500-fb/baseline-articles.json": "073f56954a8d1d9d0a3e14a59d84005a07b8aecdd20ebbcf00dbd67c7c44bee2",
+    "scripts/wipo-25nov-1500-fb.py": "ff36906de8838713e685560deebd6427e2631213e9d4e5444c4f0d9e8d9cb03e",
+    "wipo-25nov-1500-fb/pin-the-ran-giam-khe-ho-khi-xa/pin-the-ran-giam-khe-ho-khi-xa.png": "f9643adabe7b6f2c0732ea7f24718896fa38ec307b6c12dcdbb60c5fd9485788",
+    "wipo-25nov-1500-fb/pin-the-ran-giam-khe-ho-khi-xa/pin-the-ran-giam-khe-ho-khi-xa-xray.png": "fa4502492f80e4f033ee4a600308b5c9ba738766c58c782b768adbae450614e6",
+    "wipo-25nov-1500-fb/pin-the-ran-giam-khe-ho-khi-xa/pin-the-ran-giam-khe-ho-khi-xa.mp4": "7d672c4402c99281969413b16333f015849df0c852e69f3b17ac4fa5fa8ab3e4"
+  }
+}
