@@ -1,0 +1,9 @@
+{
+  "slugs": [
+    "epo-hoan-phi-tra-cuu-pct",
+    "slic-toi-uu-mach-tuong-tu",
+    "cern-iris-thu-ai-ha-tang-nghien-cuu"
+  ],
+  "base": "b671d697952dbbe3a6525d3b7dbdf3ebca16b12f",
+  "dist_sha256": "b7f75ff43bf4f937256470616658d179815bc9d9e33e3ffa64a192f5b1d90769"
+}
