@@ -1,0 +1,207 @@
+[
+  {
+    "branch": 5,
+    "topic_id": "frontier_tech_radar:hyperon:10.1038/s41467-026-78734-z",
+    "slug": "chip-quang-hyperon-64-to-hop",
+    "category": "frontier-tech",
+    "scene": "photon",
+    "date": "2026-11-25",
+    "source_date": "24/11/2026",
+    "title": {
+      "vi": "Chip quang HyperON đã thử 64 tổ hợp, nhưng chưa chạy cả 64 cùng lúc",
+      "en": "The HyperON photonic chip tested 64 combinations, but not all at once"
+    },
+    "graphic": {
+      "vi": "Bốn màu ánh sáng tính toán trên chip thế nào?",
+      "en": "How do four colours of light compute on a chip?"
+    },
+    "summary": {
+      "vi": "Ngày 24/11, Nature Communications đưa lên bản thảo đã chấp nhận của Yun-Long Nie và cộng sự về chip quang HyperON. Nhóm do các nhà nghiên cứu ở Đại học Giao thông Thượng Hải tham gia thử bốn bước sóng trên 16 cụm xử lý. Đây là phép đo lần lượt các tổ hợp, chưa phải phép chạy toàn bộ cùng lúc.",
+      "en": "On 24 November, Nature Communications posted an accepted manuscript by Yun-Long Nie and colleagues on the HyperON photonic chip. The team, which includes researchers at Shanghai Jiao Tong University, tested four wavelengths across 16 processing units. The measurements cover the combinations, not a simultaneous run of the entire array."
+    },
+    "source": {
+      "name": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-78734-z"
+    },
+    "sources_extra": [
+      "https://www.nature.com/articles/s41467-026-78734-z_reference.pdf?error=cookies_not_supported"
+    ],
+    "images": [
+      {
+        "src": "/images/chip-quang-hyperon-64-to-hop.png",
+        "alt": {
+          "vi": "Hình minh họa nhà nghiên cứu điều khiển các đường ánh sáng trên chip quang",
+          "en": "Illustration of a researcher routing coloured light on a photonic chip"
+        },
+        "credit": "Verti · Minh họa gốc / Original illustration"
+      }
+    ],
+    "body": {
+      "vi": [
+        {
+          "heading": "Ánh sáng làm phép nhân ở đâu?",
+          "paragraphs": [
+            "Các bộ điều chế thay đổi cường độ tín hiệu quang để biểu diễn dữ liệu và trọng số. Thiết kế ghép hai cách chia kênh: nhiều bước sóng cùng đi qua một cụm xử lý và nhiều cụm vật lý nằm trên cùng chip. Các bộ phận điện tử vẫn tham gia, chẳng hạn thực hiện bước cộng dồn trong phép lọc ảnh."
+          ]
+        },
+        {
+          "heading": "64 tổ hợp không đồng nghĩa 64 kênh chạy một lượt",
+          "paragraphs": [
+            "Trong phép thử ở hình 4e, nhóm đưa đồng thời bốn bước sóng vào một cụm rồi lần lượt chuyển qua 16 cụm. Một thử nghiệm lọc ảnh riêng chạy ở 64 Gbaud với một bước sóng và một cụm. Gbaud là tốc độ ký hiệu, không phải tốc độ dữ liệu theo bit hay số phép tính mỗi giây."
+          ]
+        },
+        {
+          "heading": "Khi đọc chữ số, chip chỉ đảm nhiệm lớp cuối",
+          "paragraphs": [
+            "Phép thử 500 ảnh chữ số viết tay đạt độ chính xác 91,8%, so với 96,2% ở mô phỏng. Chỉ lớp kết nối đầy đủ cuối cùng chạy bằng chip quang; các lớp trước xử lý bằng điện tử. Không thể dùng kết quả đó để kết luận toàn mạng đã vận hành bằng ánh sáng."
+          ]
+        },
+        {
+          "heading": "Cần đo gì khi mở rộng?",
+          "paragraphs": [
+            "Điểm đáng chú ý là nhóm đã đo được độ chính xác của các tổ hợp trên cùng kiến trúc. Muốn so với bộ tăng tốc điện tử, cần chạy nhiều cụm đồng thời và đo tốc độ, điện năng và độ chính xác của cả hệ thống, gồm nguồn sáng và phần chuyển đổi tín hiệu. Các mức hiệu năng cực đại nhóm ước tính chưa thay được phép thử đó."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "How light does multiplication",
+          "paragraphs": [
+            "Modulators change the intensity of optical signals to represent inputs and weights. The design combines two ways of splitting work: several wavelengths can pass through one unit, and several physical units sit on the same chip. Electronics still contribute, for instance by carrying out accumulation in the image-filtering experiment."
+          ]
+        },
+        {
+          "heading": "64 combinations do not mean 64 channels running together",
+          "paragraphs": [
+            "In the Figure 4e test, the researchers fed four wavelengths into one unit simultaneously and stepped through 16 units. A separate image-filtering demonstration ran at 64 Gbaud on one wavelength in one unit. Gbaud is a symbol rate, not a bit rate or a count of computations per second."
+          ]
+        },
+        {
+          "heading": "The digit test assigned only the final layer to the chip",
+          "paragraphs": [
+            "The test classified 500 handwritten-digit images with 91.8% accuracy, against 96.2% in simulation. Only the final fully connected layer ran on the photonic chip; the preceding layers used electronics. The result does not show fully optical operation of the network."
+          ]
+        },
+        {
+          "heading": "What a scaled test would need to measure",
+          "paragraphs": [
+            "The result shows that combinations on the same architecture can be tested for accuracy. A comparison with electronic accelerators needs simultaneous operation and measurements of speed, energy and accuracy for the whole system, including light sources and signal conversion. The authors’ peak estimates do not replace that experiment."
+          ]
+        }
+      ]
+    },
+    "lines": [
+      "Bốn màu ánh sáng có thể làm phép tính trên cùng chip. Ngày hai mươi tư tháng mười một, nhóm tại Đại học Giao thông Thượng Hải và các cộng sự công bố cách thử HyperON.",
+      "Four colours of light can compute on one chip. The HyperON test by a Shanghai Jiao Tong team and collaborators appeared on 24 November.",
+      "Họ chiếu đồng thời bốn bước sóng vào một cụm, rồi lần lượt thử mười sáu cụm. Thế là đủ sáu mươi tư tổ hợp, nhưng chưa chạy cùng lúc.",
+      "Four wavelengths shared one unit at a time. Testing 16 units covered 64 combinations, not simultaneous operation.",
+      "Chip nhận dạng chữ số đúng hơn chín mươi mốt phần trăm, nhưng phần quang học chỉ làm lớp cuối. Các lớp trước vẫn dùng điện tử.",
+      "Digit accuracy exceeded 91%, but the optical chip ran only the final layer; earlier layers used electronics.",
+      "Bước tiếp theo là đo cả hệ thống khi các cụm chạy đồng thời. Bản đầy đủ và nguồn nghiên cứu ở Verti.",
+      "The next test is to measure the full system with the units running together. Read the study details on Verti."
+    ]
+  },
+  {
+    "branch": 6,
+    "topic_id": "future_tech:oecd-viet-nam-semiconductors:10.1787/f2037017-en",
+    "slug": "oecd-viet-nam-thu-nghiem-chip",
+    "category": "future-research",
+    "scene": "silicon",
+    "date": "2026-11-25",
+    "source_date": "25/11/2026",
+    "title": {
+      "vi": "OECD đề xuất mở rộng khả năng làm mẫu chip tại Việt Nam",
+      "en": "OECD recommends expanding chip prototyping access in Viet Nam"
+    },
+    "graphic": {
+      "vi": "Nhiều thiết kế chip có thể dùng chung một tấm wafer?",
+      "en": "Can several chip designs share one wafer?"
+    },
+    "summary": {
+      "vi": "Báo cáo OECD công bố ngày 25/11 đánh giá Việt Nam đã có nền tảng lắp ráp, kiểm thử và đóng gói bán dẫn. Để mở rộng sang các khâu giàu hàm lượng nghiên cứu hơn, OECD đề nghị cải thiện khả năng làm mẫu, liên kết trường với doanh nghiệp và nâng năng lực thẩm định sáng chế.",
+      "en": "An OECD report published on 25 November describes Viet Nam’s established semiconductor assembly, testing and packaging sector. To build more research-intensive capabilities, it recommends improving access to prototypes, building university-industry links and strengthening patent examination."
+    },
+    "source": {
+      "name": "OECD",
+      "url": "https://www.oecd.org/en/publications/promoting-the-development-of-the-semiconductor-ecosystem-in-viet-nam_f2037017-en.html"
+    },
+    "sources_extra": [
+      "https://www.oecd.org/en/publications/promoting-the-development-of-the-semiconductor-ecosystem-in-viet-nam_f2037017-en/full-report/assessment-and-recommendations_14461fa9.html",
+      "https://www.oecd.org/en/publications/promoting-the-development-of-the-semiconductor-ecosystem-in-viet-nam_f2037017-en/full-report/examining-the-domestic-semiconductor-ecosystem_6cd9e5d4.html"
+    ],
+    "images": [
+      {
+        "src": "/images/oecd-viet-nam-thu-nghiem-chip.png",
+        "alt": {
+          "vi": "Hình minh họa kỹ sư thử mẫu thiết kế trên tấm wafer trong phòng thí nghiệm",
+          "en": "Illustration of an engineer testing prototype layouts on a wafer in a lab"
+        },
+        "credit": "Verti · Minh họa gốc / Original illustration"
+      }
+    ],
+    "body": {
+      "vi": [
+        {
+          "heading": "Việt Nam đang đứng ở khâu nào?",
+          "paragraphs": [
+            "Báo cáo mô tả ngành lắp ráp, kiểm thử và đóng gói khá phát triển, với sự hiện diện lâu năm của các nhà đầu tư nước ngoài. OECD ước tính xuất khẩu liên quan đến bán dẫn tăng từ khoảng 3,2 tỷ USD năm 2012 lên 28 tỷ USD năm 2024 theo giá cố định năm 2010. Chỉ số xuất khẩu không đo riêng phần giá trị tạo ra trong nước."
+          ]
+        },
+        {
+          "heading": "Một cách giảm chi phí thử thiết kế",
+          "paragraphs": [
+            "Dịch vụ đa dự án bố trí nhiều thiết kế trên cùng tấm wafer, tức tấm vật liệu bán dẫn để chế tạo chip. Các nhóm chia sẻ chi phí một lượt chế tạo thay vì đặt riêng cả tấm. OECD ghi nhận Việt Nam đã có một cơ sở đa dự án; mở rộng khả năng tiếp cận không có nghĩa phải bắt đầu từ số không. Hiệu quả phụ thuộc vào quy trình công nghệ, lịch chạy và dịch vụ kiểm thử sau chế tạo."
+          ]
+        },
+        {
+          "heading": "Đọc số liệu sáng chế cho đúng",
+          "paragraphs": [
+            "Hình 2.39 dùng họ sáng chế quốc tế theo nhóm năm cơ quan sở hữu trí tuệ lớn (IP5) và đơn theo Hiệp ước Hợp tác về Sáng chế (PCT), tính phân số theo phương pháp của OECD. Đây là thước đo có phạm vi cụ thể, không bao gồm mọi sáng chế nội địa. Báo cáo cũng đề nghị đào tạo thẩm định viên có chuyên môn bán dẫn và tăng liên kết nghiên cứu giữa trường và doanh nghiệp."
+          ]
+        },
+        {
+          "heading": "Thước đo tốt hơn số lượt tập huấn",
+          "paragraphs": [
+            "Một cách đánh giá chương trình là theo dõi bao nhiêu nhóm có nguyên mẫu kiểm thử được, chi phí và thời gian từ thiết kế đến đo, và bao nhiêu mẫu được doanh nghiệp thử tiếp. Đây là gợi ý đánh giá, không phải dự báo của OECD hay cam kết đầu tư."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "Where Viet Nam is in the chain",
+          "paragraphs": [
+            "The report describes a well-established assembly, testing and packaging segment with longstanding foreign investment. OECD estimates that semiconductor-related exports rose from about USD 3.2 billion in 2012 to USD 28 billion in 2024, in constant 2010 prices. Exports do not by themselves measure domestic value added."
+          ]
+        },
+        {
+          "heading": "One way to reduce the cost of testing designs",
+          "paragraphs": [
+            "A multi-project wafer run places several designs on one wafer, the semiconductor slice used to fabricate chips. Teams share one fabrication run instead of buying an entire wafer each. OECD notes that Viet Nam already has a domestic multi-project wafer facility. Widening access is not the same as starting from scratch. Results depend on process compatibility, scheduling and access to post-fabrication testing."
+          ]
+        },
+        {
+          "heading": "How to read the patent measure",
+          "paragraphs": [
+            "Figure 2.39 uses international families linked to the five large IP offices (IP5) and applications under the Patent Cooperation Treaty (PCT), fractionally counted under the OECD methodology. It does not capture all domestic inventions. The report also recommends training semiconductor-specialist patent examiners and strengthening research links between universities and firms."
+          ]
+        },
+        {
+          "heading": "A measure beyond training attendance",
+          "paragraphs": [
+            "One way to evaluate a programme would be to track testable prototypes, time and cost from design to measurement, and how many prototypes firms take forward for trials. This is a suggested evaluation approach, not an OECD forecast or an investment commitment."
+          ]
+        }
+      ]
+    },
+    "lines": [
+      "Việt Nam đã có thế mạnh lắp ráp, kiểm thử và đóng gói chip. Báo cáo OECD ngày hai mươi lăm tháng mười một hỏi: làm sao để nhiều nhóm tự thử thiết kế?",
+      "Viet Nam has established chip assembly, testing and packaging. On 25 November the OECD looked at how more teams could test their own designs.",
+      "Một cách là đưa nhiều thiết kế lên cùng một tấm vật liệu bán dẫn. Các nhóm chia sẻ chi phí chế tạo thay vì mỗi nơi đặt một lượt riêng.",
+      "Several designs can share a single semiconductor wafer, splitting fabrication costs instead of paying for separate runs.",
+      "OECD ghi nhận Việt Nam đã có cơ sở làm theo cách này. Cần mở rộng khả năng tiếp cận, nối trường với doanh nghiệp và đào tạo thẩm định viên sáng chế.",
+      "Viet Nam already has a shared-run facility. OECD calls for wider access, university-industry links and specialist patent examiners.",
+      "Thước đo đáng xem là bao nhiêu mẫu làm ra, kiểm thử được và được doanh nghiệp thử tiếp. Đọc bản phân tích trên Verti.",
+      "A useful measure is how many prototypes are built, tested and taken forward by a company. Read more on Verti."
+    ]
+  }
+]

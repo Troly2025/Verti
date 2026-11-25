@@ -1,0 +1,12 @@
+{
+  "base": "736ff6026458517dc93279215959678129c2e2af",
+  "sha256": {
+    "wipo-25nov-1200-fb/batch.json": "c1912bea733d2ff5b6c72a22c7dd2ba1e6b41fd65d081c01cdc76546380f5898",
+    "wipo-25nov-1200-fb/baseline-articles.json": "608e5e002178062944e70f661d6af60f27c19e86d1293dfebccd963e2b53f802",
+    "scripts/wipo-25nov-1200-fb.py": "ae0149ac35e82b98fefa9a3645ee9b8c0811f0f5d6282f5dd3086dd9b5ade9e7",
+    "wipo-25nov-1200-fb/chip-quang-hyperon-64-to-hop/chip-quang-hyperon-64-to-hop.png": "3e10b7d2331bcd9c2a2947551ef9704b7214f60b86d654da712ad362160e83dc",
+    "wipo-25nov-1200-fb/chip-quang-hyperon-64-to-hop/chip-quang-hyperon-64-to-hop.mp4": "b48a7fd2bfc9db85aff3f1aac90a7015de506084f264c5f9b05225c2aed2b847",
+    "wipo-25nov-1200-fb/oecd-viet-nam-thu-nghiem-chip/oecd-viet-nam-thu-nghiem-chip.png": "6780cec52de2689e4b1d4f361057cfa57ea29962dd566b6c55a798f7174910c5",
+    "wipo-25nov-1200-fb/oecd-viet-nam-thu-nghiem-chip/oecd-viet-nam-thu-nghiem-chip.mp4": "36c6385fcf6d76d2cf001fbfb6dcf828a6d9c96de2799994eecf4482992395a4"
+  }
+}
