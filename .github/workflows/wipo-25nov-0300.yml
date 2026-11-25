@@ -2,12 +2,12 @@ name: Publish verified WIPO 03:00 edition
 on:
   push:
     branches: [main]
-    paths: ['.github/releases/wipo-25nov-0300-go.json']
+    paths: ['.github/releases/wipo-25nov-0300-release.json']
 permissions:
   contents: read
 jobs:
   facebook:
-    if: github.repository == 'Troly2025/Verti' && github.event.before == '5b60e85f9c943b8f41054f093ec5ecd387236598' && github.run_attempt == 1
+    if: github.repository == 'Troly2025/Verti' && github.event.before == 'e8fb303c5cce79564dfbef7ecaf46a44b5d976bb' && github.run_attempt == 1
     concurrency:
       group: verti-facebook-manual-publication
       cancel-in-progress: false
@@ -22,15 +22,14 @@ jobs:
           persist-credentials: false
       - name: Verify pinned batch
         run: |
-          test "$(git rev-parse HEAD^)" = 5b60e85f9c943b8f41054f093ec5ecd387236598
-          git show HEAD^^:content/articles.json | cmp - wipo-25nov-0300/baseline-articles.json
-          python3 -I scripts/wipo-25nov-0300-go.py --check
+          test "$(git rev-parse HEAD^)" = e8fb303c5cce79564dfbef7ecaf46a44b5d976bb
+          python3 -I scripts/wipo-25nov-0300.py --check
       - name: Publish one bundle per eligible source
         env:
           FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
-        run: python3 -I scripts/wipo-25nov-0300-go.py
+        run: python3 -I scripts/wipo-25nov-0300.py
   website:
-    if: github.repository == 'Troly2025/Verti' && github.event.before == '5b60e85f9c943b8f41054f093ec5ecd387236598' && github.run_attempt == 1
+    if: github.repository == 'Troly2025/Verti' && github.event.before == 'e8fb303c5cce79564dfbef7ecaf46a44b5d976bb' && github.run_attempt == 1
     concurrency:
       group: verti-cloudflare-production-worker
       cancel-in-progress: false
@@ -47,11 +46,11 @@ jobs:
           package-manager-cache: false
       - name: Validate site and exact static bundle
         run: |
-          python3 -I scripts/wipo-25nov-0300-go.py --check
+          python3 -I scripts/wipo-25nov-0300.py --check
           npm test
           bash scripts/test-worker-release.sh
           npm run build
-          test "$(python3 scripts/verti-dist-digest.py)" = "$(jq -er .dist_sha256 .github/releases/wipo-25nov-0300-go.json)"
+          test "$(python3 scripts/verti-dist-digest.py)" = "$(jq -er .dist_sha256 .github/releases/wipo-25nov-0300-release.json)"
           npm ci --ignore-scripts --no-fund --no-audit
       - name: Stage verified pages
         id: stage

@@ -8,7 +8,7 @@ TITLE='Đã công bố sáng chế, còn tính mới không?'
 INTRO='WIPO mở cơ sở dữ liệu đối chiếu luật sáng chế giữa các nước'
 REEL=Path('media-trial/wipo-patent-law-reel.mp4')
 PHOTOS=[Path('media-trial')/f'wipo-luat-sang-che-{i}.png' for i in (1,2)]
-BASE='5b60e85f9c943b8f41054f093ec5ecd387236598'
+BASE='e8fb303c5cce79564dfbef7ecaf46a44b5d976bb'
 GRAPH='https://graph.facebook.com/'+VERSION+'/'
 TOKEN=''
 class Abort(Exception): pass
@@ -144,7 +144,7 @@ def run_batch():
  check(os.environ.get('GITHUB_REPOSITORY')=='Troly2025/Verti' and os.environ.get('GITHUB_REF')=='refs/heads/main' and os.environ.get('GITHUB_EVENT_NAME')=='push' and os.environ.get('GITHUB_RUN_ATTEMPT')=='1','Wrong action context.')
  push=json.loads(Path(os.environ['GITHUB_EVENT_PATH']).read_text())
  check(push.get('before')==BASE and push.get('after')==os.environ['GITHUB_SHA'] and not push.get('forced'),'Wrong action push.')
- m=json.loads(Path('.github/releases/wipo-25nov-0300-go.json').read_text())
+ m=json.loads(Path('.github/releases/wipo-25nov-0300-release.json').read_text())
  for name,sha in m['sha256'].items():check(hashlib.sha256(Path(name).read_bytes()).hexdigest()==sha,'Media/content digest mismatch '+name)
  rows=json.loads((ROOT/'batch.json').read_text())
  check(0<len(rows)<=8 and len({a['slug'] for a in rows})==len(rows),'Expected unique reviewed stories.')
