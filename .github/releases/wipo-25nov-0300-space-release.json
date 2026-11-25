@@ -1,0 +1,17 @@
+{
+  "base": "18c91d4a7ce8ffbb463e543eaed170876b366b9f",
+  "dist_sha256": "1eadd9e2e5e9190530c85c5363f758b25f3cb0d1cb1a0d9f3e0a97afae073715",
+  "sha256": {
+    "wipo-25nov-0300-space/baseline-articles.json": "330493a98468965c159b8106ce9279135a986a0568206b20ed4d5d1ddb9f8acf",
+    "wipo-25nov-0300-space/batch.json": "0d8aa2e4c7ab9467f9f119a46542c510408663546c8f2bc145a2d0ac05d1b6a1",
+    "wipo-25nov-0300-space/euclid-quasar-vu-tru-som/euclid-quasar-vu-tru-som.mp4": "982a758070c155da274386471c01cf36da3f3d3d88880d34886cd46d5a7d1f42",
+    "wipo-25nov-0300-space/euclid-quasar-vu-tru-som/euclid-quasar-vu-tru-som.png": "4dc47b4801279fe70e19e92606e99b4279eaade80f6602eac18ec0be35488b44",
+    "src/images/euclid-quasar-vu-tru-som.png": "4dc47b4801279fe70e19e92606e99b4279eaade80f6602eac18ec0be35488b44",
+    "wipo-25nov-0300-space/bepicolombo-hop-tac-chau-au-nhat-ban/bepicolombo-hop-tac-chau-au-nhat-ban.mp4": "f0975f87fd64cba87671086236e9a4fba37e7d67e084ab7be8b4ef533163dbe0",
+    "wipo-25nov-0300-space/bepicolombo-hop-tac-chau-au-nhat-ban/bepicolombo-hop-tac-chau-au-nhat-ban.png": "a0949b18722ad93ef3bc5b60b7cc6cbccbb07859f7ef2c2a8dee2818aa2c74d0",
+    "src/images/bepicolombo-hop-tac-chau-au-nhat-ban.png": "a0949b18722ad93ef3bc5b60b7cc6cbccbb07859f7ef2c2a8dee2818aa2c74d0",
+    "content/articles.json": "1ba51e822aec578127d7227681d942b916384ec42064a288102b649c83250ce7",
+    "scripts/wipo-25nov-0300-space.py": "ebbdb39fc19e647d33e410fdd2134565a9c119239b1894411fc4ce1177fd4ba0",
+    ".github/workflows/wipo-25nov-0300-space.yml": "053200e2b8b9c585133d5ac2177094b256f8db98c0be86916f4280a688aff479"
+  }
+}

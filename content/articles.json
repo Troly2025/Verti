@@ -1,6 +1,122 @@
 {
   "articles": [
     {
+      "slug": "bepicolombo-hop-tac-chau-au-nhat-ban",
+      "category": "cooperation",
+      "title": {
+        "vi": "BepiColombo vào quỹ đạo Sao Thủy: châu Âu và Nhật Bản chia việc thế nào?",
+        "en": "BepiColombo reaches Mercury orbit: how Europe and Japan share the work"
+      },
+      "summary": {
+        "vi": "Sau tám năm hành trình, tàu BepiColombo đã vào quỹ đạo Sao Thủy dù một đợt khai hỏa kết thúc sớm. Cơ quan Vũ trụ châu Âu (ESA) và Cơ quan Thám hiểm Hàng không Vũ trụ Nhật Bản (JAXA) xác nhận tàu an toàn; việc tách hai thiết bị quỹ đạo vẫn dự kiến ngày 9/12 giờ Đức, tức 10/12 giờ Nhật.",
+        "en": "After an eight-year journey, BepiColombo entered Mercury orbit although one engine burn ended early. The European Space Agency (ESA) and the Japan Aerospace Exploration Agency (JAXA) confirmed the spacecraft was safe. Separation of the two science orbiters is still expected on 9 December in Germany, or 10 December in Japan."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Một hành trình, hai nhiệm vụ khoa học",
+            "paragraphs": [
+              "Thiết bị MPO của ESA nghiên cứu hành tinh, từ bề mặt đến cấu trúc bên trong. Thiết bị Mio của JAXA tập trung vào từ quyển. Hai bên dùng chung hành trình liên hành tinh, rồi vận hành các thiết bị riêng sau khi tách; dữ liệu về hành tinh và môi trường quanh nó có thể bổ sung cho nhau."
+            ]
+          },
+          {
+            "heading": "Sự cố cho thấy điểm phụ thuộc",
+            "paragraphs": [
+              "ESA cho biết đợt khai hỏa ngày 21/11 đạt khoảng 77% mức đổi vận tốc dự kiến. Quỹ đạo ban đầu dài 75 giờ thay vì 58 giờ. Đội điều khiển tính lại các bước tiếp theo; đến thông báo 23–24/11, lịch tách Mio chưa đổi. Trường hợp này cho thấy lợi ích của việc chia chuyên môn, nhưng hai nhiệm vụ vẫn cùng phụ thuộc vào một giai đoạn vận hành trước khi tách."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "One journey, two science missions",
+            "paragraphs": [
+              "ESA’s MPO will study the planet from its surface down to its interior. JAXA’s Mio will focus on the magnetosphere. The partners shared an interplanetary journey and will operate separate orbiters after separation. Their data on the planet and its surroundings can complement each other."
+            ]
+          },
+          {
+            "heading": "The anomaly exposed a shared dependency",
+            "paragraphs": [
+              "ESA says the 21 November burn achieved about 77% of the planned change in speed. The initial orbital period was 75 hours rather than 58. Controllers adjusted the remaining manoeuvres. As of the 23–24 November updates, Mio’s separation date had not changed. The arrangement makes use of distinct expertise, while both missions still depend on shared operations before separation."
+            ]
+          }
+        ]
+      },
+      "date": "2026-11-24",
+      "source": {
+        "name": "ESA và JAXA",
+        "url": "https://www.esa.int/articles/about-us/directorates/operations/bepicolombo-safely-in-mercury-orbit-despite-unexpected-challenge"
+      },
+      "images": [
+        {
+          "src": "/images/bepicolombo-hop-tac-chau-au-nhat-ban.png",
+          "alt": {
+            "vi": "Tranh minh họa tàu vũ trụ và hai quỹ đạo quanh Sao Thủy",
+            "en": "Illustration of a spacecraft and two orbital paths around Mercury"
+          },
+          "credit": "Verti • Tranh minh họa tự dựng / Original illustration"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "euclid-quasar-vu-tru-som",
+      "category": "future-research",
+      "title": {
+        "vi": "Euclid tìm thấy chuẩn tinh từ khi vũ trụ mới 630 triệu năm tuổi",
+        "en": "Euclid finds a quasar from when the Universe was only 630 million years old"
+      },
+      "summary": {
+        "vi": "Ngày 24/11, Cơ quan Vũ trụ châu Âu (ESA) công bố chuẩn tinh J1504+6252. Kính James Webb giúp xác nhận khối lượng lỗ đen trung tâm khoảng 360 triệu lần Mặt Trời. Một vật thể lớn đến vậy ở thời kỳ rất sớm đặt ra câu hỏi về cách các lỗ đen đầu tiên tăng trưởng.",
+        "en": "On 24 November, the European Space Agency (ESA) announced quasar J1504+6252. The James Webb Space Telescope helped put its central black hole at about 360 million solar masses. An object this massive so early raises a question about how the first black holes grew."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Tìm rộng, sau đó đo sâu",
+            "paragraphs": [
+              "Euclid dùng dữ liệu hồng ngoại trên vùng trời rộng để tìm ứng viên hiếm. Các quan sát tiếp theo từ kính mặt đất, Hubble và James Webb giúp xác định bản chất của vật thể. Độ dịch đỏ 8,13 cho phép nhìn lại khoảng 13,1 tỷ năm; con số 630 triệu năm nói về tuổi của vũ trụ lúc ánh sáng phát ra, không phải tuổi của riêng lỗ đen."
+            ]
+          },
+          {
+            "heading": "Một trường hợp gợi hướng nghiên cứu",
+            "paragraphs": [
+              "Ở thời điểm được quan sát, chuẩn tinh này thu nhận vật chất tương đối chậm. Đo đạc hiện tại không cho biết trực tiếp nó đã tăng trưởng thế nào trước đó. Tìm thêm các chuẩn tinh hiếm tương tự và so sánh mức độ bồi tụ có thể giúp phân biệt các mô hình, thay vì kết luận từ một trường hợp."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Survey widely, then observe deeply",
+            "paragraphs": [
+              "Euclid used wide-area infrared data to spot rare candidates. Follow-up observations from ground telescopes, Hubble and Webb established the nature of the source. Its redshift of 8.13 looks back about 13.1 billion years. The 630 million years is the age of the Universe when the light was emitted, not the age of the black hole itself."
+            ]
+          },
+          {
+            "heading": "A case that opens a research question",
+            "paragraphs": [
+              "The quasar was drawing in matter relatively slowly when observed. That measurement does not tell us directly how it grew earlier. Finding more such rare quasars and comparing their accretion rates may help distinguish competing models without relying on one object alone."
+            ]
+          }
+        ]
+      },
+      "date": "2026-11-24",
+      "source": {
+        "name": "ESA",
+        "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-breaks-own-quasar-record-by-40-million-years"
+      },
+      "images": [
+        {
+          "src": "/images/euclid-quasar-vu-tru-som.png",
+          "alt": {
+            "vi": "Tranh minh họa chuẩn tinh với đĩa vật chất sáng giữa trường sao",
+            "en": "Illustration of a quasar and its bright accretion disk against a star field"
+          },
+          "credit": "Verti • Tranh minh họa tự dựng / Original illustration"
+        }
+      ],
+      "status": "published"
+    },
+    {
       "slug": "kiem-chung-ban-chung-minh-riemann-lean",
       "category": "frontier-tech",
       "title": {
@@ -56,7 +172,9 @@
           "credit": "Verti • Tranh minh họa tự dựng / Original illustration"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155393377188514",
+      "facebookReel": "https://www.facebook.com/reel/2177756113113790/"
     },
     {
       "slug": "eu-dieu-tra-vat-lieu-composite",
@@ -114,7 +232,9 @@
           "credit": "Verti • Tranh minh họa tự dựng / Original illustration"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155392543188514",
+      "facebookReel": "https://www.facebook.com/reel/3314035188795543/"
     },
     {
       "slug": "g20-thuong-mai",
@@ -172,7 +292,9 @@
           "credit": "Verti • Tranh minh họa tự dựng / Original illustration"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155392105188514",
+      "facebookReel": "https://www.facebook.com/reel/2678767742579700/"
     },
     {
       "slug": "drovid-nhan-hieu",
@@ -230,7 +352,9 @@
           "credit": "Verti • Tranh minh họa tự dựng / Original illustration"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155391535188514",
+      "facebookReel": "https://www.facebook.com/reel/1648307046773297/"
     },
     {
       "slug": "panama-ita-ii-2026",

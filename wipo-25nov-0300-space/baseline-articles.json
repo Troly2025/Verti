@@ -1,0 +1,1456 @@
+{
+  "articles": [
+    {
+      "slug": "kiem-chung-ban-chung-minh-riemann-lean",
+      "category": "frontier-tech",
+      "title": {
+        "vi": "Bản chứng minh giả thuyết Riemann qua nhiều phép kiểm tra bằng máy",
+        "en": "Proposed Riemann Hypothesis proof passes multiple machine checks"
+      },
+      "summary": {
+        "vi": "Trong bản rà soát cập nhật ngày 24/11, nhà toán học Andrew Sutherland tại Viện Công nghệ Massachusetts (MIT) công bố các phép kiểm tra độc lập đối với bản chứng minh hình thức về giả thuyết Riemann. Các phép thử là bước kiểm tra quan trọng; chúng không đồng nghĩa với việc đã trao Giải thưởng Thiên niên kỷ.",
+        "en": "In a verification update dated 24 November, MIT mathematician Andrew Sutherland reported independent checks of a formal proof of the Riemann Hypothesis. These checks are an important milestone; they are not an award decision for the Millennium Prize."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Các bộ kiểm tra đã đối chiếu điều gì?",
+            "paragraphs": [
+              "Nhóm kiểm tra biên dịch 175.187 mô-đun Lean và chạy lại cả 175.187 qua bộ kiểm tra lõi. Hai bộ kiểm tra lõi được viết độc lập cũng chấp nhận bản xuất đầy đủ. Trong năm mệnh đề chính, nhóm đối chiếu cả phát biểu giả thuyết Riemann theo định nghĩa của thư viện Mathlib, không chỉ kiểm tra mã có chạy hay không."
+            ]
+          },
+          {
+            "heading": "Kết quả kiểm tra có phạm vi cụ thể",
+            "paragraphs": [
+              "Các mệnh đề mở rộng được kiểm tra liên quan tới hàm L Dirichlet. Chúng không bao quát mọi dạng mở rộng của giả thuyết. Hồ sơ kiểm tra công khai giúp người khác xem dữ liệu và chạy đối chiếu, nhưng số mô-đun không tự cho biết ý tưởng toán học nào là then chốt."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "What did the checkers verify?",
+            "paragraphs": [
+              "The reviewers compiled 175,187 Lean modules and replayed all of them through the proof kernel. Two independently written kernels also accepted the full export. The reviewers checked the intended statements of the five main theorems, including the Riemann Hypothesis as defined in Mathlib, not just whether the code ran."
+            ]
+          },
+          {
+            "heading": "A specific scope",
+            "paragraphs": [
+              "The generalized statements checked here concern Dirichlet L-functions. They do not cover every generalization. The public files let others review the evidence and reproduce checks; a module count cannot tell readers which mathematical idea was decisive."
+            ]
+          }
+        ]
+      },
+      "date": "2026-11-24",
+      "source": {
+        "name": "MIT • Andrew Sutherland",
+        "url": "https://math.mit.edu/~drew/grh/"
+      },
+      "images": [
+        {
+          "src": "/images/kiem-chung-ban-chung-minh-riemann-lean.png",
+          "alt": {
+            "vi": "Tranh minh họa nhà toán học bên bảng và hai máy tính kiểm tra bản chứng minh",
+            "en": "Illustration of a mathematician at a board and two computers checking a proof"
+          },
+          "credit": "Verti • Tranh minh họa tự dựng / Original illustration"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "eu-dieu-tra-vat-lieu-composite",
+      "category": "wto-news",
+      "title": {
+        "vi": "EU mở điều tra tự vệ đối với một số vật liệu đầu vào composite",
+        "en": "EU opens safeguard investigation into certain composite input materials"
+      },
+      "summary": {
+        "vi": "Ngày 23/11, Liên minh châu Âu (EU) thông báo với Tổ chức Thương mại thế giới (WTO) rằng họ đã mở điều tra tự vệ trong ngày đối với một số vật liệu đầu vào composite nhập khẩu. Doanh nghiệp theo dõi vụ việc cần phân biệt hai thời hạn dành cho bên quan tâm, tính từ ngày khởi xướng.",
+        "en": "On 23 November, the European Union (EU) notified the World Trade Organization (WTO) that it had opened a safeguard investigation that day into imports of certain composite input materials. Businesses following the case face two distinct deadlines, both measured from initiation."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Mười lăm ngày để liên hệ",
+            "paragraphs": [
+              "Theo thông báo G/SG/N/6/EU/6, bên muốn được ghi nhận là bên quan tâm có thể liên hệ Ủy ban châu Âu ngay khi có thể, chậm nhất 15 ngày sau ngày khởi xướng. Ủy ban ưu tiên liên lạc qua thư điện tử. Thông báo khởi xướng là căn cứ để đối chiếu phạm vi hàng hóa và cách nộp hồ sơ."
+            ]
+          },
+          {
+            "heading": "Hai mươi mốt ngày để nộp thông tin hoặc đề nghị được trình bày",
+            "paragraphs": [
+              "Bảng trả lời, ý kiến bằng văn bản và bằng chứng có thời hạn 21 ngày kể từ ngày khởi xướng. Bên quan tâm cũng có thể đề nghị được trình bày trực tiếp trong thời hạn này. Cuộc điều tra nhằm xác định liệu nhập khẩu gia tăng có gây ra hoặc đe dọa gây ra thiệt hại nghiêm trọng cho ngành sản xuất trong nước hay không. WTO mới công bố việc mở điều tra; bản tin chưa nêu quyết định áp thuế hay hạn ngạch."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Fifteen days to make contact",
+            "paragraphs": [
+              "Under notification G/SG/N/6/EU/6, interested parties may make themselves known to the European Commission as soon as possible and no later than 15 days after initiation. The Commission prefers email. The notice of initiation sets out the product scope and filing procedure."
+            ]
+          },
+          {
+            "heading": "Twenty-one days to submit information or request a hearing",
+            "paragraphs": [
+              "Questionnaire replies, written representations and supporting evidence are due within 21 days of initiation. Interested parties may also request a hearing within that period. The investigation examines whether an increase in imports causes or threatens serious injury to the domestic industry. The WTO announcement reports the opening of proceedings. It announces no duty or quota."
+            ]
+          }
+        ]
+      },
+      "date": "2026-11-23",
+      "source": {
+        "name": "WTO",
+        "url": "https://www.wto.org/english/news_e/news26_e/safe_eec_23nov26_561_e.htm"
+      },
+      "images": [
+        {
+          "src": "/images/eu-dieu-tra-vat-lieu-composite.png",
+          "alt": {
+            "vi": "Tranh minh họa công nhân kiểm tra một mẫu vật liệu trong nhà xưởng",
+            "en": "Illustration of factory technicians examining a material sample"
+          },
+          "credit": "Verti • Tranh minh họa tự dựng / Original illustration"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "g20-thuong-mai",
+      "category": "wto-news",
+      "title": {
+        "vi": "G20 vừa mở cửa vừa dựng thêm rào cản thương mại",
+        "en": "G20 economies open markets and raise barriers in the same six months"
+      },
+      "summary": {
+        "vi": "Chỉ trong nửa đầu năm 2026, các nền kinh tế G20 đã ban hành 282 biện pháp tạo thuận lợi thương mại, nhiều hơn cả năm 2025. Nhưng cũng trong sáu tháng ấy, các biện pháp hạn chế và các biện pháp khác không tạo thuận lợi có phạm vi tác động lớn hơn về giá trị hàng nhập khẩu, theo báo cáo ngày 23/11 của Tổ chức Thương mại thế giới (WTO).",
+        "en": "G20 economies introduced 282 trade-facilitating measures in the first half of 2026, more than in all of 2025. Yet on the import side, new restrictive and other non-facilitating measures covered considerably more trade by value, according to the World Trade Organization’s (WTO) report of 23 November."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Hai xu hướng cùng tăng",
+            "paragraphs": [
+              "WTO ghi nhận 206 biện pháp hạn chế hoặc không tạo thuận lợi mới, so với 194 trong cả năm 2025. Ở chiều tạo thuận lợi, số tương ứng là 282 và 225. Hai khoảng thời gian dài khác nhau. Mỗi biện pháp cũng có thể bao trùm từ một mặt hàng đến nhiều ngành, nên số biện pháp riêng lẻ chưa cho biết doanh nghiệp xuất khẩu được lợi hay chịu thiệt bao nhiêu."
+            ]
+          },
+          {
+            "heading": "Giá trị hàng hóa cho thấy một bức tranh khác",
+            "paragraphs": [
+              "Trong nửa đầu năm 2026, các biện pháp mới ở chiều không tạo thuận lợi liên quan đến khoảng 2.000 tỷ USD hàng nhập khẩu, tương đương 12,9% kim ngạch nhập khẩu của G20. Các biện pháp tạo thuận lợi cho nhập khẩu bao phủ khoảng 977 tỷ USD, tương đương 6,4%. Cộng dồn từ năm 2009, các biện pháp hạn chế nhập khẩu và biện pháp khác không tạo thuận lợi còn hiệu lực ngày 30/6 bao phủ 29,6% kim ngạch nhập khẩu, tăng từ 27,9% cuối năm 2025. Tỷ lệ này đo phạm vi hàng hóa chịu tác động, không phải số thuế doanh nghiệp đã nộp."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Activity increased in both directions",
+            "paragraphs": [
+              "The WTO recorded 206 new restrictive or other non-facilitating measures, compared with 194 in all of 2025. The corresponding counts for facilitating measures were 282 and 225. The reporting periods differ in length. A measure can cover anything from one product to several industries, so counting measures alone tells an exporter little about the overall effect on its business."
+            ]
+          },
+          {
+            "heading": "The value of imports in scope",
+            "paragraphs": [
+              "New non-facilitating import measures covered about USD 2 trillion, or 12.9% of G20 imports, in the first half of 2026. New import-facilitating measures covered about USD 977 billion, or 6.4%. Looking back to 2009, restrictive and other non-facilitating import measures still in force on 30 June covered 29.6% of G20 imports, up from 27.9% at the end of 2025. This measures the trade covered, rather than the duties companies paid."
+            ]
+          }
+        ]
+      },
+      "date": "2026-11-23",
+      "source": {
+        "name": "WTO",
+        "url": "https://www.wto.org/english/news_e/news26_e/tmg20_23nov26_559_e.htm"
+      },
+      "images": [
+        {
+          "src": "/images/g20-thuong-mai.png",
+          "alt": {
+            "vi": "Tranh minh họa tàu hàng, cần cẩu và công nhân tại cảng container",
+            "en": "Illustration of a cargo ship, cranes and a worker at a container port"
+          },
+          "credit": "Verti • Tranh minh họa tự dựng / Original illustration"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "drovid-nhan-hieu",
+      "category": "wipo-news",
+      "title": {
+        "vi": "Từ rừng Patagonia đến 57 thị trường, Drovid đưa nhãn hiệu Chile ra nước ngoài",
+        "en": "From Patagonia to 57 markets, Drovid takes a Chilean trademark abroad"
+      },
+      "summary": {
+        "vi": "Một chuyến đi bộ năm 2014 đã khiến Cristian León Ibarra đặt câu hỏi liệu có thể nhận biết nguy cơ cháy rừng sớm hơn. Khi công nghệ của Drovid tìm được khách hàng thử nghiệm, doanh nghiệp Chile còn phải giải một bài toán khác là giữ được tên thương hiệu ở những thị trường muốn bước vào.",
+        "en": "A trek in 2014 left Cristian León Ibarra wondering whether forest fire risks could be spotted sooner. As his company Drovid found a customer for its technology, it faced another challenge: securing its brand in the markets it hoped to enter."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Từ tín hiệu trên không đến cam kết mua",
+            "paragraphs": [
+              "Tại Vườn quốc gia Torres del Paine, Ibarra nhìn thấy dấu tích của vụ cháy rừng xảy ra nhiều năm trước. Nhóm của ông sau đó phát triển phần mềm phân tích ngay trên thiết bị bay để nhận biết khói, lửa và các yếu tố nguy cơ. Trong thử nghiệm thương mại tại một khu rừng hỗn giao rộng 2.500 ha ở Chile, một doanh nghiệp lâm nghiệp đã cam kết mua. Kết quả này cho thấy khách hàng quan tâm đến hệ thống, nhưng chưa cho phép ước tính tỷ lệ phát hiện cháy trên những địa hình khác."
+            ]
+          },
+          {
+            "heading": "Một hồ sơ quốc tế, nhiều quyết định bảo hộ",
+            "paragraphs": [
+              "Ibarra đăng ký nhãn hiệu tại Chile năm 2020 và đạt thỏa thuận mua tên miền chính năm 2021. Từ tháng 8/2025, Drovid dựa trên đăng ký tại Chile để yêu cầu bảo hộ qua Hệ thống Madrid do Tổ chức Sở hữu trí tuệ thế giới (WIPO) quản lý. Trong 57 thị trường được yêu cầu, 33 đã bảo hộ tại thời điểm WIPO viết bài. Trung Quốc, New Zealand, Ukraine và Hoa Kỳ từng thông báo từ chối tạm thời. Với doanh nghiệp xuất khẩu, con số thị trường được chỉ định và số thị trường thực sự chấp nhận nhãn hiệu vì thế cần được theo dõi riêng."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "From airborne signals to a purchase commitment",
+            "paragraphs": [
+              "In Torres del Paine National Park, Ibarra saw the aftermath of a wildfire that had occurred years earlier. His team later developed software that processes data aboard drones to identify smoke, fire and risk factors. A commercial pilot in 2,500 hectares of mixed forest in Chile led a forestry company to commit to a purchase. That result demonstrates customer interest. It does not establish a detection rate across different landscapes."
+            ]
+          },
+          {
+            "heading": "One international filing, separate protection decisions",
+            "paragraphs": [
+              "Ibarra registered the mark in Chile in 2020 and reached a deal for its main domain name in 2021. In August 2025, Drovid used the Chilean registration to seek protection through the Madrid System administered by the World Intellectual Property Organization (WIPO). Of the 57 markets designated, 33 had granted protection when WIPO reported the case. China, New Zealand, Ukraine and the United States had issued provisional refusals. For exporters, designations and confirmed protection are consequently two different figures to track."
+            ]
+          }
+        ]
+      },
+      "date": "2026-11-23",
+      "source": {
+        "name": "WIPO",
+        "url": "https://www.wipo.int/en/web/ip-advantage/w/stories/drovid-from-a-patagonian-wildfire-to-a-globally-protected-trademark"
+      },
+      "images": [
+        {
+          "src": "/images/drovid-nhan-hieu.png",
+          "alt": {
+            "vi": "Tranh vẽ thiết bị bay quan sát khói trên một thung lũng có rừng ở Patagonia",
+            "en": "Illustration of a drone monitoring smoke over a forested Patagonian valley"
+          },
+          "credit": "Verti • Tranh minh họa tự dựng / Original illustration"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "panama-ita-ii-2026",
+      "status": "published",
+      "category": "wto-news",
+      "date": "2026-11-19",
+      "originalSourceDate": "2026-11-19",
+      "archiveImport": "verified historical Facebook post; imported from WIPO_Transcript_Tracking.json",
+      "title": {
+        "vi": "Panama đề nghị tham gia ITA mở rộng, chuẩn bị biểu cam kết thuế quan",
+        "en": "Panama requests ITA Expansion participation and prepares tariff commitments"
+      },
+      "summary": {
+        "vi": "Tại cuộc họp ngày 19/11/2026, WTO thông báo Panama đã đề nghị tham gia Hiệp định Công nghệ thông tin mở rộng năm 2015, thường gọi ITA II. Đây là bước khởi đầu chuẩn bị cam kết, chưa phải thông báo Panama đã hoàn tất tham gia hoặc đã xóa thuế ngay đối với toàn bộ sản phẩm bổ sung.",
+        "en": "At a November 19, 2026 meeting, WTO members were informed of Panama’s request to join the 2015 Information Technology Agreement Expansion, or ITA II. This begins work on commitments; it does not establish completed participation or immediate duty elimination across all additional products."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "Tại cuộc họp ngày 19/11/2026, WTO thông báo Panama đã đề nghị tham gia Hiệp định Công nghệ thông tin mở rộng năm 2015, thường gọi ITA II. Đây là bước khởi đầu chuẩn bị cam kết, chưa phải thông báo Panama đã hoàn tất tham gia hoặc đã xóa thuế ngay đối với toàn bộ sản phẩm bổ sung."
+            ]
+          },
+          {
+            "heading": "Từ đề nghị đến biểu cam kết",
+            "paragraphs": [
+              "Panama gửi công hàm ngày 26/10 và sẽ xây dựng dự thảo biểu cam kết thông qua nhóm công tác liên cơ quan. Đại sứ Alfredo Suescum gắn bước đi này với mục tiêu phát triển nền kinh tế dựa nhiều hơn vào tri thức, đổi mới và công nghệ cao. Các thành viên hoan nghênh và chờ xem xét biểu cam kết dự thảo."
+            ]
+          },
+          {
+            "heading": "Hiểu đúng phạm vi mở rộng",
+            "paragraphs": [
+              "Panama đã tham gia ITA ban đầu. ITA II bổ sung phạm vi 201 sản phẩm, gồm màn hình cảm ứng, thiết bị định vị và một số thiết bị y tế. Cam kết thuế quan ITA áp dụng theo nguyên tắc tối huệ quốc: lợi ích thuế quan không chỉ dành riêng cho hàng hóa từ các bên cùng tham gia.",
+              "Bản tin WTO cũng cho biết Việt Nam đã đề nghị tham gia ITA II trong năm 2026. Thông tin này xác nhận bước đề nghị, không xác nhận việc gia nhập đã hoàn tất."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "At a November 19, 2026 meeting, WTO members were informed of Panama’s request to join the 2015 Information Technology Agreement Expansion, or ITA II. This begins work on commitments; it does not establish completed participation or immediate duty elimination across all additional products."
+            ]
+          },
+          {
+            "heading": "Preparing a draft schedule",
+            "paragraphs": [
+              "Panama submitted its diplomatic note on October 26 and will prepare a draft tariff schedule through an inter-agency working group. Ambassador Alfredo Suescum linked the initiative to a more knowledge-based, innovative and technologically advanced economy. Members welcomed the request and look forward to examining the draft."
+            ]
+          },
+          {
+            "heading": "What expansion means",
+            "paragraphs": [
+              "Panama already participates in the original ITA. ITA II adds 201 products, including touchscreens, navigation devices and certain medical equipment. ITA tariff concessions operate on a most-favoured-nation basis, extending their benefits beyond fellow participants.",
+              "WTO also reports that Viet Nam requested ITA II participation earlier in 2026. A request should not be confused with completed accession."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "World Trade Organization (WTO)",
+        "url": "https://www.wto.org/english/news_e/news26_e/ita_19nov26_560_e.htm"
+      },
+      "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Q26L3PUXdnnBTqB2dMRW1ene3p76Wfo87bpyfTd33UvUCmM3UGPwm1K2V84ereQHl&id=61585655446351",
+      "facebookReel": "",
+      "images": []
+    },
+    {
+      "slug": "wto-101-students-2026",
+      "status": "published",
+      "category": "wto-news",
+      "date": "2026-11-19",
+      "originalSourceDate": "2026-11-19",
+      "archiveImport": "verified historical Facebook post; imported from WIPO_Transcript_Tracking.json",
+      "title": {
+        "vi": "Hơn 200 sinh viên trao đổi về luật chơi thương mại và cải cách WTO",
+        "en": "More than 200 students discuss trade rules and WTO reform"
+      },
+      "summary": {
+        "vi": "Sự kiện “WTO 101: Trade Rules!” ngày 18/11/2026 tại Giơ-ne-vơ đưa những vấn đề thương mại cơ bản đến gần hơn với hơn 200 sinh viên. Hai phiên thảo luận kết nối câu chuyện về các quy tắc hiện hành với yêu cầu đổi mới hệ thống trong môi trường kinh tế đang thay đổi.",
+        "en": "WTO 101: Trade Rules!, held in Geneva on November 18, 2026, brought fundamental trade issues to more than 200 students. Two panels connected the existing rules with questions about how the system should evolve."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "Sự kiện “WTO 101: Trade Rules!” ngày 18/11/2026 tại Giơ-ne-vơ đưa những vấn đề thương mại cơ bản đến gần hơn với hơn 200 sinh viên. Hai phiên thảo luận kết nối câu chuyện về các quy tắc hiện hành với yêu cầu đổi mới hệ thống trong môi trường kinh tế đang thay đổi."
+            ]
+          },
+          {
+            "heading": "Từ quy tắc cơ bản đến yêu cầu cải cách",
+            "paragraphs": [
+              "Theo bản tin WTO công bố ngày 19/11, phiên đầu bàn về cách khuôn khổ WTO hỗ trợ thương mại mở, công bằng và dễ dự đoán cho doanh nghiệp, người tiêu dùng. Phiên sau xem xét những chính sách và cách làm cần thiết để WTO tiếp tục phù hợp với bối cảnh mới. Đây là trao đổi tại sự kiện của Ban Thư ký, không phải thông báo các thành viên đã thông qua một gói cải cách."
+            ]
+          },
+          {
+            "heading": "Cách tiếp cận gần với người học",
+            "paragraphs": [
+              "Sáu chuyên gia trẻ đang làm việc tại Ban Thư ký giải thích các chủ đề bằng ngôn ngữ dễ tiếp cận và chia sẻ góc nhìn công việc. Phó Tổng Giám đốc Johanna Hill phát biểu kết thúc, khuyến khích người tham gia suy nghĩ phản biện và đóng góp ý tưởng cho chính sách thương mại tương lai. Chương trình kết thúc bằng hoạt động giao lưu, với hỗ trợ của Liên đoàn Công nghiệp hàng thể thao thế giới."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "WTO 101: Trade Rules!, held in Geneva on November 18, 2026, brought fundamental trade issues to more than 200 students. Two panels connected the existing rules with questions about how the system should evolve."
+            ]
+          },
+          {
+            "heading": "Rules and reform",
+            "paragraphs": [
+              "WTO’s November 19 report describes a first panel on the framework supporting open, fair and predictable trade for businesses and consumers. A second explored policies and practices needed to maintain the WTO’s relevance. These discussions at a Secretariat event do not constitute an adopted reform package."
+            ]
+          },
+          {
+            "heading": "An accessible learning format",
+            "paragraphs": [
+              "Six WTO Young Professionals explained trade topics in accessible language and shared workplace perspectives. Deputy Director-General Johanna Hill encouraged critical thinking and ideas for future trade policy in her closing remarks. A networking reception, supported by the World Federation of the Sporting Goods Industry, concluded the event."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "World Trade Organization (WTO)",
+        "url": "https://www.wto.org/english/news_e/news26_e/stud_19nov26_558_e.htm"
+      },
+      "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid07KjABZ95DAg6VtDyzdTtd9jLJkhkCHMCAess8Fmnqn6GeUPjvV4rzsytVGYja8i8l&id=61585655446351",
+      "facebookReel": "",
+      "images": []
+    },
+    {
+      "slug": "wipo-wto-senior-officials-2027",
+      "status": "published",
+      "category": "wipo-news",
+      "date": "2026-11-19",
+      "originalSourceDate": "2026-11-19",
+      "archiveImport": "verified historical Facebook post; imported from WIPO_Transcript_Tracking.json",
+      "title": {
+        "vi": "WIPO–WTO nhận hồ sơ chương trình sở hữu trí tuệ dành cho cán bộ cấp cao",
+        "en": "WIPO–WTO opens applications for its senior officials’ intellectual property programme"
+      },
+      "summary": {
+        "vi": "WIPO và WTO đang nhận hồ sơ cho chương trình tại Giơ-ne-vơ từ ngày 1 đến 12/2/2027, với 20 chỗ dành cho ứng viên phù hợp thuộc diện thụ hưởng hỗ trợ kỹ thuật. Hạn nộp là ngày 30/11/2026; thông báo công khai của WIPO ghi thời điểm kết thúc nhận hồ sơ lúc 23:59 giờ Trung Âu.",
+        "en": "WIPO and WTO are accepting applications for a Geneva programme running February 1–12, 2027. Twenty places are available for suitably qualified candidates from technical-assistance beneficiaries. Applications close November 30, 2026; WIPO’s public announcement specifies 23:59 Central European Time."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "WIPO và WTO đang nhận hồ sơ cho chương trình tại Giơ-ne-vơ từ ngày 1 đến 12/2/2027, với 20 chỗ dành cho ứng viên phù hợp thuộc diện thụ hưởng hỗ trợ kỹ thuật. Hạn nộp là ngày 30/11/2026; thông báo công khai của WIPO ghi thời điểm kết thúc nhận hồ sơ lúc 23:59 giờ Trung Âu."
+            ]
+          },
+          {
+            "heading": "Nội dung liên ngành",
+            "paragraphs": [
+              "Chương trình tập trung vào sở hữu trí tuệ và thương mại số; sáng chế, đổi mới và chuyển giao công nghệ; cùng các vấn đề sở hữu trí tuệ, thương mại và y tế. Mục tiêu là tăng năng lực phân tích chính sách thông qua học tập và trao đổi chuyên môn tại hai tổ chức."
+            ]
+          },
+          {
+            "heading": "Điều kiện cần kiểm tra trước khi nộp",
+            "paragraphs": [
+              "Ứng viên cần là cán bộ cấp cao phụ trách sở hữu trí tuệ hoặc chính sách liên quan, có kinh nghiệm thực tiễn sâu, trình độ tiếng Anh tốt và được Chính phủ đề cử. WTO yêu cầu đã hoàn thành khóa trực tuyến về Hiệp định về các khía cạnh liên quan đến thương mại của quyền sở hữu trí tuệ (TRIPS), hoặc có kiến thức, kinh nghiệm tương đương được chứng minh.",
+              "Việc đáp ứng điều kiện và nộp hồ sơ không đồng nghĩa được tuyển chọn. Hai mươi chỗ là quy mô lựa chọn công bố, không phải số suất được dành riêng cho một nước."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "WIPO and WTO are accepting applications for a Geneva programme running February 1–12, 2027. Twenty places are available for suitably qualified candidates from technical-assistance beneficiaries. Applications close November 30, 2026; WIPO’s public announcement specifies 23:59 Central European Time."
+            ]
+          },
+          {
+            "heading": "A multidisciplinary programme",
+            "paragraphs": [
+              "Themes include intellectual property and digital trade; patents, innovation and technology transfer; and intellectual property, trade and health. The programme combines learning and professional exchange at both organizations."
+            ]
+          },
+          {
+            "heading": "Eligibility and selection",
+            "paragraphs": [
+              "Candidates should be senior officials responsible for intellectual property or related policies, with extensive practical experience, excellent English and government nomination. WTO requires completion of its online Trade-Related Aspects of Intellectual Property Rights (TRIPS) course, or demonstrated equivalent knowledge or professional experience.",
+              "Eligibility and submission do not guarantee selection. The twenty places are the announced programme capacity, not a country-specific allocation."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "World Trade Organization (WTO)",
+        "url": "https://www.wto.org/english/news_e/news26_e/trip_19nov26_557_e.htm"
+      },
+      "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid02zsu7uNtCY8tbePHkLumveGnn7bmotHhs5JQkk7t5r4AxL3LLNSjUzYm7v6i8gx5Vl&id=61585655446351",
+      "facebookReel": "",
+      "images": []
+    },
+    {
+      "slug": "accessible-books-kazakhstan-2026",
+      "status": "published",
+      "category": "wipo-news",
+      "date": "2026-11-20",
+      "originalSourceDate": "2026-11-03",
+      "archiveImport": "verified historical Facebook post; bilingual original archived in WIPO News - Accessible textbooks Kazakhstan.txt",
+      "title": {
+        "vi": "Sách dễ tiếp cận và kỹ năng số mở thêm cơ hội học tập tại Kazakhstan",
+        "en": "Accessible textbooks and digital skills expand learning opportunities in Kazakhstan"
+      },
+      "summary": {
+        "vi": "Một dự án kết hợp giáo trình đại học với công nghệ đọc sách đang hỗ trợ người khiếm thị học tập độc lập hơn tại Kazakhstan. Bản tin WIPO ngày 3/11/2026 cho thấy việc chuyển đổi sách cần đi cùng đào tạo người làm sách, người học và thư viện.",
+        "en": "A project combining university textbooks with reading technology supports more independent study by people with visual impairments in Kazakhstan. WIPO’s November 3, 2026 report highlights the need to train producers, readers and libraries alongside book conversion."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "Một dự án kết hợp giáo trình đại học với công nghệ đọc sách đang hỗ trợ người khiếm thị học tập độc lập hơn tại Kazakhstan. Bản tin WIPO ngày 3/11/2026 cho thấy việc chuyển đổi sách cần đi cùng đào tạo người làm sách, người học và thư viện."
+            ]
+          },
+          {
+            "heading": "Cùng xây dựng sách và khả năng sử dụng",
+            "paragraphs": [
+              "Hội Người mù Kazakhstan triển khai dự án với Liên minh Sách dễ tiếp cận (ABC) của Tổ chức Sở hữu trí tuệ thế giới (WIPO), với tài trợ của Chính phủ Hàn Quốc. Dự án sản xuất giáo trình dễ tiếp cận và hướng dẫn sử dụng thiết bị, ứng dụng đọc sách cho sinh viên, giáo viên và cán bộ thư viện.",
+              "Nhân viên được đào tạo kỹ năng sản xuất sách với hỗ trợ chuyên gia do Liên minh DAISY chỉ định. Hội ước tính hơn 1.000 sinh viên khiếm thị có thể hưởng lợi từ các giáo trình."
+            ]
+          },
+          {
+            "heading": "Từ tiếp cận sách đến phát triển nghề nghiệp",
+            "paragraphs": [
+              "WIPO giới thiệu Anel Akhmetkanova, biên tập viên chữ nổi tại trung tâm phục hồi chức năng ở Almaty, đã tham gia khoảng 50 cuốn sách trong công việc của mình. Qua dự án, cô được học cách dùng giáo trình số và công nghệ đọc, đồng thời chuẩn bị học tiếp ngành xuất bản.",
+              "Trường hợp này cho thấy mối liên hệ giữa học liệu, kỹ năng và khả năng tự chủ."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "A project combining university textbooks with reading technology supports more independent study by people with visual impairments in Kazakhstan. WIPO’s November 3, 2026 report highlights the need to train producers, readers and libraries alongside book conversion."
+            ]
+          },
+          {
+            "heading": "Building both books and the skills to use them",
+            "paragraphs": [
+              "The Kazakh Society of the Blind implements the project with the Accessible Books Consortium (ABC), led by the World Intellectual Property Organization (WIPO), with funding from the Republic of Korea. Accessible textbook production is paired with training for students, teachers and librarians in reading devices and applications.",
+              "Staff received accessible-production training from a specialist appointed by the DAISY Consortium. The Society estimates that over 1,000 students with visual impairments could benefit."
+            ]
+          },
+          {
+            "heading": "Linking access with professional development",
+            "paragraphs": [
+              "WIPO profiles Anel Akhmetkanova, a Braille editor at an Almaty rehabilitation centre who has worked on around 50 books. Through the project, she learned to use accessible digital textbooks and reading technology while preparing to pursue publishing studies.",
+              "Her experience connects learning materials, skills and independence.",
+              "https://www.wipo.int/en/web/abc/w/news/2026/beyond-the-textbook-building-independent-lives-in-kazakhstan\n(Trích nguồn WIPO)"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "World Intellectual Property Organization (WIPO)",
+        "url": "https://www.wipo.int/en/web/abc/w/news/2026/beyond-the-textbook-building-independent-lives-in-kazakhstan"
+      },
+      "facebookPost": "https://www.facebook.com/permalink.php?story_fbid=pfbid02C1zFUpSA3e8mKaDLLYE5uLxjEv7dERZA8kL8desWkGnmDNeiB197pvUQrK7dQCRul&id=61585655446351",
+      "facebookReel": "",
+      "images": []
+    },
+    {
+      "slug": "cach-doc-tin-tren-verti",
+      "status": "published",
+      "category": "editorial",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "Cách đọc tin trên trang này",
+        "en": "How to read updates on this page"
+      },
+      "summary": {
+        "vi": "Trang Tin tức công nghệ - sở hữu trí tuệ - thương mại thế giới giới thiệu các diễn biến trong ba lĩnh vực này bằng tiếng Việt và tiếng Anh. Khi đọc một bản tin, bạn có thể tìm câu trả lời cho ba câu hỏi: điều gì mới, vì sao đáng chú ý và điều gì còn chưa rõ?",
+        "en": "This independent page covers technology, intellectual property and world trade in Vietnamese and English. Our updates focus on three questions: What is new, why does it matter, and what is still unclear?"
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Về VERTI",
+            "paragraphs": [
+              "Trang Tin tức công nghệ - sở hữu trí tuệ - thương mại thế giới giới thiệu các diễn biến trong ba lĩnh vực này bằng tiếng Việt và tiếng Anh. Khi đọc một bản tin, bạn có thể tìm câu trả lời cho ba câu hỏi: điều gì mới, vì sao đáng chú ý và điều gì còn chưa rõ?",
+              "Trang hoạt động độc lập, không đại diện cho Tổ chức Sở hữu trí tuệ thế giới (WIPO), Tổ chức Thương mại thế giới (WTO) hay một cơ quan nhà nước."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "About VERTI",
+            "paragraphs": [
+              "This independent page covers technology, intellectual property and world trade in Vietnamese and English. Our updates focus on three questions: What is new, why does it matter, and what is still unclear?",
+              "The page does not represent the World Intellectual Property Organization (WIPO), the World Trade Organization (WTO), or any government agency."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "VERTI · Facebook",
+        "url": "https://www.facebook.com/122155354473188514/posts/122155354467188514"
+      },
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155354467188514",
+      "facebookReel": "",
+      "images": []
+    },
+    {
+      "slug": "wipo-co-so-du-lieu-luat-sang-che-2026",
+      "status": "published",
+      "category": "wipo-news",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "WIPO mở cơ sở dữ liệu đối chiếu luật sáng chế giữa các nước",
+        "en": "WIPO launches a database to compare patent laws across jurisdictions"
+      },
+      "summary": {
+        "vi": "Cùng một lần công bố, tác động tới tính mới của sáng chế có thể khác nhau tùy nơi. Công cụ tra cứu mới của WIPO giúp tìm điểm khác biệt trước khi đọc quy định chi tiết.",
+        "en": "The same public disclosure may affect a patent application differently across jurisdictions. WIPO’s new lookup tool helps users spot those differences before reading the rules in detail."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Bốn nhóm quy định có thể đối chiếu",
+            "paragraphs": [
+              "Cơ sở dữ liệu tập hợp thông tin do các thành viên của Ủy ban Thường trực về Luật Sáng chế cung cấp. Người dùng có thể tìm và lọc theo bốn nhóm: kỹ thuật đã biết, tính mới, trình độ sáng tạo và những trường hợp công bố trước không làm mất khả năng bảo hộ, thường được gọi là thời gian ân hạn."
+            ]
+          },
+          {
+            "heading": "Tra cứu để biết cần kiểm tra gì",
+            "paragraphs": [
+              "Ở những nơi có dữ liệu, WIPO dẫn tới hướng dẫn thẩm định, sổ tay của cơ quan sáng chế hoặc phán quyết của tòa án. Khi cần ra quyết định nộp đơn, hãy kiểm tra luật và thực tiễn tại nơi dự định nộp.",
+              "WIPO dự kiến bắt đầu bổ sung ba nhóm nội dung trong năm 2027: mức độ bộc lộ đầy đủ, đối tượng không được bảo hộ và ngoại lệ hoặc giới hạn đối với quyền sáng chế. Đó là kế hoạch, chưa phải nội dung đã có trong cơ sở dữ liệu."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Four topics available now",
+            "paragraphs": [
+              "The database brings together information submitted by members of WIPO’s Standing Committee on the Law of Patents. Users can search and filter four areas: prior art, novelty, inventive step and non-prejudicial disclosure mechanisms such as grace periods."
+            ]
+          },
+          {
+            "heading": "Use it to find the rules you need to check",
+            "paragraphs": [
+              "Where available, WIPO links to examination guidelines, patent office manuals and court decisions. For a filing decision, check the law and practice that apply in the relevant jurisdiction.",
+              "In 2027, WIPO plans to begin adding material on sufficiency of disclosure, exclusions from patentable subject matter, and exceptions and limitations to patent rights. These are planned additions, not current database sections."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "World Intellectual Property Organization (WIPO)",
+        "url": "https://www.wipo.int/en/web/scp/w/news/2026/patent-law-at-your-fingertips-wipo-launches-a-new-comparative-database"
+      },
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155357647188514",
+      "facebookReel": "https://www.facebook.com/reel/29665142836403793/",
+      "images": [
+        {
+          "src": "/images/wipo-luat-sang-che-1.png",
+          "alt": {
+            "vi": "Đồ họa về cơ sở dữ liệu đối chiếu luật sáng chế mới của WIPO",
+            "en": "Illustration introducing WIPO’s comparative patent law database"
+          },
+          "credit": "VERTI · WIPO"
+        },
+        {
+          "src": "/images/wipo-luat-sang-che-2.png",
+          "alt": {
+            "vi": "Bốn mục tra cứu: kỹ thuật đã biết, tính mới, trình độ sáng tạo và ngoại lệ công bố trước",
+            "en": "Four topics: prior art, novelty, inventive step and non-prejudicial disclosure"
+          },
+          "credit": "VERTI · WIPO"
+        }
+      ]
+    },
+    {
+      "slug": "wipo-doi-thoai-tai-chinh-tai-san-vo-hinh-2026",
+      "status": "published",
+      "category": "wipo-webcast",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "WIPO bàn cách để ngân hàng đưa tài sản vô hình vào quyết định cho vay",
+        "en": "WIPO dialogue examines how lenders can factor intangible assets into credit decisions"
+      },
+      "summary": {
+        "vi": "Đối thoại ngày 24/11 tại Geneva đặt vấn đề từ góc nhìn người cho vay: định giá tài sản trí tuệ là một phần của câu chuyện; ngân hàng còn phải hiểu dòng tiền, chất lượng thông tin và rủi ro khi khoản vay gặp vấn đề.",
+        "en": "The 24 November dialogue in Geneva approached the question from the lender’s side: valuation matters, but so do cash flow, the quality of information available to lenders and what happens if a loan runs into trouble."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Từ mô hình thí điểm đến quyết định tín dụng",
+            "paragraphs": [
+              "Phiên sáng đưa kinh nghiệm doanh nghiệp và bên cho vay vào cùng cuộc thảo luận, từ việc khai thác thương hiệu đến thí điểm tài trợ dựa trên tài sản trí tuệ. Kế hoạch hành động được trao đổi gồm nâng năng lực định giá, làm rõ thông tin doanh nghiệp công bố và thử mô hình với ngân hàng."
+            ]
+          },
+          {
+            "heading": "Minh bạch có ích khi dữ liệu có thể so sánh",
+            "paragraphs": [
+              "Phiên chiều bàn cách giúp nhà đầu tư và bên cho vay nhìn rõ hơn những tài sản chưa được phản ánh đầy đủ trên báo cáo tài chính. Công bố tự nguyện có thể cung cấp thêm thông tin, nhưng vẫn có câu hỏi về chất lượng và khả năng so sánh. Trong phần bế mạc, WIPO nhấn mạnh học từ giao dịch thực tế thay vì chờ một khuôn khổ hoàn hảo."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "From pilots to credit decisions",
+            "paragraphs": [
+              "The morning discussion brought corporate and lender experience together, from leveraging brands to piloting finance backed by intellectual property (IP). WIPO outlined work on valuation capacity, better disclosure and pilots with banks."
+            ]
+          },
+          {
+            "heading": "Transparency works when information is comparable",
+            "paragraphs": [
+              "The afternoon examined ways to make assets not fully reflected in financial statements more visible to lenders and investors. Voluntary disclosures can add information, but comparability and quality remain concerns. The closing remarks stressed learning from real transactions rather than waiting for a perfect framework."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "World Intellectual Property Organization (WIPO)",
+        "url": "https://www.wipo.int/en/web/ip-financing/events/ip-finance-dialogue/2026"
+      },
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155361217188514",
+      "facebookReel": "https://www.facebook.com/reel/1140819355229787/",
+      "images": [
+        {
+          "src": "/images/wipo-doi-thoai-tai-chinh-tai-san-vo-hinh-2026.png",
+          "alt": {
+            "vi": "Đồ họa về tài chính dựa trên tài sản trí tuệ",
+            "en": "Original graphic about financing backed by intellectual property"
+          },
+          "credit": "Đồ họa gốc / Original graphic: VERTI"
+        }
+      ]
+    },
+    {
+      "slug": "canada-nop-don-pct-qua-epct",
+      "status": "published",
+      "category": "wipo-news",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "Canada sẽ nhận đơn PCT nộp trực tiếp qua ePCT từ 18/1/2027",
+        "en": "Canada to accept direct PCT filings through ePCT from 18 January 2027"
+      },
+      "summary": {
+        "vi": "Người nộp đơn sẽ không còn phải tải gói hồ sơ từ ePCT rồi đưa sang cổng Canada. Cơ quan Sở hữu trí tuệ Canada vẫn là cơ quan nhận đơn.",
+        "en": "Applicants will no longer need to download a filing package from ePCT and upload it to Canada’s portal. The Canadian Intellectual Property Office remains the receiving office."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Luồng nộp hồ sơ thay đổi",
+            "paragraphs": [
+              "Theo Tổ chức Sở hữu trí tuệ thế giới (WIPO), từ 18/1/2027, người dùng có thể chuẩn bị và nộp đơn quốc tế theo Hiệp ước Hợp tác về sáng chế (PCT) ngay trong ePCT khi chọn cơ quan Canada làm nơi nhận đơn. WIPO cho biết cơ quan Canada nhận 1.787 đơn PCT năm 2025, trong đó 99% sử dụng ePCT."
+            ]
+          },
+          {
+            "heading": "Quy định và lệ phí giữ nguyên",
+            "paragraphs": [
+              "Lệ phí vẫn thanh toán cho cơ quan Canada theo phương thức được chấp nhận, và các yêu cầu nộp đơn không đổi. WIPO và phía Canada công bố các buổi hướng dẫn bằng tiếng Anh và tiếng Pháp trước ngày chuyển đổi."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "What changes",
+            "paragraphs": [
+              "The World Intellectual Property Organization (WIPO) says applicants selecting Canada as the receiving office will be able to prepare and submit Patent Cooperation Treaty (PCT) applications directly in ePCT. Canada received 1,787 PCT applications in 2025; WIPO says 99% used ePCT."
+            ]
+          },
+          {
+            "heading": "What stays the same",
+            "paragraphs": [
+              "Fees still go to the Canadian office through its accepted payment methods, and filing requirements are unchanged. WIPO and Canada have announced English- and French-language webinars before the transition."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "WIPO",
+        "url": "https://www.wipo.int/en/web/pct-system/w/news/2026/filing-international-applications-in-canada-becomes-simpler-with-epct"
+      },
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155361709188514",
+      "facebookReel": "https://www.facebook.com/reel/2199800283950672/",
+      "images": [
+        {
+          "src": "/images/canada-nop-don-pct-qua-epct.png",
+          "alt": {
+            "vi": "Nộp đơn thẳng qua ePCT",
+            "en": "Direct filing through ePCT"
+          },
+          "credit": "Đồ họa gốc / Original graphic: VERTI"
+        }
+      ]
+    },
+    {
+      "slug": "wipo-2026-3-9-trieu-don-sang-che",
+      "status": "published",
+      "category": "publications",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "WIPO ghi nhận hơn 3,9 triệu đơn sáng chế trong năm 2025",
+        "en": "WIPO counts more than 3.9 million patent applications in 2025"
+      },
+      "summary": {
+        "vi": "Báo cáo Chỉ số Sở hữu trí tuệ thế giới 2026 ghi nhận số đơn tăng 6% so với năm trước. Mức tăng tập trung ở một số nền kinh tế châu Á.",
+        "en": "The World Intellectual Property Indicators 2026 reports a 6% increase from the previous year, with much of the growth concentrated in a handful of Asian economies."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Động lực đến từ đâu",
+            "paragraphs": [
+              "Năm 2025 có thêm khoảng 224.000 đơn sáng chế trên thế giới so với năm 2024. Trung Quốc chiếm hơn một nửa mức tăng, với 113.693 đơn tăng thêm; tiếp theo về mức tăng tuyệt đối là Nhật Bản, Ấn Độ và Hàn Quốc."
+            ]
+          },
+          {
+            "heading": "Đọc đúng chỉ số",
+            "paragraphs": [
+              "Đây là số đơn nộp, không phải số bằng được cấp hay số sáng chế đã thương mại hóa. Khi so quốc gia, cần phân biệt đơn tiếp nhận tại cơ quan sở hữu trí tuệ và đơn tính theo nơi cư trú của người nộp."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Where the increase came from",
+            "paragraphs": [
+              "Global filing rose by about 224,000 applications compared with 2024. China accounted for more than half of the increase, with 113,693 additional applications, followed in absolute growth by Japan, India and the Republic of Korea."
+            ]
+          },
+          {
+            "heading": "What the figures measure",
+            "paragraphs": [
+              "These are applications, not granted patents or commercialized inventions. Country comparisons should distinguish the office that received an application from the applicant’s place of residence."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "WIPO",
+        "url": "https://www.wipo.int/edocs/pubdocs/en/wipo-pub-941-2026-en-world-intellectual-property-indicators-2026.pdf"
+      },
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155362213188514",
+      "facebookReel": "https://www.facebook.com/reel/1134656959453566/",
+      "images": [
+        {
+          "src": "/images/wipo-2026-3-9-trieu-don-sang-che.png",
+          "alt": {
+            "vi": "Hơn 3,9 triệu đơn sáng chế",
+            "en": "More than 3.9 million filings"
+          },
+          "credit": "Đồ họa gốc / Original graphic: VERTI"
+        }
+      ]
+    },
+    {
+      "slug": "wto-brazil-de-nghi-ban-hoi-tham-ds646",
+      "status": "published",
+      "category": "wto-news",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "Brazil đề nghị lập ban hội thẩm WTO về thuế bổ sung của Mỹ",
+        "en": "Brazil asks WTO for a panel on additional U.S. duties"
+      },
+      "summary": {
+        "vi": "Ngày 24/11, Brazil đưa ra đề nghị đầu tiên trong tranh chấp DS646. Mỹ phản đối và ban hội thẩm chưa được thành lập tại phiên họp này.",
+        "en": "On 24 November, Brazil made its first panel request in dispute DS646. The United States objected, and no panel was established at that meeting."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Hai biện pháp bị khiếu kiện",
+            "paragraphs": [
+              "Brazil yêu cầu xem xét các khoản thuế bổ sung 25% và 12,5% đối với sản phẩm có xuất xứ Brazil, có các ngoại lệ nhất định. Hai khoản này phát sinh từ hai cuộc điều tra riêng theo Điều 301 của Luật Thương mại Mỹ."
+            ]
+          },
+          {
+            "heading": "Hồ sơ mới ở bước đề nghị",
+            "paragraphs": [
+              "Theo thông cáo Tổ chức Thương mại thế giới (WTO), tham vấn ngày 25/9 không giải quyết được tranh chấp. Cơ quan giải quyết tranh chấp ghi nhận ý kiến các bên và có thể xem lại vấn đề nếu có yêu cầu; chưa có phán quyết về các khoản thuế."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Two measures challenged",
+            "paragraphs": [
+              "Brazil seeks review of additional duties of 25% and 12.5% on products originating in Brazil, subject to exemptions. The measures stem from separate investigations under Section 301 of the U.S. Trade Act."
+            ]
+          },
+          {
+            "heading": "Still at the request stage",
+            "paragraphs": [
+              "According to the World Trade Organization (WTO), consultations on 25 September did not settle the dispute. The Dispute Settlement Body took note of the statements and can return to the issue if requested. It has not ruled on the duties."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "WTO",
+        "url": "https://www.wto.org/french/news_f/news26_f/dsb_24nov26_563_f.htm"
+      },
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155362633188514",
+      "facebookReel": "https://www.facebook.com/reel/1867683001085914/",
+      "images": [
+        {
+          "src": "/images/wto-brazil-de-nghi-ban-hoi-tham-ds646.png",
+          "alt": {
+            "vi": "Brazil đề nghị lập ban hội thẩm",
+            "en": "Brazil asks for a WTO panel"
+          },
+          "credit": "Đồ họa gốc / Original graphic: VERTI"
+        }
+      ]
+    },
+    {
+      "slug": "eic-luong-tu-do-dien-toan-he-thong",
+      "status": "published",
+      "category": "frontier-tech",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "Châu Âu muốn đo điện của cả hệ thống lượng tử, không chỉ bộ xử lý",
+        "en": "Europe wants to measure the energy of the whole quantum system"
+      },
+      "summary": {
+        "vi": "Hướng dẫn Quantum Energetics của Hội đồng Đổi mới sáng tạo châu Âu yêu cầu so sánh trên cùng nhiệm vụ và tính cả phần hỗ trợ hệ thống.",
+        "en": "The European Innovation Council’s Quantum Energetics guide calls for comparisons on equivalent tasks that include the system’s supporting equipment."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Điện nằm cả ngoài bộ xử lý",
+            "paragraphs": [
+              "Với máy tính lượng tử, hướng dẫn đề xuất đo năng lượng theo một nhiệm vụ hoặc theo mục tiêu chất lượng kết quả. Phạm vi tính gồm làm lạnh, điện tử điều khiển, đồng xử lý cổ điển và sửa lỗi nếu phù hợp. Các nhóm cũng có thể chọn đề tài truyền thông hoặc cảm biến lượng tử thay vì tính toán."
+            ]
+          },
+          {
+            "heading": "Đây là chuẩn đánh giá đề xuất",
+            "paragraphs": [
+              "Mục tiêu là kiểm chứng lợi thế năng lượng trên nguyên mẫu. Đối với tính toán chịu lỗi, đối chứng phù hợp là công nghệ lượng tử tiên tiến tương đương. Hướng dẫn không chứng minh thiết bị lượng tử hiện đã tiết kiệm điện hơn máy cổ điển."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Look beyond the processor",
+            "paragraphs": [
+              "For quantum computing, the guide proposes energy per task or per target result quality. The accounting can include cooling, controls, classical co-processing and error correction. Teams may instead focus on quantum communication or sensing."
+            ]
+          },
+          {
+            "heading": "A benchmarking objective",
+            "paragraphs": [
+              "The challenge calls for empirical evidence from prototypes. Fault-tolerant projects are benchmarked against relevant state-of-the-art quantum systems. The guide does not establish that quantum devices already use less energy than conventional computers."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "Hội đồng Đổi mới sáng tạo châu Âu (EIC)",
+        "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder/eic-pathfinder-challenges-2027/quantum-energetics_en"
+      },
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155363047188514",
+      "facebookReel": "https://www.facebook.com/reel/2641376079609202/",
+      "images": [
+        {
+          "src": "/images/eic-luong-tu-do-dien-toan-he-thong.png",
+          "alt": {
+            "vi": "Máy lượng tử tốn điện ở đâu?",
+            "en": "Where does quantum computing use energy?"
+          },
+          "credit": "Đồ họa gốc / Original graphic: VERTI"
+        }
+      ]
+    },
+    {
+      "slug": "esa-bay-ve-tinh-quan-sat-plasma-2026",
+      "status": "published",
+      "category": "future-research",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "ESA chọn đội hình bảy tàu để đo plasma quanh Trái Đất",
+        "en": "ESA selects a seven-spacecraft mission to study near-Earth plasma"
+      },
+      "summary": {
+        "vi": "Cơ quan Vũ trụ châu Âu đã chọn Plasma Observatory làm sứ mệnh khoa học hạng trung tiếp theo. Đội hình nhiều tàu nhằm quan sát cùng lúc ở các thang không gian khác nhau.",
+        "en": "The European Space Agency has selected Plasma Observatory as its next medium-class science mission. Its spacecraft formation will observe plasma at several spatial scales at once."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Tại sao cần nhiều tàu",
+            "paragraphs": [
+              "Một phép đo tại một vị trí khó tách được biến động theo thời gian khỏi khác biệt giữa các vùng không gian. Bảy tàu phối hợp sẽ giúp nhóm nghiên cứu theo dõi quá trình năng lượng từ Mặt Trời truyền qua môi trường từ trường quanh Trái Đất, nơi gió Mặt Trời tương tác với plasma."
+            ]
+          },
+          {
+            "heading": "Mốc kế tiếp",
+            "paragraphs": [
+              "ESA công bố lựa chọn ngày 19/11. Sứ mệnh còn phải được phê chuẩn chính thức trước khi chế tạo; thời điểm phóng dự kiến vào cuối thập niên tới và chưa phải lịch phóng đã chốt."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Why multiple spacecraft",
+            "paragraphs": [
+              "A single location cannot easily distinguish change over time from differences across space. Coordinated spacecraft will investigate how energy from the Sun travels through Earth’s magnetic environment as the solar wind interacts with plasma."
+            ]
+          },
+          {
+            "heading": "What happens next",
+            "paragraphs": [
+              "ESA announced the selection on 19 November. Formal adoption and construction are still ahead. ESA foresees a launch at the end of the next decade, not a fixed launch date."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "Cơ quan Vũ trụ châu Âu (ESA)",
+        "url": "https://www.esa.int/fr/articles/about-us/directorates/science/seven-spacecraft-observatory-to-study-plasma-universe"
+      },
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155363563188514",
+      "facebookReel": "https://www.facebook.com/reel/1173325355117028/",
+      "images": [
+        {
+          "src": "/images/esa-bay-ve-tinh-quan-sat-plasma-2026.png",
+          "alt": {
+            "vi": "Bảy tàu cùng đo plasma",
+            "en": "Seven spacecraft measuring plasma"
+          },
+          "credit": "Đồ họa gốc / Original graphic: VERTI"
+        }
+      ]
+    },
+    {
+      "slug": "nacentech-swiss-ep-chuyen-gia-dong-hanh",
+      "status": "published",
+      "category": "cooperation",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "NACENTECH và Swiss EP: đưa chuyên gia vào làm cùng tổ chức hỗ trợ khởi nghiệp",
+        "en": "NACENTECH and Swiss EP: embedding experts with startup support organizations"
+      },
+      "summary": {
+        "vi": "Mô hình hai bên ký tháng 6 đặt trọng tâm vào chuyên gia đồng hành và rà tiến độ theo quý. Đây là một trường hợp để xem hợp tác đổi mới có thể đi xa hơn hội thảo như thế nào.",
+        "en": "The partnership signed in June combines embedded expertise with quarterly reviews. It offers a case study in taking innovation cooperation beyond workshops."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Ai làm gì",
+            "paragraphs": [
+              "Viện Đổi mới sáng tạo Quốc gia (NACENTECH) tiếp nhận hỗ trợ xây năng lực tại Việt Nam. Chương trình Khởi nghiệp Thụy Sĩ (Swiss EP), do phía Thụy Sĩ tài trợ, kết nối doanh nhân, nhà đầu tư và chuyên gia. Hai bên dự kiến dùng các chỉ số như doanh nghiệp được hỗ trợ và vốn huy động để theo dõi triển khai."
+            ]
+          },
+          {
+            "heading": "Điểm cần kiểm chứng tiếp",
+            "paragraphs": [
+              "Swiss EP xác nhận NACENTECH đã tham gia mạng lưới đối tác. Hai nguồn chưa cho biết ngân sách riêng hay kết quả của thỏa thuận này. Giá trị của mô hình sẽ rõ hơn khi công bố công việc chuyên gia đã thực hiện và kết quả theo quý."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Who does what",
+            "paragraphs": [
+              "Vietnam’s National Innovation Institute (NACENTECH) is the local counterpart. The Swiss-funded Swiss Entrepreneurship Program (Swiss EP) provides links to entrepreneurs, investors and experts. The partners intend to monitor measures such as companies supported and capital raised."
+            ]
+          },
+          {
+            "heading": "What to watch",
+            "paragraphs": [
+              "Swiss EP confirms that NACENTECH has joined its partner network. Neither source establishes a separate budget or outcomes for this agreement. The model will be easier to evaluate once assignments and quarterly results are made public."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "NACENTECH và Swiss Entrepreneurship Program",
+        "url": "https://nacentech.vn/nacentech-hop-tac-voi-swissep-thuc-day-phat-trien-he-sinh-thai-doi-moi-sang-tao-viet-nam/"
+      },
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155364097188514",
+      "facebookReel": "https://www.facebook.com/reel/1133692076240081/",
+      "images": [
+        {
+          "src": "/images/nacentech-swiss-ep-chuyen-gia-dong-hanh.png",
+          "alt": {
+            "vi": "Chuyên gia vào làm cùng",
+            "en": "Experts work alongside local teams"
+          },
+          "credit": "Đồ họa gốc / Original graphic: VERTI"
+        }
+      ]
+    },
+    {
+      "slug": "wipo-nha-sang-che-nu-chien-luoc-ip",
+      "status": "published",
+      "category": "wipo-news",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "Bảy nữ nhà sáng chế trình bày cách biến sở hữu trí tuệ thành lợi thế kinh doanh",
+        "en": "Seven women innovators pitch how intellectual property can support a business"
+      },
+      "summary": {
+        "vi": "WIPO công bố ngày 24/11 kết quả vòng trình bày cuối của chương trình Scale Up Your IP. Bảy nhà sáng chế có năm phút mỗi người để làm rõ công nghệ, quyền sở hữu và đường ra thị trường.",
+        "en": "WIPO reported on 24 November on the final investor roundtable of Scale Up Your IP. Seven innovators had five minutes each to explain their technology, ownership arrangements and route to market."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Từ đào tạo đến bàn gọi vốn",
+            "paragraphs": [
+              "Vòng trình bày diễn ra tháng 10/2026, sau chương trình sáu học phần có hơn 100 nhà sáng chế, nhà nghiên cứu và doanh nhân nữ tham gia. Nhà đầu tư và chuyên gia góp ý về mô hình kinh doanh, quy mô thị trường, khả năng huy động vốn và chiến lược sở hữu trí tuệ. Bản tin không công bố khoản đầu tư nào được chốt."
+            ]
+          },
+          {
+            "heading": "Một sáng chế, nhiều cách tổ chức kinh doanh",
+            "paragraphs": [
+              "Favourite Technologies trình bày thùng xử lý ẩm và mùi rác ngoài trời không cần điện lưới. Nhà sáng chế giữ quyền sở hữu và cấp phép cho công ty; công ty có thể đặt gia công, dự kiến bán thiết bị và túi thay thế. Trường hợp này minh họa cách tách quyền sở hữu, sản xuất và nguồn thu, chứ không cho biết mô hình đã có lãi."
+            ]
+          },
+          {
+            "heading": "Điểm đáng học với doanh nghiệp Việt Nam",
+            "paragraphs": [
+              "Trước khi gọi vốn, doanh nghiệp có thể chuẩn bị một bản đồ quyền: công nghệ thuộc về ai, công ty được phép làm gì, khâu nào thuê ngoài và khách hàng sẽ trả tiền cho điều gì. Bằng sáng chế có thể làm rõ lợi thế, nhưng không thay cho bằng chứng về nhu cầu thị trường."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "From training to an investor pitch",
+            "paragraphs": [
+              "The October roundtable followed six modules attended by more than 100 women innovators, researchers and entrepreneurs. Investors and specialists commented on business models, market opportunities, funding readiness and intellectual property strategy. The report does not announce completed investments."
+            ]
+          },
+          {
+            "heading": "One invention, different roles",
+            "paragraphs": [
+              "Favourite Technologies pitched a bin that manages moisture and odour in outdoor waste without grid electricity. The inventor owns the invention and licenses it to the company, which can use contract manufacturers and plans to sell bins and replacement pouches. The example separates ownership, production and revenue; it is not evidence of profitability."
+            ]
+          },
+          {
+            "heading": "What Vietnamese ventures can take from it",
+            "paragraphs": [
+              "Before fundraising, a venture can map who owns the technology, what the company is entitled to do, what it outsources and what customers pay for. A patent may help clarify an advantage, but it is not a substitute for evidence of demand."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "WIPO",
+        "url": "https://www.wipo.int/en/web/ip-commercialization/w/news/2026/women-innovators-put-ip-into-practice-at-wipo-s-final-investor-roundtable"
+      },
+      "images": [
+        {
+          "src": "/images/wipo-nha-sang-che-nu-chien-luoc-ip.png",
+          "alt": {
+            "vi": "Đồ họa minh họa: 7 nhà sáng chế",
+            "en": "Editorial illustration: Seven innovators"
+          },
+          "credit": "Đồ họa minh họa gốc / Original editorial graphic: VERTI"
+        }
+      ],
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155373667188514",
+      "facebookReel": "https://www.facebook.com/reel/1147630574908981/"
+    },
+    {
+      "slug": "wipo-trinidad-tobago-kinh-te-sang-tao",
+      "status": "published",
+      "category": "wipo-news",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "Trinidad và Tobago lập nhóm liên ngành để đo kinh tế sáng tạo",
+        "en": "Trinidad and Tobago sets up an inter-agency group to assess its creative economy"
+      },
+      "summary": {
+        "vi": "Bản tin WIPO ngày 24/11 cho biết nhóm công tác đã họp phiên đầu tiên tại Port of Spain ngày 29/10. Mục tiêu là lập cơ sở dữ liệu phục vụ đánh giá hệ sinh thái sáng tạo, không chỉ các hoạt động gắn với lễ hội Carnival.",
+        "en": "WIPO reported on 24 November that the working group met for the first time in Port of Spain on 29 October. It aims to develop evidence for reviewing the creative ecosystem, extending beyond activities associated with Carnival."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Ai sẽ tham gia",
+            "paragraphs": [
+              "Nhóm do Bộ Thương mại, Đầu tư và Du lịch cùng cơ quan sở hữu trí tuệ quốc gia đồng chủ trì. Nhóm tập hợp các bên làm chính sách, đo lường, xúc tiến ngành và đại diện người sáng tạo. Thành phần có thể mở rộng trong quá trình triển khai."
+            ]
+          },
+          {
+            "heading": "Dữ liệu cần trả lời câu hỏi gì",
+            "paragraphs": [
+              "Tại phiên đầu, các bên thảo luận về dữ liệu theo ngành và về vai trò của sở hữu trí tuệ trong tạo thu nhập, tiếp cận vốn. Báo cáo rà soát dự kiến ra mắt nửa đầu năm 2027; hiện chưa có kết quả đo lường mới trong thông báo này."
+            ]
+          },
+          {
+            "heading": "Điểm đáng theo dõi",
+            "paragraphs": [
+              "Mô hình liên ngành có thể giúp tránh bỏ sót hoạt động sáng tạo nằm ngoài các ngành dễ thống kê. Giá trị thực tế sẽ phụ thuộc vào định nghĩa nhất quán, độ phủ dữ liệu và việc kết quả có được đưa vào quyết định đầu tư hay không."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Who is involved",
+            "paragraphs": [
+              "The Ministry of Trade, Investment and Tourism and the national intellectual property office co-chair the group. It brings together policymakers, data producers, sector promoters and representatives of creators. Other relevant institutions may join as the work develops."
+            ]
+          },
+          {
+            "heading": "What the evidence is meant to show",
+            "paragraphs": [
+              "The first meeting discussed sector-level data and the role of intellectual property in earning income and accessing finance. The review is planned for the first half of 2027; the announcement does not contain new measurement results."
+            ]
+          },
+          {
+            "heading": "What to watch",
+            "paragraphs": [
+              "Cross-agency work could make it easier to account for creative activity outside easily measured sectors. Its practical value depends on consistent definitions, data coverage and whether the findings are used in funding and investment decisions."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "WIPO",
+        "url": "https://www.wipo.int/en/web/copyright/w/news/2026/trinidad-and-tobago-takes-first-step-in-implementing-the-creative-economy-diagnostic-model"
+      },
+      "images": [
+        {
+          "src": "/images/wipo-trinidad-tobago-kinh-te-sang-tao.png",
+          "alt": {
+            "vi": "Đồ họa minh họa: Đo kinh tế sáng tạo",
+            "en": "Editorial illustration: Measuring creative activity"
+          },
+          "credit": "Đồ họa minh họa gốc / Original editorial graphic: VERTI"
+        }
+      ],
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155374447188514",
+      "facebookReel": "https://www.facebook.com/reel/1675581714075373/"
+    },
+    {
+      "slug": "google-lean-mach-luong-tu-2026",
+      "status": "published",
+      "category": "frontier-tech",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "Google dùng AI và kiểm chứng toán học để giảm tài nguyên mô phỏng lượng tử",
+        "en": "Google uses AI and formal verification to reduce quantum simulation resource estimates"
+      },
+      "summary": {
+        "vi": "Ngày 23/11, Google DeepMind và Google Quantum AI công bố cách dùng các nhóm tác nhân Gemini 4 để cải tiến mạch lượng tử. Một phép tính liên quan tới nhiệt hạch có chi phí tính toán ước tính thấp hơn 11,8 lần. Đây không phải số đo tốc độ trên máy lượng tử.",
+        "en": "On 23 November, Google DeepMind and Google Quantum AI described using teams of Gemini 4 agents to improve quantum circuits. One fusion-related calculation had an 11.8-fold reduction in estimated computing cost. This is not a measured hardware speedup."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Các tác nhân tìm gì, Lean kiểm gì?",
+            "paragraphs": [
+              "Các nhóm đề xuất mạch thay thế, còn công cụ Lean kiểm chứng tính đúng đắn và yêu cầu tài nguyên trước khi kết quả được chia sẻ. Các nhóm trao đổi ý tưởng theo chu kỳ bốn giờ. Chi phí trong ví dụ nhiệt hạch kết hợp số qubit và số thao tác, không phải tiền điện hay chi phí vận hành."
+            ]
+          },
+          {
+            "heading": "Còn cần hơn bốn nghìn qubit đã sửa lỗi",
+            "paragraphs": [
+              "Ở bài toán nhiệt hạch, bộ nhớ giảm từ 5.650 xuống 4.338 qubit đã sửa lỗi. Công bố cũng báo mức cải thiện tám lần ở một bài mô phỏng quang hóa. Không nên so trực tiếp các hệ số nếu chúng đo các đại lượng hoặc giải các bài toán khác nhau."
+            ]
+          },
+          {
+            "heading": "Ý nghĩa và giới hạn",
+            "paragraphs": [
+              "Cách làm này có thể giúp đội nghiên cứu rà nhiều thiết kế mạch hơn mà vẫn có phép kiểm chứng. Giá trị thực nghiệm còn phụ thuộc vào quy mô máy, khả năng sửa lỗi và kết quả khi chạy mô phỏng trọn vẹn. Công bố nói các bài toán vẫn vượt khả năng dự kiến của những máy sửa lỗi đầu tiên."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "What the agents search for and what Lean checks",
+            "paragraphs": [
+              "Teams proposed alternative circuits and checked mathematical correctness and resource requirements with Lean before sharing successful ideas. Teams exchanged ideas every four hours. The cost in the fusion case combines qubit and operation requirements; it is not an electricity bill or operating cost."
+            ]
+          },
+          {
+            "heading": "Still more than four thousand error-corrected qubits",
+            "paragraphs": [
+              "For the fusion problem, the memory estimate fell from 5,650 to 4,338 error-corrected qubits. The authors also report an eightfold improvement for one photochemistry problem. The factors are not directly comparable when the tasks or cost metrics differ."
+            ]
+          },
+          {
+            "heading": "Implications and limits",
+            "paragraphs": [
+              "The approach could help research teams explore more circuit designs while retaining formal checks. Experimental value still depends on machine scale, error correction and running the full simulation. The authors say the tasks still exceed the expected resources of early error-corrected machines."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+      },
+      "images": [
+        {
+          "src": "/images/google-lean-mach-luong-tu-2026.png",
+          "alt": {
+            "vi": "Đồ họa minh họa: 11,8× thấp hơn",
+            "en": "Editorial illustration: 11.8× lower"
+          },
+          "credit": "Đồ họa minh họa gốc / Original editorial graphic: VERTI"
+        }
+      ],
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155374951188514",
+      "facebookReel": "https://www.facebook.com/reel/1169842962398852/"
+    },
+    {
+      "slug": "esa-rome-huong-nghien-cuu-tham-hiem",
+      "status": "published",
+      "category": "future-research",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "ESA tham vấn giới nghiên cứu về ưu tiên từ quỹ đạo thấp tới Sao Hỏa",
+        "en": "ESA seeks research priorities from low Earth orbit to Mars"
+      },
+      "summary": {
+        "vi": "Cơ quan Vũ trụ châu Âu (ESA) và Cơ quan Vũ trụ Italy tổ chức hội thảo khoa học thám hiểm ngày 24–26/11 tại Rome. Chương trình xem xét lộ trình Explore2040 và lấy ý kiến về các hướng nghiên cứu tiếp theo.",
+        "en": "The European Space Agency (ESA) and Italian Space Agency are holding an exploration science workshop in Rome on 24–26 November. The programme reviews Explore2040 and seeks input on future research priorities."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Từ câu hỏi khoa học đến công cụ",
+            "paragraphs": [
+              "Các đề tài được chọn trình bày gồm robot xử lý mẫu tại chỗ, đặc trưng chất dễ bay hơi trên Mặt Trăng trước khi hạ cánh, và đo mức phơi nhiễm bức xạ để đánh giá che chắn. Đây là các đề tài trong chương trình, chưa phải kết quả ESA đã xác nhận."
+            ]
+          },
+          {
+            "heading": "Vì sao tổ chức tham vấn sớm?",
+            "paragraphs": [
+              "Lựa chọn nơi lấy mẫu, chỉ số phải đo và cách bảo quản mẫu ảnh hưởng tới thiết kế thiết bị trước khi có chuyến bay. Vì vậy phản hồi của nhà khoa học có thể giúp điều chỉnh ưu tiên phát triển thiết bị. Hội thảo đưa ra khuyến nghị cộng đồng, không tự tạo cam kết ngân sách hay lịch phóng."
+            ]
+          },
+          {
+            "heading": "Mốc tiếp theo",
+            "paragraphs": [
+              "Chương trình dự kiến có phiên thảo luận cộng đồng vào ngày thứ ba. Đăng ký đã đóng, nhưng trang ESA có thông tin theo dõi trực tuyến. Những tín hiệu đáng xem tiếp là khuyến nghị sau hội thảo và các đợt kêu gọi nghiên cứu chính thức."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "From science questions to instruments",
+            "paragraphs": [
+              "Selected presentations cover robotic in-situ sample processing, characterising lunar volatiles before landing and assessing radiation exposure for shielding. These are listed research topics, not ESA-validated results."
+            ]
+          },
+          {
+            "heading": "Why gather input early?",
+            "paragraphs": [
+              "Sampling sites, required measurements and sample handling affect instrument design well before flight. Research input can therefore inform development priorities. A workshop recommendation does not itself commit a budget or establish a launch schedule."
+            ]
+          },
+          {
+            "heading": "What comes next",
+            "paragraphs": [
+              "The programme includes a community discussion on day three. Registration is closed, but ESA lists online viewing information. The next useful signals are post-workshop recommendations and formal research calls."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "ESA",
+        "url": "https://explorationscience.esa.int/event/save-the-date-exploration-science-workshop-2026/"
+      },
+      "images": [
+        {
+          "src": "/images/esa-rome-huong-nghien-cuu-tham-hiem.png",
+          "alt": {
+            "vi": "Đồ họa minh họa: Từ quỹ đạo tới Sao Hỏa",
+            "en": "Editorial illustration: Orbit to Mars"
+          },
+          "credit": "Đồ họa minh họa gốc / Original editorial graphic: VERTI"
+        }
+      ],
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155375563188514",
+      "facebookReel": "https://www.facebook.com/reel/4682681698720546/"
+    },
+    {
+      "slug": "anh-thuy-si-dong-tai-tro-rd-2026",
+      "status": "published",
+      "category": "cooperation",
+      "date": "2026-11-24",
+      "title": {
+        "vi": "Anh và Thụy Sĩ thiết kế cơ chế đồng tài trợ nghiên cứu như thế nào?",
+        "en": "How the UK and Switzerland structure joint innovation funding"
+      },
+      "summary": {
+        "vi": "Đợt gọi dự án chung của Innosuisse và Innovate UK dự kiến thông báo quyết định ngày 30/11. Hai cơ quan dùng một bảng xếp hạng chung nhưng mỗi bên tài trợ cho chi phí đủ điều kiện ở nước mình.",
+        "en": "The joint Innosuisse and Innovate UK call is scheduled to notify applicants of decisions on 30 November. The agencies use a joint ranking but each funds eligible costs within its own country."
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Một đề xuất chung, hai nguồn chi",
+            "paragraphs": [
+              "Đợt gọi tập trung vào bán dẫn, khoa học sự sống và sinh học kỹ thuật. Ngân sách dự kiến tối đa 3 triệu bảng phía Anh và 3 triệu franc phía Thụy Sĩ; đây là mức dành cho cả đợt, không phải mỗi dự án. Dự án kéo dài 18–36 tháng, với mỗi nước đóng góp 30–70% tổng số tháng công."
+            ]
+          },
+          {
+            "heading": "Đưa quyền sở hữu trí tuệ vào hồ sơ từ đầu",
+            "paragraphs": [
+              "Thông thường cần doanh nghiệp ở cả hai nước và ít nhất một viện nghiên cứu, có ngoại lệ có điều kiện với startup Thụy Sĩ chưa ra thị trường. Nhóm nộp dự thảo thỏa thuận liên danh có nội dung về quyền sở hữu trí tuệ. Hướng dẫn không cho tài trợ chi phí qua biên giới."
+            ]
+          },
+          {
+            "heading": "Mô hình đáng tham khảo, không phải lời mời cho Việt Nam",
+            "paragraphs": [
+              "Một bảng xếp hạng chung có thể giảm nguy cơ hai cơ quan chọn hai danh sách khác nhau, nhưng vẫn phải khớp vòng ngân sách và tiêu chí quốc gia. Việt Nam có thể tham khảo cách thiết kế nếu xây dựng chương trình song phương riêng. Đợt gọi này chỉ dành cho đối tác Anh–Thụy Sĩ và đã đóng hồ sơ ngày 3/9."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "One proposal, two funding streams",
+            "paragraphs": [
+              "The call focuses on semiconductors, life sciences and engineering biology. Total call funding is up to £3 million from the UK and CHF 3 million from Switzerland, not per project. Projects last 18–36 months, and each country must contribute 30–70% of total person-months."
+            ]
+          },
+          {
+            "heading": "Put intellectual property in the proposal",
+            "paragraphs": [
+              "The usual structure includes a business in each country and at least one research institute, with a conditional exception for pre-market Swiss start-ups. Applicants submit a draft consortium agreement addressing intellectual property rights. The guidelines do not allow cross-border funding of costs."
+            ]
+          },
+          {
+            "heading": "A model to study, not an invitation for Viet Nam",
+            "paragraphs": [
+              "A common ranking can reduce the risk that agencies select different lists, but their budget cycles and national rules still have to align. Viet Nam could study the design for a separate bilateral programme. This call is restricted to UK and Swiss partners and closed on 3 September."
+            ]
+          }
+        ]
+      },
+      "source": {
+        "name": "Innosuisse và Innovate UK",
+        "url": "https://www.innosuisse.admin.ch/en/switzerland-uk-call-for-projects"
+      },
+      "images": [
+        {
+          "src": "/images/anh-thuy-si-dong-tai-tro-rd-2026.png",
+          "alt": {
+            "vi": "Đồ họa minh họa: Một dự án, hai ngân sách",
+            "en": "Editorial illustration: One project, two budgets"
+          },
+          "credit": "Đồ họa minh họa gốc / Original editorial graphic: VERTI"
+        }
+      ],
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155376157188514",
+      "facebookReel": "https://www.facebook.com/reel/1729204558842278/"
+    },
+    {
+      "slug": "wto-amis-gia-gao-ngu-coc-2026",
+      "status": "published",
+      "date": "2026-11-24",
+      "category": "wto-news",
+      "title": {
+        "vi": "WTO: Giá gạo tăng trong tháng 10, ngược chiều lúa mì, ngô và đậu tương",
+        "en": "WTO: Rice prices rose in October as wheat, maize and soybeans fell"
+      },
+      "summary": {
+        "vi": "Tại cuộc họp ngày 23–24/11 ở Geneva, Nhóm Thông tin thị trường lương thực toàn cầu nhận định nguồn cung tương đối dồi dào, nhưng thời tiết, vận tải và chính sách làm triển vọng khó đoán.",
+        "en": "At its 23–24 November meeting in Geneva, the Global Food Market Information Group heard that supplies were relatively ample, but weather, shipping and policy were clouding the outlook."
+      },
+      "source": {
+        "name": "WTO",
+        "url": "https://www.wto.org/english/news_e/news26_e/fsec_23nov26_562_e.htm"
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Bốn mặt hàng, hai chiều giá",
+            "paragraphs": [
+              "Hệ thống Thông tin Thị trường Nông nghiệp (AMIS) do G20 khởi xướng năm 2011 để tăng minh bạch. Theo bản tin WTO về cuộc họp lần thứ 30, giá quốc tế của lúa mì, ngô và đậu tương giảm trong tháng 10, còn giá gạo tăng. Điều kiện sinh trưởng nhìn chung thuận lợi nhưng El Niño mạnh hơn đang làm tăng rủi ro."
+            ]
+          },
+          {
+            "heading": "Điều doanh nghiệp nên theo dõi",
+            "paragraphs": [
+              "Bản tin nêu thêm rủi ro cước tàu, bảo hiểm và biến động chính sách. Với doanh nghiệp xuất khẩu gạo, diễn biến giá có thể là tín hiệu để rà lại hợp đồng và chi phí giao hàng, không phải căn cứ dự báo giá chắc chắn tiếp tục tăng. Bản tin tháng của AMIS là nguồn để đối chiếu các kỳ tiếp theo."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Four commodities, two price directions",
+            "paragraphs": [
+              "The G20 launched the Agricultural Market Information System (AMIS) in 2011 to improve transparency. According to the WTO account of the group's 30th meeting, international wheat, maize and soybean prices fell in October while rice rose. Growing conditions were broadly favourable, but strengthening El Niño conditions increased risks."
+            ]
+          },
+          {
+            "heading": "What exporters can monitor",
+            "paragraphs": [
+              "The report also noted shipping, insurance and policy risks. For rice exporters, the price move can prompt a review of contracts and delivery costs, but it does not show that prices will keep rising. AMIS’s monthly monitor offers a way to follow subsequent changes."
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "/images/wto-amis-gia-gao-ngu-coc-2026.png",
+          "alt": {
+            "vi": "Đồ họa minh họa: Giá gạo đi ngược chiều",
+            "en": "Editorial illustration: Rice prices buck the trend"
+          },
+          "credit": "Đồ họa minh họa gốc / Original editorial graphic: VERTI"
+        }
+      ],
+      "facebookPost": "https://www.facebook.com/122155354473188514/posts/122155376805188514",
+      "facebookReel": "https://www.facebook.com/reel/974701332121400/"
+    }
+  ]
+}
