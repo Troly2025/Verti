@@ -1,0 +1,11 @@
+{
+  "base": "50dfff810582765c47a8fdbc9a9925eabfe16e6c",
+  "sha256": {
+    "wipo-25nov-1830-fb/batch.json": "d4573cda713630b2b99d02fc9f4ca757989e9be45622e738f2cebe5e171b3dce",
+    "wipo-25nov-1830-fb/baseline-articles.json": "073f56954a8d1d9d0a3e14a59d84005a07b8aecdd20ebbcf00dbd67c7c44bee2",
+    "scripts/wipo-25nov-1830-fb.py": "3c168f14d1d859fab64a6b4c6aa67f78ec3b8b6191bd51870c229d42b9c5473d",
+    "wipo-25nov-1830-fb/eu-de-xuat-dao-luat-luong-tu/eu-de-xuat-dao-luat-luong-tu.png": "3b1e1b368bee66f74d443e67890bb2073d8bfdbfc6adfaac45a6a6ecad52aea2",
+    "wipo-25nov-1830-fb/eu-de-xuat-dao-luat-luong-tu/eu-de-xuat-dao-luat-luong-tu-diagram.png": "9025e46c2ef8a8f4fa9c0c06e7aba6032df5a7dc325b91f411194c7beca84f8c",
+    "wipo-25nov-1830-fb/eu-de-xuat-dao-luat-luong-tu/eu-de-xuat-dao-luat-luong-tu.mp4": "bf7a3fdbf9df2ca64eccd0d0652fc5924d4456a3ea7256351b0ebb6f39093c95"
+  }
+}
