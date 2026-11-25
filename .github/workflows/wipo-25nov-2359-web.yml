@@ -1,0 +1,80 @@
+name: WIPO 23:59 website first
+on:
+  push:
+    branches: [main]
+    paths: ['.github/releases/wipo-25nov-2359-web.json']
+permissions:
+  contents: read
+jobs:
+  website:
+    if: github.repository == 'Troly2025/Verti' && github.event.before == 'cc643b363358d6d2014e9b8a157a2a98786b7f80' && github.run_attempt == 1
+    concurrency:
+      group: verti-cloudflare-production-worker
+      cancel-in-progress: false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 2
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Validate site and exact static bundle
+        run: |
+          test "$(git rev-parse HEAD~1)" = cc643b363358d6d2014e9b8a157a2a98786b7f80
+          printf "%s  %s\n" "9c55175b79fb0c5353693ceb621eb23730764dfe4152e07820a6114c084cd001" "content/articles.json" | sha256sum -c -
+          npm test
+          bash scripts/test-worker-release.sh
+          npm run build
+          test "$(python3 scripts/verti-dist-digest.py)" = "$(jq -er .dist_sha256 .github/releases/wipo-25nov-2359-web.json)"
+          npm ci --ignore-scripts --no-fund --no-audit
+      - name: Stage verified pages
+        id: stage
+        env:
+          CLOUDFLARE_ACCOUNT_ID: d29afda5c9fd5a4bb66ffdab0e1d5ab1
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          VERTI_OPERATION: stage
+          WRANGLER_SEND_METRICS: 'false'
+        run: bash scripts/worker-release.sh
+      - name: Promote only that stage
+        env:
+          CLOUDFLARE_ACCOUNT_ID: d29afda5c9fd5a4bb66ffdab0e1d5ab1
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          VERTI_OPERATION: promote
+          VERTI_VERSION_ID: ${{ steps.stage.outputs.version_id }}
+          VERTI_EXPECTED_ACTIVE_VERSION: ${{ steps.stage.outputs.previous_version }}
+          WRANGLER_SEND_METRICS: 'false'
+        run: bash scripts/worker-release.sh
+      - name: Read public pages and images back
+        shell: bash
+        run: |
+          set -euo pipefail
+          for slug in $(jq -er '.slugs[]' .github/releases/wipo-25nov-2359-web.json); do
+            for prefix in '' /en; do
+              ok=false
+              for i in $(seq 1 12); do
+                if curl -fsSL --max-time 15 "https://verti.ch$prefix/articles/$slug/?release=2359" > /tmp/verti-beta-page && grep -Fq "/images/$slug.png" /tmp/verti-beta-page && grep -Fq "/images/$slug-diagram.png" /tmp/verti-beta-page; then ok=true; break; fi
+                sleep 5
+              done
+              test "$ok" = true
+            done
+            for asset in "$slug.png" "$slug-diagram.png"; do
+              curl -fsSL --retry 5 --retry-all-errors --retry-delay 3 --max-time 15 "https://verti.ch/images/$asset" | cmp - "src/images/$asset"
+            done
+            echo "WEB VERIFIED $slug"
+          done
+          for prefix in '' /en; do
+            for cat in $(jq -er '.categories[].id' content/site.json); do
+              localpage="dist${prefix}/topics/$cat/index.html"
+              for i in $(seq 1 6); do
+                curl -fsSL --max-time 12 "https://verti.ch$prefix/topics/$cat/?release=2359" -o /tmp/verti-live-topic && cmp -s /tmp/verti-live-topic "$localpage" && break
+                sleep 2
+              done
+              cmp /tmp/verti-live-topic "$localpage"
+              echo "TOPIC VERIFIED $prefix/topics/$cat/"
+            done
+          done

@@ -1,6 +1,84 @@
 {
   "articles": [
     {
+      "slug": "thuy-si-an-do-quy-thu-nghiem-explore",
+      "category": "cooperation",
+      "date": "2026-11-25",
+      "title": {
+        "vi": "Thụy Sĩ và Ấn Độ mở tài trợ Explore để thử ý tưởng nghiên cứu chung",
+        "en": "Switzerland and India open Explore grants to test joint research ideas"
+      },
+      "summary": {
+        "vi": "Từ ngày 25/11, hai nước nhận hồ sơ cho các dự án nghiên cứu cơ bản kéo dài 9–12 tháng. Mỗi đề xuất có một nhà nghiên cứu đứng đơn ở mỗi nước. Hai cơ quan tài trợ dùng chung quy trình đánh giá nhưng cấp kinh phí riêng cho phần việc tại nước mình.",
+        "en": "The two countries opened a call on 25 November for basic research projects lasting nine to twelve months. Each proposal has one applicant in each country. The two funders review proposals together but finance the work in their respective countries."
+      },
+      "source": {
+        "name": "Swiss National Science Foundation (SNSF); Department of Science and Technology (DST), India",
+        "url": "https://www.snf.ch/en/FpZVEioW3VuUIS9L/news/call-for-proposals-explore-new-grant-supporting-indo-swiss-exploratory-research"
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Một khoản tài trợ để kiểm tra xem ý tưởng có đáng theo đuổi",
+            "paragraphs": [
+              "Quỹ Khoa học Quốc gia Thụy Sĩ (SNSF) và Bộ Khoa học và Công nghệ Ấn Độ (DST) công bố Explore là đợt tài trợ đầu tiên của Khung nghiên cứu Ấn Độ–Thụy Sĩ mới. Đợt này mở cho mọi ngành nghiên cứu cơ bản. Hai bên có thể dùng thời gian dự án để kiểm tra tính khả thi, thống nhất phương pháp hoặc chuẩn bị dữ liệu chung, thay vì phải cam kết ngay với một dự án nhiều năm."
+            ]
+          },
+          {
+            "heading": "Một hồ sơ, hai ngân sách",
+            "paragraphs": [
+              "Mỗi hồ sơ có một người đứng đơn đủ điều kiện ở Thụy Sĩ và một ở Ấn Độ. Hai ngân sách nộp qua cổng SNSF; SNSF cấp cho phần Thụy Sĩ, DST cấp cho phần Ấn Độ. Ngân sách phần Thụy Sĩ từ 50.000 đến 100.000 franc, còn phần Ấn Độ tối đa 1,5 triệu rupee. Thẩm định độc lập và hội đồng đánh giá chung đi trước quyết định tài trợ. Hai bên dự kiến tài trợ tối đa 20 dự án; hạn nộp là 17:00 giờ Thụy Sĩ ngày 26/2/2027."
+            ]
+          },
+          {
+            "heading": "Điều đáng học là cách chia nhỏ rủi ro",
+            "paragraphs": [
+              "Ví dụ, hai nhóm có thể thống nhất một quy trình đo rồi dùng nó trên cùng bộ mẫu để xem kết quả có lặp lại ở hai phòng thí nghiệm hay không. Nếu không, họ vẫn biết khâu nào cần sửa trước khi xin khoản lớn hơn. Đó là cách mô hình có thể tạo giá trị; chưa có bằng chứng về số dự án sẽ đi tiếp. Explore không bảo đảm tài trợ giai đoạn sau, và đợt này không phải lời mời dành cho nhóm chỉ đặt tại Việt Nam."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "Money to find out whether an idea is worth pursuing",
+            "paragraphs": [
+              "The Swiss National Science Foundation (SNSF) and India’s Department of Science and Technology (DST) have made Explore the first funding call under the new Indo-Swiss Research Framework. The call is open to all disciplines in basic research. Teams can use the project to test feasibility, agree on methods or prepare shared data without committing to a multi-year project straight away."
+            ]
+          },
+          {
+            "heading": "One proposal, two budgets",
+            "paragraphs": [
+              "Each proposal needs one eligible lead applicant in Switzerland and one in India. Both budgets go through the SNSF portal, but SNSF funds the Swiss side and DST the Indian side. The Swiss budget must be between CHF 50,000 and CHF 100,000; the Indian budget is capped at INR 1.5 million. Independent reviews and a joint panel precede the funding decisions. Up to 20 projects can be supported. Applications close on 26 February 2027 at 17:00 Swiss time."
+            ]
+          },
+          {
+            "heading": "The point is to take a smaller first risk",
+            "paragraphs": [
+              "Two teams might agree on a measurement method and then use it on the same samples to see whether their results hold up across laboratories. If they do not, the team still learns what needs fixing before seeking a larger award. That is a possible benefit of the design; no results on follow-on projects are available yet. Explore does not guarantee a later grant, and the call is not open to teams based only in Viet Nam."
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "/images/thuy-si-an-do-quy-thu-nghiem-explore.png",
+          "credit": "Verti · Minh họa do AI tạo / AI-generated illustration",
+          "alt": {
+            "vi": "Minh họa hai nhà nghiên cứu thao tác với thiết bị quang phổ trong phòng thí nghiệm",
+            "en": "Editorial illustration of two researchers testing an optical instrument in a laboratory"
+          }
+        },
+        {
+          "src": "/images/thuy-si-an-do-quy-thu-nghiem-explore-diagram.png",
+          "credit": "Sơ đồ Verti theo hồ sơ mời nộp của SNSF và DST / Verti diagram based on the SNSF–DST call",
+          "alt": {
+            "vi": "Sơ đồ hai ngân sách tách biệt, cùng một hồ sơ và quy trình đánh giá chung",
+            "en": "Diagram of two separate budgets, one proposal and a joint assessment"
+          }
+        }
+      ],
+      "status": "published"
+    },
+    {
       "slug": "eu-de-xuat-dao-luat-luong-tu",
       "category": "future-research",
       "date": "2026-11-25",
