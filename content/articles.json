@@ -1,6 +1,96 @@
 {
   "articles": [
     {
+      "slug": "eu-de-xuat-dao-luat-luong-tu",
+      "category": "future-research",
+      "date": "2026-11-25",
+      "title": {
+        "vi": "EU đề xuất Đạo luật Lượng tử: mở hạ tầng dùng chung để đưa nghiên cứu ra thị trường",
+        "en": "EU proposes Quantum Act to open shared infrastructure and bring research to market"
+      },
+      "summary": {
+        "vi": "Ngày 25/11 tại Brussels, Ủy ban châu Âu đề xuất một khuôn khổ liên kết chương trình nghiên cứu, hạ tầng thử nghiệm và năng lực sản xuất lượng tử. Điểm đáng chú ý là cách cho nhóm nghiên cứu và doanh nghiệp dùng chung phần cứng, phần mềm và thiết bị khó tự đầu tư. Đây mới là đề xuất, chưa phải luật có hiệu lực.",
+        "en": "On 25 November in Brussels, the European Commission proposed a framework connecting research programmes, testing infrastructure and quantum manufacturing. A notable idea is shared access to hardware, software and equipment that many laboratories and firms cannot afford on their own. It is a proposal, not law in force."
+      },
+      "source": {
+        "name": "European Commission",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial"
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "Không chỉ chế tạo máy tính lượng tử",
+            "paragraphs": [
+              "Ủy ban muốn phối hợp tốt hơn giữa chương trình cấp EU và chương trình quốc gia, từ nghiên cứu đến thử nghiệm và sản xuất. Phạm vi bao gồm điện toán, truyền thông, cảm biến và đo lường lượng tử. Một nền tảng dịch vụ khoa học và công nghiệp được đề xuất để giúp các nhóm tiếp cận phần cứng và phần mềm dùng chung. Các trung tâm chuyên biệt hỗ trợ kiểm thử và mở rộng quy mô."
+            ]
+          },
+          {
+            "heading": "Dùng chung hạ tầng có thể tháo nút thắt nào?",
+            "paragraphs": [
+              "Một nhóm có thiết kế tốt nhưng chưa có thiết bị, nhân lực vận hành hoặc quy trình kiểm thử có thể phải mất nhiều thời gian trước khi biết thiết kế có hoạt động ngoài phòng thí nghiệm của mình hay không. Nếu có quyền tiếp cận minh bạch, cùng tiêu chuẩn đo và có công suất phục vụ thực tế, hạ tầng dùng chung có thể giúp nhóm đó kiểm chứng trên thiết bị khác và chuẩn bị cho sản xuất. Đây là lợi ích có thể có, không phải kết quả đã đo được."
+            ]
+          },
+          {
+            "heading": "Đề xuất tài chính không phải tiền đã cấp",
+            "paragraphs": [
+              "Ủy ban đồng thời đề xuất một quỹ vốn cổ phần công nghệ chủ quyền nhằm hỗ trợ một số doanh nghiệp phát triển công nghệ và mở rộng quy mô. Đề xuất không đồng nghĩa quỹ đã vận hành, có ngân sách cố định hay đang nhận hồ sơ. Đạo luật còn qua quy trình lập pháp EU; cũng chưa thể suy từ thông báo này ra quyền tiếp cận của một nhóm ngoài EU."
+            ]
+          },
+          {
+            "heading": "Cần theo dõi điều gì?",
+            "paragraphs": [
+              "Ba dấu hiệu có ý nghĩa hơn tên gọi của chương trình: cơ sở nào tham gia, ai đủ điều kiện tiếp cận và mất bao lâu để được dùng thiết bị. Khi các chi tiết đó công bố, mới có thể đánh giá liệu mạng lưới thực sự nối được khâu nghiên cứu với thử nghiệm và sản xuất hay chỉ phối hợp trên giấy."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "More than building quantum computers",
+            "paragraphs": [
+              "The Commission aims to align EU and national programmes from research through testing and manufacturing. The scope spans quantum computing, communications, sensing and metrology. A proposed scientific and industrial service platform would improve access to shared hardware and software. Specialised hubs would support testing and scaling."
+            ]
+          },
+          {
+            "heading": "Where shared facilities might help",
+            "paragraphs": [
+              "A capable team without test equipment, trained operators or an established validation process may take a long time to learn how a design performs outside its own laboratory. With transparent access rules, comparable measurements and enough capacity, shared facilities could help teams test on different equipment and prepare for manufacturing. That is a potential benefit, not a measured outcome."
+            ]
+          },
+          {
+            "heading": "A fund proposal is not a funding award",
+            "paragraphs": [
+              "The Commission also proposed a sovereign technology equity fund to help certain technology companies develop and scale up. That does not mean the fund is operating, has a fixed budget or is accepting applications. The Act still faces the EU legislative process, and the announcement alone establishes no access rights for teams outside the EU."
+            ]
+          },
+          {
+            "heading": "What to watch next",
+            "paragraphs": [
+              "Three useful signals are which facilities take part, who can use them, and how long teams wait for equipment. Once these details are public, it will be easier to tell whether the network connects research, testing and manufacturing in practice rather than merely on paper."
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "/images/eu-de-xuat-dao-luat-luong-tu.png",
+          "credit": "Verti · Minh họa do AI tạo / AI-generated illustration",
+          "alt": {
+            "vi": "Minh họa hai nhà nghiên cứu trong phòng thí nghiệm với hệ thống làm lạnh sâu cho thiết bị lượng tử",
+            "en": "Editorial illustration of two researchers and a dilution refrigerator in a quantum laboratory"
+          }
+        },
+        {
+          "src": "/images/eu-de-xuat-dao-luat-luong-tu-diagram.png",
+          "credit": "Sơ đồ biên tập Verti, dựa trên đề xuất của Ủy ban châu Âu / Verti diagram based on the European Commission proposal",
+          "alt": {
+            "vi": "Sơ đồ từ nghiên cứu, qua hạ tầng kiểm thử dùng chung, đến mở rộng sản xuất",
+            "en": "Diagram from research through shared testing infrastructure to manufacturing scale-up"
+          }
+        }
+      ],
+      "status": "published"
+    },
+    {
       "slug": "pin-the-ran-giam-khe-ho-khi-xa",
       "category": "frontier-tech",
       "date": "2026-11-25",

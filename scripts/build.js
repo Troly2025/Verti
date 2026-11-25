@@ -9,6 +9,10 @@ function build() {
   const entries = read("content/articles.json").articles;
   const categories = site.categories;
   const langs = ["vi","en"];
+  const categoryIds = categories.map(c => c.id);
+  if (new Set(categoryIds).size !== categoryIds.length || categoryIds.some(id => typeof id !== "string" || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id))) {
+    throw new Error("Invalid or duplicate editorial coverage category ID");
+  }
   const escape = (value) => String(value ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
   const safeUrl = (v) => {
     const str = String(v ?? "");
@@ -19,6 +23,7 @@ function build() {
   const other = (lang) => lang === "vi" ? "en" : "vi";
   const prefix = (lang) => lang === "vi" ? "/" : "/en/";
   const articlePath = (a,lang) => prefix(lang) + "articles/" + a.slug + "/";
+  const topicPath = (category, lang) => prefix(lang) + "topics/" + category.id + "/";
   const sections = (item,lang) => item[lang] || [];
   const dateOnly = (s,lang) => new Date(s).toLocaleDateString(lang === "vi" ? "vi-VN" : "en-GB", {timeZone:"UTC",day:"2-digit",month:"long",year:"numeric"});
   const ensure = (where, dir = out) => fs.mkdirSync(path.join(dir,where),{recursive:true});
@@ -69,6 +74,8 @@ function build() {
     published.push(a);
   }
   published.sort((a,b) => new Date(b.date) - new Date(a.date));
+  const byCategory = new Map(categories.map(category => [category.id, []]));
+  for (const article of published) byCategory.get(article.category).push(article);
   const strings = {
     vi: {
       navLatest:"Tin mới", navTopics:"Chuyên mục", navAbout:"Giới thiệu", navArchive:"Tất cả bài",
@@ -77,7 +84,8 @@ function build() {
       action:"Khám phá bài viết", follow:"Theo dõi Facebook", section:"Tin mới nhất", coverage:"Lĩnh vực theo dõi",
       emptyTitle:"Bài viết đang được chuẩn bị", emptyBody:"Website đã sẵn sàng tiếp nhận các bài báo đã kiểm chứng. Chưa có bài nào được công bố trên kho GitHub.",
       all:"Xem toàn bộ bài viết", archiveTitle:"Kho bài viết", archiveLead:"Các tin tức và phân tích đã xuất bản, phân loại theo thời gian.",
-      read:"Đọc bài", source:"Nguồn gốc", fb:"Bài Facebook", reel:"Xem Reel", home:"Trang chủ",
+      topicCount:n=>n+" bài đã đăng", topicEmptyTitle:"Chưa có bài viết", topicEmptyBody:"Chuyên mục này chưa có bài nào được xuất bản.",
+      topicReturn:"Tất cả chuyên mục", read:"Đọc bài", source:"Nguồn gốc", fb:"Bài Facebook", reel:"Xem Reel", home:"Trang chủ",
       published:"Ngày đăng", related:"Tin khác", imageCredit:"Nguồn ảnh",
       aboutTitle:"Một góc nhìn độc lập.", about:"VERTI tổng hợp và biên tập thông tin từ các nguồn công khai, đáng tin cậy. Đây không phải là kênh thông tin chính thức của WIPO, WTO hoặc cơ quan nhà nước.",
       principlesTitle:"Dữ kiện trước tiêu đề.", principles:"Thông tin được kiểm chứng trước khi xuất bản. Bài báo nêu rõ nguồn, thời điểm và liên kết tham khảo.",
@@ -90,7 +98,8 @@ function build() {
       action:"Explore stories", follow:"Follow on Facebook", section:"Latest stories", coverage:"Editorial coverage",
       emptyTitle:"Stories are being prepared", emptyBody:"The platform is ready for verified news and analysis. No articles have yet been published from the GitHub repository.",
       all:"Browse all stories", archiveTitle:"Article archive", archiveLead:"Published news and analysis, sorted by date.",
-      read:"Read story", source:"Primary source", fb:"Facebook post", reel:"Watch Reel", home:"Home",
+      topicCount:n=>n+(n===1?" published story":" published stories"), topicEmptyTitle:"No stories yet", topicEmptyBody:"No stories have been published in this topic yet.",
+      topicReturn:"All topics", read:"Read story", source:"Primary source", fb:"Facebook post", reel:"Watch Reel", home:"Home",
       published:"Published", related:"More stories", imageCredit:"Image credit",
       aboutTitle:"An independent perspective.", about:"VERTI curates and explains information from trustworthy public sources. It is not an official channel of WIPO, WTO or any government body.",
       principlesTitle:"Evidence before headlines.", principles:"Information is checked before publication. Each article identifies its source, date and supporting references.",
@@ -131,18 +140,18 @@ function build() {
   function footer(lang) {
     return '<footer><div class="shell foot"><div>© '+new Date().getUTCFullYear()+' VERTI · verti.ch</div><p>'+strings[lang].note+'</p><div class="footlinks"><a href="https://www.wipo.int/" target="_blank" rel="noopener noreferrer">WIPO</a><a href="https://www.wto.org/" target="_blank" rel="noopener noreferrer">WTO</a><a href="'+safeUrl(site.facebook)+'" target="_blank" rel="noopener noreferrer">Facebook</a></div></div></footer></body></html>';
   }
-  function card(a,lang) {
+  function card(a,lang,heading="h3") {
     const cat = categories.find(c=>c.id===a.category);
     const s = strings[lang];
     const img = a.images?.length ? '<img loading="lazy" src="'+escape(safeUrl(a.images[0].src))+'" alt="'+escape(a.images[0].alt[lang])+'">' : '<div class="card-art"><span>'+escape(cat.label)+' / VERTI</span></div>';
-    return '<article class="story-card"><a href="'+articlePath(a,lang)+'">'+img+'<div class="story-details"><p class="meta">'+escape(cat.name[lang])+' · '+dateOnly(a.date,lang)+'</p><h3>'+escape(a.title[lang])+'</h3><p class="excerpt">'+escape(a.summary[lang])+'</p><span class="read">'+s.read+' →</span></div></a></article>';
+    return '<article class="story-card"><a href="'+articlePath(a,lang)+'">'+img+'<div class="story-details"><p class="meta">'+escape(cat.name[lang])+' · '+dateOnly(a.date,lang)+'</p><'+heading+'>'+escape(a.title[lang])+'</'+heading+'><p class="excerpt">'+escape(a.summary[lang])+'</p><span class="read">'+s.read+' →</span></div></a></article>';
   }
   const all = (lang,limit=0) => published.slice(0,limit || undefined).map(a=>card(a,lang)).join("");
   function home(lang) {
     const s=strings[lang]; const uri=prefix(lang); const switchVi="/",switchEn="/en/";
     const cards=published.length?'<div class="stories">'+all(lang,9)+'</div>':
       '<div class="empty"><div class="dot"></div><h3>'+s.emptyTitle+'</h3><p>'+s.emptyBody+'</p></div>';
-    const categoryCards=categories.map((c,i)=>'<article class="topic"><span class="topic-no">'+String(i+1).padStart(2,"0")+' / '+escape(c.label)+'</span><h3>'+escape(c.name[lang])+'</h3><p>'+escape(c.description[lang])+'</p></article>').join("");
+    const categoryCards=categories.map((c,i)=>'<a class="topic" href="'+topicPath(c,lang)+'"><span class="topic-no">'+String(i+1).padStart(2,"0")+' / '+escape(c.label)+'</span><h3>'+escape(c.name[lang])+'</h3><p>'+escape(c.description[lang])+'</p><span class="topic-card-count">'+s.topicCount(byCategory.get(c.id).length)+' <span aria-hidden="true">→</span></span></a>').join("");
     return h(lang==="vi"?"Tin tức công nghệ, sở hữu trí tuệ và thương mại thế giới":"Technology, intellectual property and world trade",s.lead,lang,uri)+header(lang,switchVi,switchEn)+
       '<section class="hero"><div class="shell hero-inner"><p class="kicker">'+s.kicker+'</p><h1>'+ (lang==="vi"?'Tin tức công nghệ,<br><em>sở hữu trí tuệ</em><br>và thương mại thế giới':'Technology,<br><em>intellectual property</em><br>and world trade') +'</h1><p class="hero-desc">'+s.lead+'</p><div class="hero-actions"><a class="btn gold" href="#latest">'+s.action+'</a><a class="btn outline" target="_blank" rel="noopener noreferrer" href="'+safeUrl(site.facebook)+'">'+s.follow+'</a></div><div class="hero-tags"><span>01 / INNOVATION</span><span>02 / INTELLECTUAL PROPERTY</span><span>03 / WORLD TRADE</span></div></div></section>'+
       '<main id="main" class="shell main"><section id="latest" class="latest"><div class="section-head"><div><p class="eyebrow">NEWSROOM</p><h2>'+s.section+'</h2></div><a class="all-link" href="'+uri+'archive/">'+s.all+' →</a></div>'+cards+'</section>'+
@@ -155,6 +164,18 @@ function build() {
     '<main id="main" class="shell article-shell"><p class="eyebrow">VERTI / ARCHIVE</p><h1 class="page-title">'+s.archiveTitle+'</h1><p class="page-lead">'+s.archiveLead+'</p>'+
     (published.length?'<div class="stories">'+all(lang)+'</div>':'<div class="empty"><h2>'+s.emptyTitle+'</h2><p>'+s.emptyBody+'</p></div>')+
     '</main>'+footer(lang);
+  }
+  function renderTopic(category,lang) {
+    const s = strings[lang], uri = topicPath(category,lang), articles = byCategory.get(category.id);
+    const name = category.name[lang], description = category.description[lang];
+    const list = articles.length
+      ? '<div class="stories">'+articles.map(a=>card(a,lang,"h2")).join("")+'</div>'
+      : '<div class="empty"><h2>'+s.topicEmptyTitle+'</h2><p>'+s.topicEmptyBody+'</p></div>';
+    return h(name,description,lang,uri)+header(lang,topicPath(category,"vi"),topicPath(category,"en"))+
+      '<main id="main" class="shell article-shell topic-page"><nav class="breadcrumbs" aria-label="'+(lang==="vi"?"Đường dẫn":"Breadcrumbs")+'"><a href="'+prefix(lang)+'#coverage">'+s.topicReturn+'</a> / <span aria-current="page">'+escape(name)+'</span></nav>'+
+      '<p class="eyebrow">'+escape(category.label)+'</p><h1 class="page-title">'+escape(name)+'</h1><p class="page-lead">'+escape(description)+'</p>'+
+      '<p class="topic-list-count">'+s.topicCount(articles.length)+'</p>'+list+
+      '<p class="topic-back"><a class="all-link" href="'+prefix(lang)+'archive/">'+s.all+' →</a></p></main>'+footer(lang);
   }
   function renderArticle(a,lang) {
     const s=strings[lang],cat=categories.find(c=>c.id===a.category), uri=articlePath(a,lang);
@@ -184,9 +205,10 @@ function build() {
     const pre=lang==="vi"?"":"en/";
     write(pre+"index.html",home(lang));
     write(pre+"archive/index.html",archive(lang));
+    for (const category of categories) write(topicPath(category,lang).slice(1)+"index.html",renderTopic(category,lang));
     for (const a of published) write(pre+"articles/"+a.slug+"/index.html",renderArticle(a,lang));
   }
-  const urls=["/","/en/","/archive/","/en/archive/",...published.flatMap(a=>[articlePath(a,"vi"),articlePath(a,"en")])];
+  const urls=["/","/en/","/archive/","/en/archive/",...categories.flatMap(c=>[topicPath(c,"vi"),topicPath(c,"en")]),...published.flatMap(a=>[articlePath(a,"vi"),articlePath(a,"en")])];
   write("sitemap.xml",'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+urls.map(x=>"<url><loc>"+escape(site.origin+x)+"</loc></url>").join("")+"</urlset>");
   write("robots.txt","User-agent: *\nAllow: /\nSitemap: "+site.origin+"/sitemap.xml\n");
   const rssItems=published.slice(0,30).map(a=>'<item><title>'+escape(a.title.vi)+'</title><link>'+escape(site.origin+articlePath(a,"vi"))+'</link><guid>'+escape(site.origin+articlePath(a,"vi"))+'</guid><pubDate>'+new Date(a.date).toUTCString()+'</pubDate><description>'+escape(a.summary.vi)+'</description></item>').join("");

@@ -28,7 +28,19 @@ try {
     images: [image, {...image, src: "https://example.com/allowed.jpg"}]};
   const draft = {...original, slug: "regression-private", status: "draft",
     images: [{...image, src: "/images/draft-only.svg"}]};
-  data.articles.push(story, draft);
+  const categories = JSON.parse(read("content/site.json")).categories;
+  const emptyCategory = categories.find(c => c.id !== story.category);
+  data.articles = data.articles.filter(a => a.category !== emptyCategory.id);
+  draft.category = emptyCategory.id;
+  const topicFixture = Array.from({length: 10}, (_,i) => ({
+    ...original, slug: "regression-topic-"+i, status: "published",
+    date: "2090-01-"+String(i+1).padStart(2,"0"), images: []
+  }));
+  const oldStory = {...original, slug:"regression-topic-old", status:"published", date:"2000-01-01", images:[]};
+  data.articles.push(oldStory, story, draft, ...topicFixture);
+  const expectedPublished = data.articles.filter(a=>a.status==="published")
+    .sort((a,b)=>new Date(b.date)-new Date(a.date));
+  const countLabel = (count,lang)=> lang==="vi"?count+" bài đã đăng":count+(count===1?" published story":" published stories");
   const save = () => fs.writeFileSync(path.join(fixture, "content/articles.json"), JSON.stringify(data));
   save();
   execFileSync(process.execPath, [build], {cwd: fixture});
@@ -46,6 +58,29 @@ try {
     assert.ok(article.includes('alt="' + alt + '"'));
     assert.ok(article.includes("https://verti.ch" + image.src));
     assert.ok(!exists("dist/" + prefix + "articles/regression-private/index.html"));
+    const langPath = "/" + prefix;
+    const homeTopicPaths = [...homepage.matchAll(/<a class="topic" href="([^"]+)"/g)].map(x=>x[1]);
+    const knownTopicPaths = categories.map(c=>langPath+"topics/"+c.id+"/");
+    assert.deepEqual(homeTopicPaths, knownTopicPaths, "homepage exposes every configured topic as a native link");
+    for (const category of categories) {
+      const topicPath = langPath+"topics/"+category.id+"/";
+      const topic = read("dist"+topicPath+"index.html");
+      const expected = expectedPublished.filter(a=>a.category===category.id);
+      const links = [...topic.matchAll(/<article class="story-card"><a href="([^"]+)"/g)].map(x=>x[1]);
+      const homeCard = homepage.split('<a class="topic" href="'+topicPath+'">')[1].split("</a>")[0];
+      assert.ok(homeCard.includes(countLabel(expected.length,language)));
+      assert.ok(topic.includes('<p class="topic-list-count">'+countLabel(expected.length,language)+'</p>'));
+      assert.deepEqual(links,expected.map(a=>langPath+"articles/"+a.slug+"/"),"topic list is exact, unpaginated, and newest first");
+      assert.ok(topic.includes('<html lang="'+language+'">'));
+      assert.ok(topic.includes('rel="canonical" href="https://verti.ch'+topicPath+'"'));
+      assert.ok(topic.includes('href="/topics/'+category.id+'/" lang="vi"'));
+      assert.ok(topic.includes('href="/en/topics/'+category.id+'/" lang="en"'));
+      assert.ok(topic.includes('href="'+langPath+'archive/"'));
+      if (!expected.length) assert.ok(topic.includes(language==="vi"?"Chưa có bài viết":"No stories yet"));
+    }
+    assert.ok(read("dist/sitemap.xml").includes("<loc>https://verti.ch"+langPath+"topics/"+emptyCategory.id+"/</loc>"));
+    const archiveLinks = [...archive.matchAll(/<article class="story-card"><a href="([^"]+)"/g)].map(x=>x[1]);
+    assert.deepEqual(archiveLinks,expectedPublished.map(a=>langPath+"articles/"+a.slug+"/"),"general archive sees all published stories, excluding drafts");
   }
   assert.equal(read("dist/images/test/nested/sample.svg"), bytes);
   assert.ok(!exists("dist/images/draft-only.svg"));
@@ -57,7 +92,7 @@ try {
   assert.notEqual(failed.status, 0);
   assert.match(failed.stderr, /Missing local article image for regression-image/);
   assert.equal(read("dist/images/test/nested/sample.svg"), bytes);
-  console.log("Verified bilingual routes and local assets; drafts excluded; missing image blocks release.");
+  console.log("Verified bilingual home/topic/archive routes, ordered exact topic counts and empty states, drafts excluded, and local image guards.");
 } finally {
   fs.rmSync(fixture, {recursive: true, force: true});
 }
