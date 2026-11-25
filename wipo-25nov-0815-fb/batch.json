@@ -1,0 +1,103 @@
+[
+  {
+    "branch": 5,
+    "topic_id": "frontier_tech_radar:zinc:10.1038/s41467-026-79255-5",
+    "slug": "pin-kem-70000-chu-ky-phong-thi-nghiem",
+    "category": "frontier-tech",
+    "scene": "zinc",
+    "date": "2026-11-25",
+    "title": {
+      "vi": "Pin kẽm thử nghiệm đạt 70.000 chu kỳ ở dòng cao: Con số này nói lên điều gì?",
+      "en": "A lab zinc cell reached 70,000 high-current cycles: What does that number show?"
+    },
+    "graphic": {
+      "vi": "70.000 chu kỳ: bí quyết ở điện cực dương?",
+      "en": "70,000 cycles: what changed at the cathode?"
+    },
+    "summary": {
+      "vi": "Một nhóm nghiên cứu tại Singapore đã thử điện cực dương oxit vanadi vô định hình có bổ sung flo cho pin kẽm dùng chất điện phân gốc nước. Bản thảo đã được Nature Communications chấp nhận ghi nhận 70.000 chu kỳ trong một phép thử dòng cao. Kết quả nói về độ bền trong phòng thí nghiệm, không phải tuổi thọ đã được chứng minh của pin thương mại.",
+      "en": "A Singapore-based team tested a fluorinated amorphous vanadium oxide positive electrode for aqueous zinc batteries. Its accepted Nature Communications manuscript reports 70,000 cycles in a high-current laboratory test. The result is evidence of laboratory durability, not a proven service life for commercial batteries."
+    },
+    "source": {
+      "name": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-79255-5"
+    },
+    "sources_extra": [
+      "https://www.nature.com/articles/s41467-026-79255-5_reference.pdf?error=cookies_not_supported#page=8",
+      "https://www.nature.com/articles/s41467-026-79255-5_reference.pdf?error=cookies_not_supported#page=11"
+    ],
+    "images": [
+      {
+        "src": "/images/pin-kem-70000-chu-ky-phong-thi-nghiem.png",
+        "alt": {
+          "vi": "Minh họa kỹ thuật viên quan sát mô hình pin kẽm và các lớp điện cực trong phòng thí nghiệm",
+          "en": "Illustration of a technician examining a zinc cell and its electrode layers in a laboratory"
+        }
+      }
+    ],
+    "body": {
+      "vi": [
+        {
+          "heading": "Nhóm nghiên cứu thay đổi gì?",
+          "paragraphs": [
+            "Haobin Song và các đồng tác giả tại Đại học Quốc gia Singapore và Đại học Công nghệ và Thiết kế Singapore đưa flo vào cấu trúc oxit vanadi vô định hình ở điện cực dương. Theo nhóm, các liên kết vanadi–flo giúp vật liệu ít bị hòa tan trong chất điện phân gốc nước, trong khi cấu trúc vô định hình vẫn tạo đường cho ion kẽm di chuyển. Bản thảo đã được chấp nhận và được nhà xuất bản đưa lên ngày 23/11/2026."
+          ]
+        },
+        {
+          "heading": "70.000 chu kỳ được đo ra sao?",
+          "paragraphs": [
+            "Trong phép thử độ bền ở dòng riêng 100 A/g, mẫu pin phòng thí nghiệm ghi nhận 138,1 mAh/g sau 70.000 chu kỳ, gần mức đầu của chính phép thử đó. Ở một phép thử tốc độ riêng biệt, nhóm đo được 155,6 mAh/g tại 200 A/g. Cả hai là số liệu quy theo vật liệu điện cực dương, không phải theo khối lượng toàn bộ pin."
+          ]
+        },
+        {
+          "heading": "Thử khoảng sáu tháng: đã thay mặt kẽm sáu lần",
+          "paragraphs": [
+            "Một phép thử khác dùng điện cực dương có tải lượng cao hơn, 20 mg/cm², ở 0,1 A/g và chạy 500 chu kỳ trong khoảng sáu tháng. Phần phương pháp ghi rõ nhóm thay điện cực kẽm và màng sát mặt kẽm sáu lần vì ăn mòn và hình thành nhánh kẽm, đồng thời bổ sung một ít chất điện phân mỗi lần. Họ giữ nguyên điện cực dương. Đây không phải 500 chu kỳ của một viên pin giữ nguyên mọi thành phần."
+          ]
+        },
+        {
+          "heading": "Mẫu lớn hơn cho thấy gì, và chưa cho thấy gì?",
+          "paragraphs": [
+            "Mẫu xếp lớp riêng đạt đỉnh 1,41 Ah ở chu kỳ 16 và trung bình khoảng 1,09 Ah qua khoảng 190 chu kỳ. Cách đọc thận trọng là phương pháp này làm điện cực dương bền hơn trong các điều kiện nhóm đã thử; ăn mòn phía kẽm vẫn là bài toán. Cần thêm thử nghiệm trên cùng cấu hình pin, không thay linh kiện, với tải và chế độ sử dụng dự kiến trước khi suy ra tuổi thọ thực tế."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "What the researchers changed",
+          "paragraphs": [
+            "Haobin Song and colleagues at the National University of Singapore and Singapore University of Technology and Design incorporated fluorine into amorphous vanadium oxide at the positive electrode. The authors argue that vanadium–fluorine bonding makes the material less prone to dissolving in the aqueous electrolyte while preserving pathways for zinc ions. The accepted manuscript was made public by the publisher on 23 November 2026."
+          ]
+        },
+        {
+          "heading": "How the 70,000 cycles were measured",
+          "paragraphs": [
+            "At a specific current of 100 A/g, the laboratory cell delivered 138.1 mAh/g after 70,000 cycles, close to the initial capacity of that same test. In a separate rate-capability test, the team measured 155.6 mAh/g at 200 A/g. Both values are normalized to the positive-electrode active material, not the weight of the entire battery."
+          ]
+        },
+        {
+          "heading": "A roughly six-month test included six zinc-side replacements",
+          "paragraphs": [
+            "A different test used a higher positive-electrode loading of 20 mg/cm² at 0.1 A/g and ran for 500 cycles over about six months. The methods disclose six replacements of the zinc negative electrode and its adjacent membrane because of corrosion and dendrite formation, with a small electrolyte top-up each time. The positive electrode stayed in place. This was not 500 cycles without replacing any parts."
+          ]
+        },
+        {
+          "heading": "What the larger prototype does and does not show",
+          "paragraphs": [
+            "A separate stacked prototype peaked at 1.41 Ah at cycle 16 and averaged about 1.09 Ah over roughly 190 cycles. The evidence supports improved positive-electrode durability under the tested conditions; zinc-side corrosion remains a challenge. Testing a complete, unchanged battery under intended loads and duty cycles would be needed before extrapolating to service life."
+          ]
+        }
+      ]
+    },
+    "lines": [
+      "Bảy mươi nghìn chu kỳ, nhưng là trong phòng thí nghiệm. Nhóm Singapore thay đổi vật liệu ở điện cực dương của pin kẽm dùng chất điện phân gốc nước.",
+      "70,000 cycles, but in a lab. A Singapore team changed the positive electrode in an aqueous zinc cell.",
+      "Trong nghiên cứu công bố ngày hai mươi ba tháng mười một, họ đưa flo vào oxit vanadi để giảm hòa tan, rồi thử ở dòng cao một trăm ampe mỗi gam.",
+      "In a manuscript posted on 23 November, the team fluorinated vanadium oxide and tested it at 100 A/g.",
+      "Đến chu kỳ bảy mươi nghìn, dung lượng còn gần mức đầu của phép thử này. Nhưng ở phép thử kéo dài khoảng sáu tháng, nhóm đã thay mặt kẽm và màng bên cạnh sáu lần.",
+      "Capacity stayed near its initial value at cycle 70,000. A separate six-month test replaced the zinc electrode and adjacent membrane six times.",
+      "Điểm đáng chú ý là điện cực dương bền hơn, không phải một viên pin thương mại đã chạy được bảy mươi nghìn lần. Chi tiết và phương pháp có trên Verti chấm chê hát.",
+      "The advance is positive-electrode durability, not a commercial lifetime claim. Read the test details at verti.ch."
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "base": "7147ec9143263833e129fb91a1172532920dda20",
+  "sha256": {
+    "wipo-25nov-0815-fb/batch.json": "4ec3d30489e363e70625aabd92a13ec38273d01eaf7d804894f1064ceddae711",
+    "wipo-25nov-0815-fb/baseline-articles.json": "9635aa44c13a7f515769b35445f746e1fe127a8ad5a3ef2cb52602ee83e7b8e4",
+    "scripts/wipo-25nov-0815-fb.py": "6146c159875c083679d9519712180b044c2189bc76297b1989c3c0f61b950fb6",
+    "wipo-25nov-0815-fb/pin-kem-70000-chu-ky-phong-thi-nghiem/pin-kem-70000-chu-ky-phong-thi-nghiem.png": "01efb8653a2f1a933d30abf0d7b573a75e9df6591e68b9d2e387b0e2b3636c10",
+    "wipo-25nov-0815-fb/pin-kem-70000-chu-ky-phong-thi-nghiem/pin-kem-70000-chu-ky-phong-thi-nghiem.mp4": "847a1c62ca60ca9a060c3a2d6c83c343d9ee307973e45b0def1ef28c8a671535"
+  }
+}
