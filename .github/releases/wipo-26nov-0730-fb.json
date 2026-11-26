@@ -1,0 +1,16 @@
+{
+  "base": "d249a908c300a0a32c7271cba7bb591cdf0b032e",
+  "sha256": {
+    "wipo-26nov-0730-fb/batch.json": "7f3ced5807923f762068d568bed18e47f22d56879f0d687e8d799a4d3b74a5de",
+    "wipo-26nov-0730-fb/day-dan-nano-nbp-dien-tro-suat/day-dan-nano-nbp-dien-tro-suat.png": "ef99528e6e36ee3a83c384654debe76ededc6ff92fa5b4b79d84d0d8633ed7cd",
+    "wipo-26nov-0730-fb/day-dan-nano-nbp-dien-tro-suat/day-dan-nano-nbp-dien-tro-suat-diagram.png": "239f80122a5bc56a9c7933a36a8aa79912191dd3ce7c2248d9c7cbbcd2a01416",
+    "wipo-26nov-0730-fb/day-dan-nano-nbp-dien-tro-suat/day-dan-nano-nbp-dien-tro-suat.mp4": "b70f47ac6e50f0a3d93a7521a0858475ac26881a16138ff27dfd919f312d8bd0",
+    "wipo-26nov-0730-fb/nhat-ban-thu-chuoi-nhien-lieu-go/nhat-ban-thu-chuoi-nhien-lieu-go.png": "2e549ad8432b94e5453c995607280b454e5081e10971be2e053a45f7c1b4fac5",
+    "wipo-26nov-0730-fb/nhat-ban-thu-chuoi-nhien-lieu-go/nhat-ban-thu-chuoi-nhien-lieu-go-diagram.png": "69beaead89704473320572305efaff4849e9ea38534d1a20500d0d6afe9e9dca",
+    "wipo-26nov-0730-fb/nhat-ban-thu-chuoi-nhien-lieu-go/nhat-ban-thu-chuoi-nhien-lieu-go.mp4": "e344076c8d4c141ca0c75d64ab3c824c2717917e846d6be17b887595603bcbfa",
+    "wipo-26nov-0730-fb/dhqghn-vsv-uom-tao-spin-off/dhqghn-vsv-uom-tao-spin-off.png": "7d46074e12e268741610efb1adcd895bf4d538922403f1be081521b0b1e972a8",
+    "wipo-26nov-0730-fb/dhqghn-vsv-uom-tao-spin-off/dhqghn-vsv-uom-tao-spin-off-diagram.png": "2053ae0d63b4fd3f62818f0324a78b595bd82357aa2c41324792bb0758f43d65",
+    "wipo-26nov-0730-fb/dhqghn-vsv-uom-tao-spin-off/dhqghn-vsv-uom-tao-spin-off.mp4": "993ea17f32af34e519aa08503ca88e0cafd3ab0d858528fc16c18e4ae820155d",
+    "scripts/wipo-26nov-0730-fb.py": "d0214ce4808cee36d1dcb3079d6aa82a33d85316bd34a44fb681f6e9f14c6992"
+  }
+}

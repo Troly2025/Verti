@@ -1,0 +1,297 @@
+[
+  {
+    "slug": "day-dan-nano-nbp-dien-tro-suat",
+    "topic_id": "frontier_tech:20261126:nbp-11288-8",
+    "category": "frontier-tech",
+    "date": "2026-11-25",
+    "source_date": "25/11/2026",
+    "title": {
+      "vi": "Dải nano NbP càng hẹp, điện trở suất càng giảm",
+      "en": "Narrower NbP nanoribbons show lower resistivity"
+    },
+    "summary": {
+      "vi": "Trong nghiên cứu đăng trên Nature ngày 25/11, nhóm Stanford và các đối tác đo được điện trở suất 18 ± 4,1 microôm-centimét trên dải niobi phosphua có tiết diện khoảng 9 nanomét vuông ở nhiệt độ phòng. Vật liệu thể hiện xu hướng trái với dây dẫn đồng khi thu nhỏ, nhưng chưa chứng minh có thể thay đồng trong chip thương mại.",
+      "en": "In a Nature study published on 25 November, Stanford and collaborators measured 18 ± 4.1 micro-ohm centimetres at room temperature for a niobium phosphide ribbon with a cross-sectional area of about 9 square nanometres. The scaling trend runs counter to that of copper wires, but this is not proof of a commercial replacement."
+    },
+    "source": {
+      "name": "Su và cộng sự · Nature",
+      "url": "https://www.nature.com/articles/s41586-026-11288-8"
+    },
+    "sources_extra": [
+      "https://poplab.stanford.edu/pdfs/Su-NbPnanoribbons-nat26.pdf",
+      "https://doi.org/10.25740/dc607yq7436"
+    ],
+    "graphic": {
+      "vi": "Dải dẫn nano càng hẹp?",
+      "en": "When a nanowire gets narrower"
+    },
+    "body": {
+      "vi": [
+        {
+          "heading": "Đo trên dải thật, không chỉ mô phỏng",
+          "paragraphs": [
+            "Haotian Su và Eric Pop cùng các cộng sự chế tạo dải NbP rộng xuống khoảng 6 nanomét bằng quy trình tạo hình từ màng vật liệu. Công trình có sự tham gia của Stanford, Phòng thí nghiệm quốc gia SLAC, Penn State, Viện Weizmann và bộ phận nghiên cứu của TSMC tại San Jose. Số đo 18 ± 4,1 microôm-centimét là điện trở suất trích xuất từ phép đo ở nhiệt độ phòng, trên dải có tiết diện khoảng 9 nanomét vuông."
+          ]
+        },
+        {
+          "heading": "Vì sao khác đồng?",
+          "paragraphs": [
+            "Dây kim loại thông thường dễ tăng điện trở suất khi kích thước thu nhỏ, do electron tán xạ nhiều hơn ở bề mặt và ranh giới hạt. Với NbP, kết quả gợi ý phần đóng góp tương đối của các trạng thái dẫn điện ở bề mặt và mép tăng lên khi dải hẹp, dù mép không hoàn toàn nhẵn. Đây là cách giải thích của nhóm, không phải khẳng định mọi hợp chất bán kim sẽ có cùng tính chất."
+          ]
+        },
+        {
+          "heading": "Điện trở suất không phải điện trở",
+          "paragraphs": [
+            "Nếu tiết diện co lại đủ nhiều, điện trở của cả đoạn dây vẫn có thể tăng ngay cả khi điện trở suất giảm. Vì thế giá trị của phát hiện nằm ở khả năng giảm mức phạt khi thu nhỏ so với vật liệu cùng kích thước, không phải ở lời hứa rằng dây hẹp hơn lúc nào cũng dẫn tốt hơn."
+          ]
+        },
+        {
+          "heading": "Khi nào mới đáng nói tới sản xuất?",
+          "paragraphs": [
+            "Một dây nối trong mạch còn cần tiếp xúc tốt với các lớp khác, chịu dòng điện và chu kỳ nhiệt lâu dài, và lặp lại được ở quy mô tấm bán dẫn. Chưa có bằng chứng chip thương mại trong công trình này. Bước kiểm chứng đáng theo dõi là so sánh điện trở của cả đường nối và độ bền với vật liệu đối chứng trong quy trình tích hợp thực tế."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "Measured on real ribbons",
+          "paragraphs": [
+            "Haotian Su and Eric Pop with colleagues patterned NbP ribbons down to widths of about 6 nanometres. The research included Stanford, SLAC National Accelerator Laboratory, Penn State, the Weizmann Institute of Science and TSMC Corporate Research in San Jose. The 18 ± 4.1 micro-ohm centimetre result is an extracted room-temperature resistivity for a ribbon with a cross-sectional area of about 9 square nanometres."
+          ]
+        },
+        {
+          "heading": "Why this differs from copper",
+          "paragraphs": [
+            "Conventional metals tend to suffer higher resistivity at small dimensions as electrons scatter more at surfaces and grain boundaries. The NbP measurements suggest that conduction along surfaces and edges may make a larger relative contribution as the ribbon narrows, even with some edge roughness. That explanation does not establish the same behaviour for every semimetal."
+          ]
+        },
+        {
+          "heading": "Resistivity is not resistance",
+          "paragraphs": [
+            "A wire’s total resistance can still rise when its cross-section shrinks, even if the material’s resistivity falls. The finding could reduce the penalty of making wires smaller relative to comparable materials; it does not make every thinner wire electrically better."
+          ]
+        },
+        {
+          "heading": "What would make it a manufacturing candidate?",
+          "paragraphs": [
+            "A useful chip interconnect also needs reliable contacts, current and thermal endurance, and reproducibility at wafer scale. The study does not demonstrate a commercial chip. A useful next comparison would measure the total resistance and reliability of integrated lines against reference materials in the same process."
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "/images/day-dan-nano-nbp-dien-tro-suat.png",
+        "alt": {
+          "vi": "Minh họa dải nano trên bề mặt chip, không phải ảnh hiển vi",
+          "en": "Conceptual nanoribbons above a wafer, not a micrograph"
+        },
+        "credit": "Verti · Minh họa AI / AI-generated illustration"
+      },
+      {
+        "src": "/images/day-dan-nano-nbp-dien-tro-suat-diagram.png",
+        "alt": {
+          "vi": "Minh họa nhóm nghiên cứu đo vật liệu bán dẫn",
+          "en": "Illustration of researchers measuring semiconductor material"
+        },
+        "credit": "Verti · Minh họa AI / AI-generated illustration"
+      }
+    ]
+  },
+  {
+    "slug": "nhat-ban-thu-chuoi-nhien-lieu-go",
+    "topic_id": "future_research:20261126:nedo-wood-supply",
+    "category": "future-research",
+    "date": "2026-11-26",
+    "source_date": "26/11/2026",
+    "title": {
+      "vi": "Nhật Bản chọn ba dự án thử chuỗi cung ứng nhiên liệu gỗ",
+      "en": "Japan selects three projects to test wood-fuel supply"
+    },
+    "summary": {
+      "vi": "NEDO công bố ba dự án mới ngày 26/11: một dự án phát triển máy cho cây sinh trưởng nhanh, hai dự án thử thu gom, chế biến hoặc phân phối nguồn gỗ địa phương chưa được tận dụng. Phần kinh phí NEDO dự kiến chịu khoảng 510 triệu yên cho các năm tài khóa 2026–2028, không phải hiệu quả kinh tế đã đo.",
+      "en": "On 26 November, NEDO announced three projects: one to develop machinery for fast-growing trees, and two to test the collection, processing or distribution of underused local wood. The agency expects to contribute about ¥510 million across fiscal years 2026–2028; no commercial savings have yet been demonstrated."
+    },
+    "source": {
+      "name": "NEDO · Thông báo ngày 26/11",
+      "url": "https://www.nedo.go.jp/news/press/AA5_101982.html"
+    },
+    "sources_extra": [
+      "https://www.nedo.go.jp/koubo/FF3_100464.html"
+    ],
+    "graphic": {
+      "vi": "Từ rừng tới nhiên liệu",
+      "en": "From forest to fuel"
+    },
+    "body": {
+      "vi": [
+        {
+          "heading": "Thử ở ba điểm nghẽn",
+          "paragraphs": [
+            "Dự án của NTT Docomo và Chikusui Canycom đặt trọng tâm vào cơ giới hóa các khâu trồng, chăm sóc và thu hoạch cây mọc nhanh, chẳng hạn cây liễu. Biomass Power Technologies dự kiến thử cách thu gom phụ phẩm lâm nghiệp và sản xuất dăm gỗ lá rộng, với trọng tâm là gỗ xoan Nhật (sendan). Hiệp hội lâm nghiệp Nagano dự kiến thử hệ thống quản lý, sản xuất và phân phối nguồn gỗ lá rộng chưa được tận dụng."
+          ]
+        },
+        {
+          "heading": "Khoản tiền nói lên điều gì?",
+          "paragraphs": [
+            "NEDO cho biết 510 triệu yên là tổng phần dự kiến đóng góp cho các đề tài đã chọn trong các năm tài khóa 2026–2028 và có thể thay đổi sau thủ tục tiếp theo. Mức hỗ trợ tối đa bằng hai phần ba chi phí đủ điều kiện. Công bố là quyết định lựa chọn có điều kiện, không phải kết luận đã thu hoạch nhanh hơn hay vận chuyển rẻ hơn."
+          ]
+        },
+        {
+          "heading": "Cần đo xuyên chuỗi",
+          "paragraphs": [
+            "Nếu tính theo tấn gỗ vừa vận chuyển, độ ẩm khác nhau có thể khiến phép so sánh sai lệch. Một phép đánh giá hữu ích nên theo dõi giá nhiên liệu tới nơi sử dụng trên mỗi đơn vị năng lượng, độ ẩm, độ ổn định theo mùa, cự ly vận chuyển và tác động tới đất rừng. Đó là tiêu chí phân tích, không phải chỉ số NEDO đã công bố kết quả."
+          ]
+        },
+        {
+          "heading": "Gợi ý cho Việt Nam",
+          "paragraphs": [
+            "Nơi đã có phụ phẩm chế biến gỗ và khách hàng nhiệt công nghiệp có thể thử trước một tuyến cung ứng ngắn, với tiêu chuẩn độ ẩm và giá giao nhận công khai giữa các bên. Bài học cần kiểm chứng là giảm chi phí logistics mà không tạo động cơ lấy thêm gỗ rừng hoặc làm suy giảm chất lượng đất."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "Three bottlenecks to test",
+          "paragraphs": [
+            "NTT Docomo and Chikusui Canycom will focus on mechanising planting, tending and harvesting fast-growing trees such as willow. Biomass Power Technologies plans to test collection arrangements and manufacture fuel chips from broadleaf material, notably sendan. The Nagano forestry association plans to test a resource management, production and distribution system for underused broadleaf wood."
+          ]
+        },
+        {
+          "heading": "What the budget does and does not show",
+          "paragraphs": [
+            "NEDO describes ¥510 million as its expected contribution for the selected work across fiscal years 2026–2028, subject to subsequent procedures. The grant ceiling is two-thirds of eligible costs. This is a conditional selection decision, not evidence of faster harvesting or cheaper transport."
+          ]
+        },
+        {
+          "heading": "Measure the whole chain",
+          "paragraphs": [
+            "A tonne of fresh wood can carry very different amounts of usable energy depending on moisture. A useful pilot would track delivered cost per unit of energy, moisture, seasonal reliability, haul distance and effects on forest soils. These are analytical criteria, not measured results reported by the agency."
+          ]
+        },
+        {
+          "heading": "A question for Viet Nam",
+          "paragraphs": [
+            "Areas with existing wood-processing residues and industrial heat users could test a short route first, with agreed moisture standards and transparent delivery prices. The proposition to test is lower logistics costs without encouraging additional forest extraction or degrading soil quality."
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "/images/nhat-ban-thu-chuoi-nhien-lieu-go.png",
+        "alt": {
+          "vi": "Minh họa máy lâm nghiệp nhỏ chạy qua các hàng cây liễu",
+          "en": "Illustration of compact forestry machinery in young willow rows"
+        },
+        "credit": "Verti · Minh họa AI / AI-generated illustration"
+      },
+      {
+        "src": "/images/nhat-ban-thu-chuoi-nhien-lieu-go-diagram.png",
+        "alt": {
+          "vi": "Minh họa kiểm tra chất lượng dăm gỗ tại điểm thu gom",
+          "en": "Illustration of a worker inspecting chips at a collection point"
+        },
+        "credit": "Verti · Minh họa AI / AI-generated illustration"
+      }
+    ]
+  },
+  {
+    "slug": "dhqghn-vsv-uom-tao-spin-off",
+    "topic_id": "future_cooperation:20261126:vnu-vsv-incubation",
+    "category": "future-research",
+    "date": "2026-11-23",
+    "source_date": "23/11/2026",
+    "title": {
+      "vi": "ĐHQG Hà Nội và Vietnam Silicon Valley thử mô hình ươm tạo doanh nghiệp từ nghiên cứu",
+      "en": "VNU Hanoi and Vietnam Silicon Valley test a university spin-off model"
+    },
+    "summary": {
+      "vi": "Chương trình ra mắt ngày 23/11 đặt mục tiêu tuyển ít nhất 10 dự án. Gói hỗ trợ 500 triệu đồng mỗi dự án là giá trị dịch vụ ươm tạo, không phải tiền mặt. Nhóm vào chương trình cam kết dành 10% cổ phần doanh nghiệp cho ĐHQG Hà Nội theo thỏa thuận; quyết định đầu tư sau đó là một quy trình riêng.",
+      "en": "The pilot launched on 23 November targets at least ten teams. The VND 500 million package per selected project is the value of incubation services, not a cash grant. Participating teams commit 10% equity to VNU Hanoi under the incubation agreement; later investment is a separate decision."
+    },
+    "source": {
+      "name": "Đại học Quốc gia Hà Nội",
+      "url": "https://vnu.edu.vn/dhqghn-khoi-dong-chuong-trinh-uom-tao-startup-spin-off-ho-tro-500-trieu-dong-moi-du-an-post40894.html"
+    },
+    "sources_extra": [
+      "https://www.wipo.int/tisc/en/search/details.jsp?id=13881"
+    ],
+    "graphic": {
+      "vi": "Từ phòng lab tới khách hàng",
+      "en": "From the lab to a customer"
+    },
+    "body": {
+      "vi": [
+        {
+          "heading": "Hai bên bổ sung gì cho nhau?",
+          "paragraphs": [
+            "Công viên Công nghệ cao và Đổi mới sáng tạo của ĐHQG Hà Nội phối hợp với Vietnam Silicon Valley đưa các nhóm nghiên cứu, giảng viên và nhóm khởi nghiệp qua một đợt thử nghiệm dự kiến từ tháng 12/2026 đến tháng 3/2027. Nội dung gồm tìm khách hàng, hoàn thiện sản phẩm, mô hình kinh doanh, sở hữu trí tuệ và kết nối doanh nghiệp, nhà đầu tư. Chương trình đặt mục tiêu ít nhất 10 dự án; chưa có số dự án được chọn trong công bố ra mắt."
+          ]
+        },
+        {
+          "heading": "Một khoản hỗ trợ, hai quyết định riêng",
+          "paragraphs": [
+            "Gói dịch vụ trị giá 500 triệu đồng mỗi dự án gồm đào tạo, cố vấn, phát triển sản phẩm và kết nối thị trường, không giải ngân tiền mặt. Cam kết 10% cổ phần cho ĐHQG Hà Nội gắn với thỏa thuận ươm tạo, không phụ thuộc dự án có được VNU Fund đầu tư hay không. Nếu có đầu tư sau ươm tạo, mức vốn và điều kiện sẽ được thẩm định, thương lượng riêng."
+          ]
+        },
+        {
+          "heading": "Nút thắt trước khi ký",
+          "paragraphs": [
+            "Với nhóm dùng kết quả nghiên cứu hoặc tài sản trí tuệ của đơn vị, ĐHQG Hà Nội yêu cầu làm rõ quyền sở hữu, khai thác và chuyển giao trước khi ký thỏa thuận. Điều đó khác với việc xác định sản phẩm có thể triển khai mà không xâm phạm quyền của bên thứ ba. Trung tâm chuyển giao của trường đã có trong danh bạ WIPO với dịch vụ tra cứu và tư vấn cấp phép; các quyết định về quyền vẫn thuộc các bên có thẩm quyền."
+          ]
+        },
+        {
+          "heading": "Đo bằng kết quả, không bằng số buổi",
+          "paragraphs": [
+            "Một cách đánh giá hữu ích là đếm hồ sơ đã xác định quyền, số nhóm có khách hàng thử nghiệm thật, số hợp đồng cấp phép hoặc chuyển giao và số dự án có doanh thu đầu tiên. Cũng cần biết quyền gì đi kèm tỷ lệ cổ phần và ai chịu chi phí khi đàm phán kéo dài. Đây là câu hỏi đánh giá mô hình, không phải kết quả đã công bố."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "How the partners complement each other",
+          "paragraphs": [
+            "VNU Hanoi’s high-tech and innovation park and Vietnam Silicon Valley plan to take research teams and founders through a pilot running from December 2026 to March 2027. The package covers customer development, product work, the business model, IP and contact with firms and investors. The launch set a target of at least ten projects, not an actual selection count."
+          ]
+        },
+        {
+          "heading": "Two separate decisions",
+          "paragraphs": [
+            "The in-kind package values training, mentoring, product development and market access at VND 500 million per selected project. The commitment of 10% equity to VNU Hanoi is tied to the incubation agreement regardless of whether VNU Fund later invests. Any subsequent funding has separate due diligence and terms."
+          ]
+        },
+        {
+          "heading": "Clarifying rights before signing",
+          "paragraphs": [
+            "Teams using institutional research or intellectual property must clarify ownership, exploitation and transfer rights before signing the incubation agreement. That is distinct from whether a product can operate without infringing third-party rights. WIPO lists VNU’s transfer centre as offering searches and licensing advice; authority over the rights remains with the relevant parties."
+          ]
+        },
+        {
+          "heading": "Measure outcomes rather than sessions",
+          "paragraphs": [
+            "A useful evaluation would count resolved ownership cases, teams with real customer trials, signed licences or transfers, and first paid adoption. It should also ask what rights accompany the equity percentage and who bears the cost of protracted negotiations. Those are questions for assessing the model, not claimed results."
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "/images/dhqghn-vsv-uom-tao-spin-off.png",
+        "alt": {
+          "vi": "Minh họa nhóm kỹ thuật trao đổi với đối tác trong phòng nghiên cứu",
+          "en": "Illustration of a research team explaining a prototype to a partner"
+        },
+        "credit": "Verti · Minh họa AI / AI-generated illustration"
+      },
+      {
+        "src": "/images/dhqghn-vsv-uom-tao-spin-off-diagram.png",
+        "alt": {
+          "vi": "Minh họa hai người cùng xem một thiết bị mẫu",
+          "en": "Illustration of two people examining a prototype together"
+        },
+        "credit": "Verti · Minh họa AI / AI-generated illustration"
+      }
+    ]
+  }
+]
