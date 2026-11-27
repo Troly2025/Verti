@@ -1,0 +1,30 @@
+name: WIPO 12:00 Facebook after public web check
+on:
+  push:
+    branches: [main]
+    paths: ['.github/releases/wipo-26nov-1200-fb.json']
+permissions:
+  contents: read
+jobs:
+  facebook:
+    if: github.repository == 'Troly2025/Verti' && github.event.before == 'f1f910e683db3732dd960d921ab2381a313bf13b' && github.run_attempt == 1
+    concurrency:
+      group: verti-facebook-manual-publication
+      cancel-in-progress: false
+    environment: facebook-production
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 3
+          persist-credentials: false
+      - name: Verify pinned batch
+        run: |
+          test "$(git rev-parse HEAD^)" = f1f910e683db3732dd960d921ab2381a313bf13b
+          python3 -I scripts/wipo-26nov-1200-fb.py --check
+      - name: Publish one bundle per eligible source
+        env:
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+        run: python3 -I scripts/wipo-26nov-1200-fb.py

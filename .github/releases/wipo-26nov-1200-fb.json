@@ -1,0 +1,16 @@
+{
+  "base": "f1f910e683db3732dd960d921ab2381a313bf13b",
+  "sha256": {
+    "wipo-26nov-1200-fb/batch.json": "d569a6b774246a95f79297cd84c0c456f3db9eaa31bb7b368893e65c1680189e",
+    "wipo-26nov-1200-fb/wipo-furukawa-so-huu-tri-tue-tang-truong/wipo-furukawa-so-huu-tri-tue-tang-truong.png": "547a8063d9cff03f1c2739494170417eba2626dd4629a4304e7abdecd1dea7e6",
+    "wipo-26nov-1200-fb/wipo-furukawa-so-huu-tri-tue-tang-truong/wipo-furukawa-so-huu-tri-tue-tang-truong-diagram.png": "adebbaced64a9223df2f37dcef92c86b274b23b9a8106e3dc46f7bd6d94b1405",
+    "wipo-26nov-1200-fb/wipo-furukawa-so-huu-tri-tue-tang-truong/wipo-furukawa-so-huu-tri-tue-tang-truong.mp4": "e828129267fe538e270531965d4a544c35423b595ca8be7b541e641fcbeda623",
+    "wipo-26nov-1200-fb/pin-mat-troi-perovskite-hai-lop-308/pin-mat-troi-perovskite-hai-lop-308.png": "8cec764ff9e0e04f9306bdc83dda470184a785ba3dd4473adc9bc03af6001f31",
+    "wipo-26nov-1200-fb/pin-mat-troi-perovskite-hai-lop-308/pin-mat-troi-perovskite-hai-lop-308-diagram.png": "bced25afbe37d096c4c1bd1ad631bc5d9a1304b00f67a31fd86dc11aee3ec89e",
+    "wipo-26nov-1200-fb/pin-mat-troi-perovskite-hai-lop-308/pin-mat-troi-perovskite-hai-lop-308.mp4": "e9faffe3c1846accee5b161e7d9a1cdcfd9a7aea00c9190fbe911c8dee8e2f7d",
+    "wipo-26nov-1200-fb/arizona-dai-loan-trung-tam-nhan-luc-ban-dan/arizona-dai-loan-trung-tam-nhan-luc-ban-dan.png": "41a5c014573f4325f72b4382a3ef9bb81f60610073426ed6d34b8b73a54148ee",
+    "wipo-26nov-1200-fb/arizona-dai-loan-trung-tam-nhan-luc-ban-dan/arizona-dai-loan-trung-tam-nhan-luc-ban-dan-diagram.png": "09c845ac4f0970d7c87308e16944d03b0ec9fc7cd76d9d87f47454227d271a9b",
+    "wipo-26nov-1200-fb/arizona-dai-loan-trung-tam-nhan-luc-ban-dan/arizona-dai-loan-trung-tam-nhan-luc-ban-dan.mp4": "3cc9fdc02ad71c725b067da51f214b3571bcc4e2acf1714333d06bbbd333ede0",
+    "scripts/wipo-26nov-1200-fb.py": "1c74dadfc5d4f095e9ccf15e4066aeee95c2d8654394d1ba8e9b7832b5b664a1"
+  }
+}
