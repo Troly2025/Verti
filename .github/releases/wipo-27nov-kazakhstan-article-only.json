@@ -1,0 +1,9 @@
+{
+  "base": "e853fb02ba47a6296116296b46929a534e83557b",
+  "sha256": {
+    "scripts/wipo-27nov-kazakhstan-article-only.py": "a32c215396a57f4bb91acda453a23b5f9aefaa64cb77d5f93897765d9346e59a",
+    "wipo-27nov-comment-live-fb/batch.json": "b9d9b8e0bd5953e63142ea41f0f20eea67b191a99b616cef6faeaba4b46c96f9",
+    "src/images/kazakhstan-wto-giay-phep-dich-vu.png": "aec73a0fc42096dc4f2211d6a5a9e76527fa17053e041838b6e342c454912439",
+    "src/images/kazakhstan-wto-giay-phep-dich-vu-diagram.png": "eb16abdd259fd4999ee2ab9ca786a5a0ae223be7c0568cc7ff5532762eeb75b5"
+  }
+}
