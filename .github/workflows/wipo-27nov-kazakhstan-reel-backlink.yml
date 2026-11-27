@@ -1,0 +1,30 @@
+name: WIPO Kazakhstan Facebook article link under Reel
+on:
+  push:
+    branches: [main]
+    paths: ['.github/releases/wipo-27nov-kazakhstan-reel-backlink.json']
+permissions:
+  contents: read
+jobs:
+  facebook:
+    if: github.repository == 'Troly2025/Verti' && github.event.before == 'e719557546a64a0219ae13cdc7fcea949f1885dc' && github.run_attempt == 1
+    concurrency:
+      group: verti-facebook-manual-publication
+      cancel-in-progress: false
+    environment: facebook-production
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 3
+          persist-credentials: false
+      - name: Verify pinned batch
+        run: |
+          test "$(git rev-parse HEAD^)" = e719557546a64a0219ae13cdc7fcea949f1885dc
+          python3 -I scripts/wipo-27nov-kazakhstan-reel-backlink.py --check
+      - name: Verify and add one Page comment
+        env:
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+        run: python3 -I scripts/wipo-27nov-kazakhstan-reel-backlink.py
