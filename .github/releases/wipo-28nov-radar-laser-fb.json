@@ -1,0 +1,10 @@
+{
+  "base": "aef7029e94c39db0a3136c71b700f1615fe5b372",
+  "sha256": {
+    "scripts/wipo-28nov-radar-laser-fb.py": "008aedb7f6a850ff8972dd68b6b4c95d40d74c73292985a326e1327bfc0e0866",
+    "wipo-28nov-radar-laser-fb/batch.json": "e5350b73888db34621156e18513152c6ba626edae82bc4a98de8e46c8b55cdf3",
+    "wipo-28nov-radar-laser-fb/laser-hong-ngoai-vi-dia-nhiet-do-phong/laser-hong-ngoai-vi-dia-nhiet-do-phong.mp4": "9c6cf11420145878cb0e8241652d83908cdc76b4b9bb06b99b2197d80a28047f",
+    "src/images/laser-hong-ngoai-vi-dia-nhiet-do-phong.png": "f450101a386c5733a4984e06513fc0626f8e18425af363b71cfe7809ca8434ec",
+    "src/images/laser-hong-ngoai-vi-dia-nhiet-do-phong-diagram.png": "b410692e7c159f651f5376d61d1df88c4331f0c324d063f22079d9944252b05c"
+  }
+}
