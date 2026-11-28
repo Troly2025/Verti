@@ -1,0 +1,10 @@
+{
+  "base": "eb8f723f3054ff4961e7ada80f795125c4c71a14",
+  "sha256": {
+    "scripts/wipo-28nov-nedo-live-fb.py": "08f564a5a1990933a439a12bbdc9e6d2140e4d842d170d79f4c08ae7eec6ace2",
+    "wipo-28nov-nedo-live-fb/batch.json": "c81c390121b7a2b2992a589bd997e80a325caa35ebc2e7f3d936fc63b0d79ee4",
+    "wipo-28nov-nedo-live-fb/nedo-nhat-ban-thu-nghiem-thu-giu-co2/nedo-nhat-ban-thu-nghiem-thu-giu-co2.mp4": "4fd86698a4a0513d19debb4ca6a719ffbeaff6164a59a37cfddf26cc0d9a4362",
+    "src/images/nedo-nhat-ban-thu-nghiem-thu-giu-co2.png": "1de793227e80d9ec5a5496503834ec8d9a91bbae36fcc0aef4457aa6c4407166",
+    "src/images/nedo-nhat-ban-thu-nghiem-thu-giu-co2-diagram.png": "35eb1033cc13555018f06dfbe931e55036c19d5acc1b29aad7b448721aebd65a"
+  }
+}
