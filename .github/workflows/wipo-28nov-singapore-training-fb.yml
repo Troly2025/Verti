@@ -1,0 +1,30 @@
+name: WIPO live rehearsal Facebook
+on:
+  push:
+    branches: [main]
+    paths: ['.github/releases/wipo-28nov-singapore-training-fb.json']
+permissions:
+  contents: read
+jobs:
+  facebook:
+    if: github.repository == 'Troly2025/Verti' && github.event.before == '7b86ce2488d58bd629e5f70145aca8379771fcad' && github.run_attempt == 1
+    concurrency:
+      group: verti-facebook-manual-publication
+      cancel-in-progress: false
+    environment: facebook-production
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 3
+          persist-credentials: false
+      - name: Verify pinned batch
+        run: |
+          test "$(git rev-parse HEAD^)" = 7b86ce2488d58bd629e5f70145aca8379771fcad
+          python3 -I scripts/wipo-28nov-singapore-training-fb.py --check
+      - name: Publish one bundle per eligible source
+        env:
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+        run: python3 -I scripts/wipo-28nov-singapore-training-fb.py

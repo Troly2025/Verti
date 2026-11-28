@@ -1,0 +1,10 @@
+{
+  "base": "7b86ce2488d58bd629e5f70145aca8379771fcad",
+  "sha256": {
+    "scripts/wipo-28nov-singapore-training-fb.py": "051046f2755b46e1f4c3bf9d8599d33525a3a061fdb2bba989988ca7274cdb1e",
+    "wipo-28nov-singapore-training-fb/batch.json": "c1fb526376c907b70615b81accd0d65dfbadb09a8af516bf59a42837d08eaa48",
+    "wipo-28nov-singapore-training-fb/wipo-singapore-dao-tao-so-huu-tri-tue-thuc-hanh/wipo-singapore-dao-tao-so-huu-tri-tue-thuc-hanh.mp4": "96a83662ff0687b90471f244311ded761b43a90ff8ca8b6fb3b68c2882832c64",
+    "src/images/wipo-singapore-dao-tao-so-huu-tri-tue-thuc-hanh.png": "38e7a21b53a166f630ae56af0e5e2481ebd4a7c26f38aed8843fda01f12ace09",
+    "src/images/wipo-singapore-dao-tao-so-huu-tri-tue-thuc-hanh-diagram.png": "a90f597befb0090c8353f4cd6d5e5ca94ea6379a045ddfbe0b2ad4d93896a03a"
+  }
+}
