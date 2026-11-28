@@ -1,0 +1,10 @@
+{
+  "base": "f3664fbcec2947f20f2a42b34d942977267e9c57",
+  "sha256": {
+    "scripts/wipo-28nov-1500-pv-fb.py": "883d6d9080d0178a756a1898368f9379eaabe38a1aa7801a29d4992e004cefd0",
+    "wipo-28nov-1500-pv-fb/batch.json": "179e3a9b7d1d551b76a6aef870d02d921246d0c6483d134c6f901cb1aab54b19",
+    "wipo-28nov-1500-pv-fb/pin-mat-troi-deo-perovskite-cigs-hieu-suat/pin-mat-troi-deo-perovskite-cigs-hieu-suat.mp4": "b974bb10bef168228c1ba4324d6bf616c34da9aa7e561fc655ced0b0b67a279f",
+    "src/images/pin-mat-troi-deo-perovskite-cigs-hieu-suat.png": "96c955daba9b5e53ff338cfc75641f9a14dcfb1552c183c3e4d4dbf8c2c16f08",
+    "src/images/pin-mat-troi-deo-perovskite-cigs-hieu-suat-diagram.png": "35198ac881a8a0157e933df2dd33093a08b8fd0a566e75f68edd78b9bad720dd"
+  }
+}

@@ -1,0 +1,89 @@
+[
+  {
+    "slug": "pin-mat-troi-deo-perovskite-cigs-hieu-suat",
+    "category": "frontier-tech",
+    "date": "2026-11-28",
+    "title": {
+      "vi": "Pin mặt trời dẻo đạt 27,58% trên mẫu nhỏ. Khi tăng diện tích thì sao?",
+      "en": "A flexible solar cell hit 27.58% on a tiny sample. What happened at a larger size?"
+    },
+    "graphic": {
+      "vi": "Pin mặt trời dẻo: 27,58% trên diện tích nào?",
+      "en": "Flexible solar: how large was the 27.58% cell?"
+    },
+    "summary": {
+      "vi": "Trong nghiên cứu công bố 27/11, nhóm do Đại học Westlake dẫn dắt đạt hiệu suất được chứng nhận 27,58% ở mẫu pin mặt trời dẻo có diện tích 0,0749 cm². Trên mẫu 1,010 cm², con số tương ứng là 25,19%. Cả hai đều là mẫu tế bào quang điện trong phòng thí nghiệm, chưa phải mô-đun thương mại.",
+      "en": "In a study published on 27 November, a Westlake University-led team achieved a certified 27.58% efficiency on a 0.0749 cm² flexible solar cell. A 1.010 cm² cell achieved a certified 25.19%. Both were laboratory cells, not commercial modules."
+    },
+    "source": {
+      "name": "Yao và cộng sự / Yao et al., Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-79826-6"
+    },
+    "source_date": "27/11/2026",
+    "sources_extra": [],
+    "body": {
+      "vi": [
+        {
+          "heading": "HAI LỚP HẤP THỤ, MỘT BỀ MẶT KHÓ XỬ LÝ",
+          "paragraphs": [
+            "Nhóm ghép lớp perovskite ở trên với lớp hấp thụ đồng–indi–gali–seleni (CIGS) ở dưới. Cấu trúc tandem giúp hai lớp khai thác các vùng ánh sáng khác nhau. Bề mặt CIGS không phẳng khiến lớp tiếp xúc phân tử thông thường khó phủ đồng đều; các khuyết tật ở vùng tiếp giáp có thể làm giảm hiệu suất.",
+            "Các tác giả thiết kế phân tử Py6 với cấu trúc cứng hơn để lớp trung gian sắp xếp trật tự trên bề mặt gồ ghề. Theo nhóm nghiên cứu, lớp trung gian hỗ trợ hình thành màng perovskite đặc hơn và cải thiện sự tương thích năng lượng ở vùng tiếp giáp."
+          ]
+        },
+        {
+          "heading": "27,58% VÀ 25,19% ĐO Ở HAI KÍCH THƯỚC",
+          "paragraphs": [
+            "Trên mẫu 0,0749 cm², nhóm báo cáo hiệu suất tốt nhất 28,21%, còn giá trị được chứng nhận là 27,58%. Trên mẫu 1,010 cm², hiệu suất được chứng nhận là 25,19%, trong khi hiệu suất ổn định được chứng nhận là 25,16%. Mẫu lớn hơn khoảng 13,5 lần về diện tích; hiệu suất chứng nhận thấp hơn 2,39 điểm phần trăm. So sánh hai mẫu không đủ để quy toàn bộ chênh lệch cho riêng kích thước."
+          ]
+        },
+        {
+          "heading": "ĐIỀU THỬ NGHIỆM CHƯA CHỨNG MINH",
+          "paragraphs": [
+            "Bài báo ghi nhận mẫu giữ 93,8% hiệu suất ban đầu sau 400 giờ vận hành liên tục ở cường độ chiếu sáng chuẩn một mặt trời, và 94,2% sau 5.000 chu kỳ uốn. Đây là hai phép thử được báo cáo riêng, không phải bằng chứng về tuổi thọ ngoài trời.",
+            "Điểm đáng theo dõi là liệu độ đồng đều của lớp tiếp xúc và hiệu suất có giữ được ở mô-đun lớn hơn, qua thử nghiệm nhiệt, ẩm và uốn trong điều kiện sử dụng thực hay không. Bản công bố sớm chưa chứng minh khả năng sản xuất đại trà."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "TWO ABSORBERS, ONE DIFFICULT INTERFACE",
+          "paragraphs": [
+            "The design stacks perovskite over a copper indium gallium selenide (CIGS) absorber so the two layers can use different parts of the solar spectrum. The rough CIGS surface makes it difficult for commonly used molecular contact layers to pack uniformly, leaving defects that can reduce efficiency.",
+            "The authors designed a rigid molecule called Py6 to form a more ordered intermediate layer. They report that it helps the perovskite grow into a denser film and improves energy alignment at the interface."
+          ]
+        },
+        {
+          "heading": "27.58% AND 25.19% ARE FROM DIFFERENT CELL SIZES",
+          "paragraphs": [
+            "The best reported measurement for the 0.0749 cm² cell was 28.21%; its certified value was 27.58%. The 1.010 cm² cell achieved 25.19% certified efficiency and 25.16% certified stabilized efficiency. Its area was roughly 13.5 times greater and its certified efficiency 2.39 percentage points lower. The comparison alone does not establish that area caused the entire difference."
+          ]
+        },
+        {
+          "heading": "WHAT THE TESTS DO NOT ESTABLISH",
+          "paragraphs": [
+            "The study reports 93.8% retention of initial efficiency after 400 hours of continuous one-sun operation and 94.2% after 5,000 bending cycles. These are separate laboratory tests, not measurements of outdoor service life.",
+            "The next question is whether the contact can be deposited uniformly and maintain performance in a larger module through heat, humidity and repeated flexing in real use. The early-access paper does not demonstrate mass manufacture."
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "/images/pin-mat-troi-deo-perovskite-cigs-hieu-suat.png",
+        "alt": {
+          "vi": "Minh họa pin mặt trời dẻo cong dưới ánh sáng",
+          "en": "Illustration of a flexible solar cell curving in the light"
+        },
+        "credit": "Verti · Minh họa tự dựng / Original illustration"
+      },
+      {
+        "src": "/images/pin-mat-troi-deo-perovskite-cigs-hieu-suat-diagram.png",
+        "alt": {
+          "vi": "So sánh hai mẫu pin mặt trời theo diện tích và hiệu suất chứng nhận",
+          "en": "Comparison of the cell areas and certified efficiencies"
+        },
+        "credit": "Verti · Dữ liệu / Data: Nature Communications"
+      }
+    ]
+  }
+]
