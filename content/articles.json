@@ -1,6 +1,84 @@
 {
   "articles": [
     {
+      "slug": "eu-cptpp-canh-bao-som-chuoi-cung-ung-ha-noi",
+      "category": "cooperation",
+      "date": "2026-11-26",
+      "title": {
+        "vi": "EU và CPTPP lập mạng cảnh báo sớm chuỗi cung ứng tại Hà Nội",
+        "en": "EU and CPTPP launch a supply-chain early warning network in Hanoi"
+      },
+      "summary": {
+        "vi": "Tại Đối thoại Thương mại và Đầu tư lần thứ hai ngày 26/11/2026, EU và các nước CPTPP lập mạng đầu mối để phát hiện và trao đổi sớm dấu hiệu đứt gãy chuỗi cung ứng. Cuộc họp đầu tiên dự kiến vào đầu năm 2027.",
+        "en": "At their second Trade and Investment Dialogue on 26 November 2026, the EU and CPTPP members launched a network to identify and exchange early signals of supply-chain disruption. Its first meeting is expected in early 2027."
+      },
+      "source": {
+        "name": "Ủy ban châu Âu / European Commission",
+        "url": "https://policy.trade.ec.europa.eu/news/eu-launches-supply-chain-early-warning-network-trans-pacific-bloc-2026-11-26_en"
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "MẠNG LƯỚI LÀM GÌ?",
+            "paragraphs": [
+              "Ủy ban châu Âu cho biết mạng lưới sẽ tập hợp đầu mối chính phủ để đánh giá rủi ro, trao đổi thông tin nhanh và xem xét tác động lan truyền nếu gián đoạn đã xảy ra. Việc chia sẻ cách ứng phó cũng nằm trong phạm vi hợp tác. Đây là cơ chế phối hợp, không phải cam kết mở cửa thị trường, giảm thuế hay cấp quyền sử dụng một hệ thống dữ liệu cho doanh nghiệp."
+            ]
+          },
+          {
+            "heading": "ĐIỂM ĐÁNG THEO DÕI VỚI VIỆT NAM",
+            "paragraphs": [
+              "Giá trị thực tế nằm ở việc đầu mối có thể đưa cảnh báo đến đúng người đủ sớm để đổi lịch giao hàng, tìm tuyến vận chuyển khác hoặc chuẩn bị nguồn cung thay thế hay không. Chẳng hạn, nếu một tuyến vận tải bị gián đoạn, nhà xuất khẩu cần biết cảnh báo liên quan tuyến nào và trong khoảng thời gian nào. Đó là ví dụ về cách dùng, chưa phải tính năng đã được công bố."
+            ]
+          },
+          {
+            "heading": "CÒN PHẢI CHỜ GÌ?",
+            "paragraphs": [
+              "Thông báo ra mắt chưa cho biết ngưỡng phát cảnh báo, bộ dữ liệu tối thiểu hay cách doanh nghiệp nhận thông tin. Đối thoại Hà Nội cũng bàn riêng về thương mại số, trao đổi thông tin về các biện pháp môi trường liên quan thương mại và giao xây dựng tài liệu tham chiếu về dịch vụ chuỗi cung ứng và logistics. Đây là những hướng công việc khác, không phải điều khoản của mạng cảnh báo."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "WHAT THE NETWORK DOES",
+            "paragraphs": [
+              "According to the European Commission, the network will bring together government officials to assess risks, exchange information more quickly and examine knock-on effects after disruptions occur. It will also allow participants to share ways to respond. It is a coordination mechanism, not a market-access commitment, tariff cut or guarantee that businesses can access a data platform."
+            ]
+          },
+          {
+            "heading": "WHAT VIET NAM CAN WATCH",
+            "paragraphs": [
+              "Its practical value will depend on whether warnings reach the right people in time to reschedule shipments, switch routes or arrange alternative supply. If a shipping route is disrupted, for instance, exporters need to know which route and dates a warning covers. That illustrates a possible use, not a capability announced at the launch."
+            ]
+          },
+          {
+            "heading": "WHAT IS STILL UNKNOWN",
+            "paragraphs": [
+              "The launch announcement does not specify warning thresholds, minimum data fields or how companies would receive information. The Hanoi dialogue also discussed digital trade, sharing information on trade-related environmental measures, and developing a reference paper on supply-chain and logistics services. These are separate strands of work, not terms of the warning network."
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "/images/eu-cptpp-canh-bao-som-chuoi-cung-ung-ha-noi.png",
+          "alt": {
+            "vi": "Minh họa AI: nhóm điều phối logistics nhìn ra cảng sông; không phải ảnh tư liệu",
+            "en": "AI illustration of logistics planners overlooking a river port; not a documentary photo"
+          },
+          "credit": "Verti · Minh họa AI / AI-generated illustration"
+        },
+        {
+          "src": "/images/eu-cptpp-canh-bao-som-chuoi-cung-ung-ha-noi-diagram.png",
+          "alt": {
+            "vi": "Sơ đồ minh họa ba bước: nhận diện, trao đổi, phối hợp",
+            "en": "Illustrative diagram: identify, exchange, coordinate"
+          },
+          "credit": "Verti · Dữ liệu / Data: European Commission"
+        }
+      ],
+      "status": "published"
+    },
+    {
       "slug": "kazakhstan-wto-giay-phep-dich-vu",
       "category": "wto-news",
       "date": "2026-11-25",
