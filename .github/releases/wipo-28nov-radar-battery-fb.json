@@ -1,0 +1,10 @@
+{
+  "base": "58fa0705da4aaaa5df0efe3a03f3c56c53ef93c8",
+  "sha256": {
+    "scripts/wipo-28nov-radar-battery-fb.py": "1acc598f932cb4bab0e119a837f52d577a260a83d314545a25ccb6d1f78b1b90",
+    "wipo-28nov-radar-battery-fb/batch.json": "d85a9ce049ac15f55d6657a22eac4e2198665df933e21b103a01cd4aaa3ca5ee",
+    "wipo-28nov-radar-battery-fb/pin-lithium-ion-chat-dien-phan-nhiet-do-thap/pin-lithium-ion-chat-dien-phan-nhiet-do-thap.mp4": "d44c6ce214408e77040c0d94beca08fb3898bcec9891f7d11ced47f3675cd8f9",
+    "src/images/pin-lithium-ion-chat-dien-phan-nhiet-do-thap.png": "8f30656870b39ab8fcd9befa8d1e080cdd73b9d819b2b864704227e270fc0ebc",
+    "src/images/pin-lithium-ion-chat-dien-phan-nhiet-do-thap-diagram.png": "28b17531f94b67cbf75c2e8d2bf6138fb90f6da23e3bdc4d1198b0f0f6b667dd"
+  }
+}

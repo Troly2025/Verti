@@ -1,0 +1,85 @@
+[
+  {
+    "slug": "pin-lithium-ion-chat-dien-phan-nhiet-do-thap",
+    "category": "frontier-tech",
+    "date": "2026-11-27",
+    "source_date": "27/11/2026",
+    "source": {
+      "name": "Nature Nanotechnology · Liang et al.",
+      "url": "https://www.nature.com/articles/s41565-026-02339-2"
+    },
+    "sources_extra": [],
+    "title": {
+      "vi": "Pin lithium-ion trời lạnh: từ pin thử nghiệm đến mô-đun 48 V",
+      "en": "Cold-weather lithium-ion batteries: from lab cells to a 48 V module"
+    },
+    "graphic": {
+      "vi": "Pin tốt hơn khi trời lạnh",
+      "en": "Better batteries for cold weather"
+    },
+    "summary": {
+      "vi": "Một nhóm nghiên cứu thử chất điện phân mới từ pin cỡ đồng xu đến mô-đun 48 V/30 Ah. Công bố ghi nhận hoạt động điện hoá tới −50°C trong thí nghiệm; chiếc xe điện dùng mô-đun 48 V chạy thử ngoài đường ở −10°C.",
+      "en": "Researchers tested a new electrolyte across formats from coin cells to a 48 V/30 Ah module. The paper reports electrochemical operation down to −50°C in experiments; the scooter road test with the 48 V module was at −10°C."
+    },
+    "body": {
+      "vi": [
+        {
+          "heading": "KHI TRỜI LẠNH, ION DI CHUYỂN KHÓ HƠN",
+          "paragraphs": [
+            "Trong pin lithium-ion, ion lithium phải di chuyển qua chất điện phân rồi tách khỏi lớp phân tử bao quanh để đi vào điện cực. Khi nhiệt độ giảm, các bước này dễ chậm đi. Nhóm Jia-Yan Liang và cộng sự thay đổi cách các phân tử và ion bao quanh lithium để giúp ion di chuyển và đi qua bề mặt điện cực dễ hơn."
+          ]
+        },
+        {
+          "heading": "TỪ PHÒNG THÍ NGHIỆM RA ĐƯỜNG",
+          "paragraphs": [
+            "Nhóm thử nhiều dạng pin, từ pin đồng xu đến mô-đun 48 V/30 Ah. Mốc −50°C liên quan đến hoạt động điện hoá được báo cáo trong thí nghiệm. Video bổ sung của bài báo ghi một thử nghiệm khác: xe điện dùng mô-đun thế hệ hai chạy ngoài đường ở −10°C ngày 6/2/2026. Không thể lấy kết quả điện hoá để nói xe đã chạy ở −50°C."
+          ]
+        },
+        {
+          "heading": "CÒN PHẢI ĐO GÌ?",
+          "paragraphs": [
+            "Việc thử ở quy mô mô-đun có ích vì gần thiết bị thực hơn pin đồng xu. Tuy nhiên, một chuyến thử chưa cho biết tầm hoạt động hay tuổi thọ của pin trong cả mùa đông. Các phép thử đáng theo dõi là năng lượng sử dụng được, tốc độ sạc an toàn khi lạnh và độ bền qua nhiều chu kỳ."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "WHY COLD SLOWS LITHIUM IONS",
+          "paragraphs": [
+            "In a lithium-ion battery, ions move through the electrolyte and then shed their surrounding molecules before entering the electrode. Cold can slow both steps. Jia-Yan Liang and colleagues changed the chemical environment around lithium ions to help them move and cross the electrode interface more easily."
+          ]
+        },
+        {
+          "heading": "FROM LAB CELLS TO A ROAD TEST",
+          "paragraphs": [
+            "The researchers tested formats from coin cells to a 48 V/30 Ah module. The −50°C figure refers to electrochemical operation reported in experiments. A supplementary video documents a different test: a scooter using the second-generation module on the road at −10°C on 6 February 2026. The paper does not show that the scooter ran at −50°C."
+          ]
+        },
+        {
+          "heading": "WHAT STILL NEEDS MEASURING",
+          "paragraphs": [
+            "A module brings the work closer to a device than a coin cell does. A single road trial, however, does not establish driving range or service life over a winter. Useful follow-up tests would measure available energy, safe charging rates in the cold and durability over repeated cycles."
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "/images/pin-lithium-ion-chat-dien-phan-nhiet-do-thap.png",
+        "alt": {
+          "vi": "Minh họa AI thử pin xe điện vào mùa đông",
+          "en": "AI illustration of a winter battery test"
+        },
+        "credit": "Verti · Minh họa AI / AI-generated illustration"
+      },
+      {
+        "src": "/images/pin-lithium-ion-chat-dien-phan-nhiet-do-thap-diagram.png",
+        "alt": {
+          "vi": "Phân biệt thử nghiệm điện hoá và thử xe ngoài đường",
+          "en": "Electrochemical and road test conditions"
+        },
+        "credit": "Verti · Dữ liệu / Data: Nature Nanotechnology"
+      }
+    ]
+  }
+]
