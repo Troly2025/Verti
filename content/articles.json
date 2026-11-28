@@ -1,6 +1,84 @@
 {
   "articles": [
     {
+      "slug": "nedo-nhat-ban-thu-nghiem-thu-giu-co2",
+      "category": "future-research",
+      "date": "2026-11-27",
+      "title": {
+        "vi": "Nhật Bản chuẩn bị tài trợ hai hướng thu giữ CO₂ từ khí thải công nghiệp",
+        "en": "Japan plans two funding tracks for industrial CO₂ capture"
+      },
+      "summary": {
+        "vi": "Ngày 27/11/2026, cơ quan phát triển công nghệ NEDO của Nhật Bản báo trước đợt mời đề xuất để đưa vật liệu hấp thụ rắn và hệ màng tách CO₂ tiến gần ứng dụng công nghiệp. Đợt tuyển dự kiến mở vào cuối tháng 12, chưa phải thông báo mở hồ sơ.",
+        "en": "On 27 November 2026, Japan’s technology development agency NEDO gave advance notice of a call to move solid sorbents and membrane systems for CO₂ capture closer to industrial use. The call is expected to open in late December; applications are not open yet."
+      },
+      "source": {
+        "name": "NEDO (Nhật Bản / Japan)",
+        "url": "https://www.nedo.go.jp/koubo/EV1_100329.html"
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "HAI HƯỚNG CÙNG NHẮM VÀO KHÍ THẢI CÔNG NGHIỆP",
+            "paragraphs": [
+              "NEDO dự kiến tài trợ riêng cho vật liệu hấp thụ rắn và hệ thống màng tách. Hướng thứ nhất dùng vật liệu rắn giữ CO₂ để sau đó thu hồi; hướng thứ hai cho dòng khí đi qua màng để làm giàu CO₂ ở một phía. Cả hai nhắm vào dòng khí có nồng độ CO₂ trên 10%. Các ngành NEDO nêu gồm nhiệt điện, hóa chất, xi măng và thép."
+            ]
+          },
+          {
+            "heading": "ĐIỂM MỚI LÀ THIẾT KẾ CẢ HỆ THỐNG",
+            "paragraphs": [
+              "Cơ quan này muốn nhóm nghiên cứu tối ưu thiết kế thiết bị và điều kiện vận hành, thay vì chỉ cải thiện đặc tính của một vật liệu. Ví dụ, nếu thử ở một nhà máy xi măng, những thông số đáng hỏi sẽ gồm năng lượng cho mỗi tấn CO₂ thu giữ, độ ổn định khi tạp chất biến động và mức độ dễ tích hợp vào dây chuyền. Đó là các tiêu chí phân tích, không phải cam kết hiệu suất đã được NEDO công bố."
+            ]
+          },
+          {
+            "heading": "MỐC CẦN THEO DÕI",
+            "paragraphs": [
+              "NEDO dự kiến mỗi hướng được hỗ trợ khoảng ba năm từ tài khóa 2027; tiến độ và nội dung phụ thuộc ngân sách và chính sách của Nhật. Cơ quan nhận đăng ký tư vấn trước đến trưa 22/12 theo giờ Nhật. Thể lệ chi tiết sẽ công bố khi mở đợt tuyển. Mốc này có ích để theo dõi hướng nghiên cứu công nghiệp, nhưng chưa đủ để kết luận doanh nghiệp ngoài Nhật đủ điều kiện nộp hồ sơ."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "TWO ROUTES FOR INDUSTRIAL EXHAUST",
+            "paragraphs": [
+              "NEDO plans separate funding tracks for solid sorbents and membrane systems. The former capture CO₂ on a solid material so it can be recovered later; the latter enrich CO₂ on one side as gas passes through a membrane. Both tracks target gas streams containing more than 10% CO₂. NEDO cites thermal power, chemicals, cement and steel among the relevant industries."
+            ]
+          },
+          {
+            "heading": "THE FOCUS IS ON THE WHOLE SYSTEM",
+            "paragraphs": [
+              "NEDO wants teams to optimize equipment design and operating conditions, not just improve a material in isolation. At a cement plant, for instance, useful questions would include energy use per tonne captured, stability as impurities fluctuate and how easily the unit fits into the plant. Those are ways to assess a project, not performance commitments announced by NEDO."
+            ]
+          },
+          {
+            "heading": "WHAT TO WATCH NEXT",
+            "paragraphs": [
+              "NEDO expects each track to last about three years from fiscal 2027, subject to Japan’s budget and policy decisions. It is accepting requests for advance consultations until noon Japan time on 22 December. Full requirements will be published when the call opens. The notice points to an industrial research direction, but does not establish whether companies outside Japan can apply."
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "/images/nedo-nhat-ban-thu-nghiem-thu-giu-co2.png",
+          "alt": {
+            "vi": "Minh họa kỹ sư kiểm tra thiết bị thu giữ CO₂",
+            "en": "Illustration of an engineer inspecting CO₂ capture equipment"
+          },
+          "credit": "Verti · Minh họa AI / AI-generated illustration"
+        },
+        {
+          "src": "/images/nedo-nhat-ban-thu-nghiem-thu-giu-co2-diagram.png",
+          "alt": {
+            "vi": "Hai hướng thu giữ CO₂ trong thông báo của NEDO",
+            "en": "The two CO₂ capture tracks in NEDO’s notice"
+          },
+          "credit": "Verti · Dữ liệu / Data: NEDO"
+        }
+      ],
+      "status": "published"
+    },
+    {
       "slug": "eu-cptpp-canh-bao-som-chuoi-cung-ung-ha-noi",
       "category": "cooperation",
       "date": "2026-11-26",
