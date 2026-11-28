@@ -1,0 +1,10 @@
+{
+  "base": "1d18d94d75faea248361ecb7db09243c6a6f05e3",
+  "sha256": {
+    "scripts/wipo-28nov-hanoi-network-fb.py": "0f6996af15445feea6df091705c288b66bdfa462638d31c04b35f3eec1c4b61a",
+    "wipo-28nov-hanoi-network-fb/batch.json": "02bf8c2b589f331b15af5df90b9fcd8b4506fc35e39ced76fc776526155241da",
+    "wipo-28nov-hanoi-network-fb/eu-cptpp-canh-bao-som-chuoi-cung-ung-ha-noi/eu-cptpp-canh-bao-som-chuoi-cung-ung-ha-noi.mp4": "f1dcbf43dd0d801e0696be6d7e9b116995a119044f7b6b3709145cd0a28f6023",
+    "src/images/eu-cptpp-canh-bao-som-chuoi-cung-ung-ha-noi.png": "cd8a1242311366d7985d26baeb7c5b4d8991204c123e62da054915b20aa02a4e",
+    "src/images/eu-cptpp-canh-bao-som-chuoi-cung-ung-ha-noi-diagram.png": "271c2b5996f772bf674ebeb48d760b0b26fd0ffcdb1b0f406db1fdff28918ad8"
+  }
+}
