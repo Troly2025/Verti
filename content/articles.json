@@ -1,6 +1,84 @@
 {
   "articles": [
     {
+      "slug": "laser-hong-ngoai-vi-dia-nhiet-do-phong",
+      "category": "frontier-tech",
+      "date": "2026-11-27",
+      "title": {
+        "vi": "Laser hồng ngoại vi đĩa phát liên tục ở nhiệt độ phòng",
+        "en": "A microdisk laser emits infrared light continuously at room temperature"
+      },
+      "summary": {
+        "vi": "Một nhóm nghiên cứu đã tạo được laser hồng ngoại phát liên tục ở nhiệt độ phòng trên vi đĩa đường kính 5,5 µm. Mẫu thử được công bố ngày 27/11 trên Nature Communications.",
+        "en": "Researchers demonstrated continuous infrared laser emission at room temperature from a microdisk 5.5 µm across. Nature Communications published the work on 27 November."
+      },
+      "source": {
+        "name": "Nature Communications · Zeng et al.",
+        "url": "https://www.nature.com/articles/s41467-026-79654-8"
+      },
+      "body": {
+        "vi": [
+          {
+            "heading": "HAI CON SỐ CẦN PHÂN BIỆT",
+            "paragraphs": [
+              "Haotian Zeng và cộng sự báo cáo phát laser liên tục, một mode, ở bước sóng 2,064 µm tại nhiệt độ phòng. Vi đĩa treo có đường kính 5,5 µm. Con số đó không phải kích thước của toàn bộ hệ thống quang học."
+            ]
+          },
+          {
+            "heading": "VAI TRÒ CỦA CHẤM LƯỢNG TỬ",
+            "paragraphs": [
+              "Vùng phát sáng dùng năm lớp chấm lượng tử arsenide indi trên nền phosphide indi. Các chấm giữ hạt tải ở vùng phát sáng, giúp chúng ít thoát ra khi nhiệt độ tăng. Đây là một hướng làm nguồn hồng ngoại thu nhỏ cho mạch quang."
+            ]
+          },
+          {
+            "heading": "110°C CHỈ Ở CHẾ ĐỘ XUNG",
+            "paragraphs": [
+              "Nhóm quan sát được phát laser tới 110°C khi kích thích theo xung, không phải khi phát liên tục. Để biết mẫu thử có dùng được trong cảm biến quang hay không còn phải đánh giá công suất hữu ích, hiệu quả ghép vào mạch dẫn sóng và độ ổn định sau đóng gói."
+            ]
+          }
+        ],
+        "en": [
+          {
+            "heading": "TWO NUMBERS WITH DIFFERENT MEANINGS",
+            "paragraphs": [
+              "Haotian Zeng and colleagues reported single-mode continuous-wave laser emission at 2.064 µm at room temperature. The suspended disk was 5.5 µm across. This is not the size of the entire optical setup."
+            ]
+          },
+          {
+            "heading": "WHAT THE QUANTUM DOTS DO",
+            "paragraphs": [
+              "The active region uses five layers of indium arsenide quantum dots on indium phosphide. The dots confine carriers, helping keep them in the active region as the device heats up. This suggests a route toward small infrared sources for photonic circuits."
+            ]
+          },
+          {
+            "heading": "THE 110°C RESULT WAS PULSED",
+            "paragraphs": [
+              "The researchers observed lasing up to 110°C under pulsed excitation, not in continuous operation. Practical optical sensing would still require testing useful output power, coupling into waveguides and stability after packaging."
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "/images/laser-hong-ngoai-vi-dia-nhiet-do-phong.png",
+          "alt": {
+            "vi": "Minh họa AI phòng quang học và vi đĩa",
+            "en": "AI illustration of a photonics lab and microdisk"
+          },
+          "credit": "Verti · Minh họa AI / AI-generated illustration"
+        },
+        {
+          "src": "/images/laser-hong-ngoai-vi-dia-nhiet-do-phong-diagram.png",
+          "alt": {
+            "vi": "Kích thước, bước sóng và nhiệt độ thử nghiệm",
+            "en": "Dimensions, wavelength and test temperature"
+          },
+          "credit": "Verti · Dữ liệu / Data: Nature Communications"
+        }
+      ],
+      "status": "published"
+    },
+    {
       "slug": "nedo-nhat-ban-thu-nghiem-thu-giu-co2",
       "category": "future-research",
       "date": "2026-11-27",
